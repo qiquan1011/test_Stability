@@ -1,0 +1,1952 @@
+D:\pythonProject\pythonProject\test_Stability\venv\Scripts\python.exe D:/pythonProject/pythonProject/test_Stability/holters.py
+Control Identifiers:
+
+Dialog - '心电医生工作站'    (L0, T0, R1920, B1050)
+['心电医生工作站Dialog', '心电医生工作站', 'Dialog', 'Dialog0', 'Dialog1']
+child_window(title="心电医生工作站", auto_id="ShellView", control_type="Window")
+   |
+   | Pane - ''    (L0, T48, R1920, B1050)
+   | ['bsiLogoPane', 'Pane', 'Pane0', 'Pane1', 'bsiLogoPane0', 'bsiLogoPane1']
+   | child_window(auto_id="PnlMain", control_type="Pane")
+   |    |
+   |    | TabControl - ''    (L0, T48, R1920, B1050)
+   |    | ['TabControl', 'TabControl诊断工作台', 'bsiLogoTabControl', 'TabControl0', 'TabControl1']
+   |    | child_window(auto_id="TbControl", control_type="Tab")
+   |    |    |
+   |    |    | Pane - '诊断工作台'    (L1, T82, R1919, B1049)
+   |    |    | ['Pane2', '诊断工作台Pane', '诊断工作台', '诊断工作台Pane0', '诊断工作台Pane1', '诊断工作台0', '诊断工作台1']
+   |    |    | child_window(title="诊断工作台", auto_id="DiagWorkbench", control_type="Pane")
+   |    |    |    |
+   |    |    |    | Pane - '诊断工作台'    (L1, T82, R1919, B1049)
+   |    |    |    | ['Pane3', '诊断工作台Pane2', '诊断工作台2']
+   |    |    |    | child_window(title="诊断工作台", auto_id="DiagWorkbench", control_type="Pane")
+   |    |    |    |    |
+   |    |    |    |    | Pane - ''    (L1, T142, R1919, B1049)
+   |    |    |    |    | ['Pane4', '静息心电Pane', '静息心电Pane0', '静息心电Pane1']
+   |    |    |    |    | child_window(auto_id="GaContentPanel", control_type="Pane")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Pane - '动态心电'    (L1, T142, R1919, B1049)
+   |    |    |    |    |    | ['动态心电', '动态心电Pane', 'Pane5', '动态心电Pane0', '动态心电Pane1', '动态心电0', '动态心电1']
+   |    |    |    |    |    | child_window(title="动态心电", auto_id="DiagHolterEcg", control_type="Pane")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Pane - 'SplitControl'    (L1, T142, R1919, B1049)
+   |    |    |    |    |    |    | ['SplitControl', 'Pane6', 'SplitControlPane', 'SplitControl0', 'SplitControl1', 'SplitControlPane0', 'SplitControlPane1']
+   |    |    |    |    |    |    | child_window(title="SplitControl", auto_id="SplitControl", control_type="Pane")
+   |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    | Pane - ''    (L1, T142, R291, B1049)
+   |    |    |    |    |    |    |    | ['Pane7', '静息心电Pane2']
+   |    |    |    |    |    |    |    | child_window(auto_id="1841236", control_type="Pane")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Pane - ''    (L11, T152, R291, B1039)
+   |    |    |    |    |    |    |    |    | ['Pane8', '静息心电Pane3']
+   |    |    |    |    |    |    |    |    | child_window(auto_id="PnlLeft", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | Pane - 'The XtraLayoutControl'    (L21, T162, R281, B977)
+   |    |    |    |    |    |    |    |    |    | ['The XtraLayoutControlPane', 'The XtraLayoutControl', 'Pane9', 'The XtraLayoutControlPane0', 'The XtraLayoutControlPane1', 'The XtraLayoutControl0', 'The XtraLayoutControl1']
+   |    |    |    |    |    |    |    |    |    | child_window(title="The XtraLayoutControl", auto_id="LcMenu", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L22, T599, R180, B627)
+   |    |    |    |    |    |    |    |    |    |    | ['Edit', '全部Edit', 'Edit0', 'Edit1', '全部Edit0', '全部Edit1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="BePatientEndAge", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L26, T602, R176, B624)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Edit2', '全部Edit2']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="1447916", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L26, T602, R176, B624)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Edit3', '全部Edit3']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L22, T567, R180, B595)
+   |    |    |    |    |    |    |    |    |    |    | ['Edit4', '全部Edit4']
+   |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="BePatientStartAge", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L26, T570, R176, B592)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Edit5', '全部Edit5']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="2169040", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L26, T570, R176, B592)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Edit6', '全部Edit6']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | ComboBox - '岁'    (L180, T599, R280, B627)
+   |    |    |    |    |    |    |    |    |    |    | ['ComboBox', '岁ComboBox', '岁', '岁0', '岁1', 'ComboBox0', 'ComboBox1', '岁ComboBox0', '岁ComboBox1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="岁", auto_id="CbePatientEndAgeUnit", control_type="ComboBox")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Static - '岁'    (L184, T602, R247, B624)
+   |    |    |    |    |    |    |    |    |    |    |    | ['岁2', 'Static', '岁Static', 'Static0', 'Static1', '岁Static0', '岁Static1']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="岁", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Button - '打开'    (L250, T599, R280, B627)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Button', '打开Button', '打开', 'Button0', 'Button1', '打开Button0', '打开Button1', '打开0', '打开1']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="打开", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | ListBox - '岁'    (L180, T599, R280, B627)
+   |    |    |    |    |    |    |    |    |    |    |    | ['岁3', '岁ListBox', 'ListBox', 'ListBox0', 'ListBox1', '岁ListBox0', '岁ListBox1']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="岁", control_type="List")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '岁'    (L180, T599, R280, B627)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['岁4', 'ListItem', '岁ListItem', 'ListItem0', 'ListItem1', '岁ListItem0', '岁ListItem1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="岁", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '月'    (L180, T599, R280, B627)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['月', 'ListItem2', '月ListItem', '月0', '月1', '月ListItem0', '月ListItem1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="月", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '天'    (L180, T599, R280, B627)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['天ListItem', 'ListItem3', '天', '天ListItem0', '天ListItem1', '天0', '天1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="天", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '小时'    (L180, T599, R280, B627)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['小时ListItem', '小时', 'ListItem4', '小时ListItem0', '小时ListItem1', '小时0', '小时1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="小时", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '分钟'    (L180, T599, R280, B627)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['分钟ListItem', 'ListItem5', '分钟', '分钟ListItem0', '分钟ListItem1', '分钟0', '分钟1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="分钟", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | ComboBox - ''    (L22, T871, R280, B899)
+   |    |    |    |    |    |    |    |    |    |    | ['ComboBox2', '全部ComboBox', '全部ComboBox0', '全部ComboBox1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="CbeRegisterDoctorName", control_type="ComboBox")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L26, T874, R247, B896)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Edit7', '全部Edit7']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="1972068", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L26, T874, R247, B896)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Edit8', '全部Edit8']
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Button - '打开'    (L250, T871, R280, B899)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Button2', '打开Button2', '打开2']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="打开", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | ListBox - ''    (L22, T871, R280, B899)
+   |    |    |    |    |    |    |    |    |    |    |    | ['ListBox2', '全部ListBox', '全部ListBox0', '全部ListBox1']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | ComboBox - ''    (L22, T667, R280, B695)
+   |    |    |    |    |    |    |    |    |    |    | ['ComboBox3', '全部ComboBox2']
+   |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="CbeDepartment", control_type="ComboBox")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L26, T670, R247, B692)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Edit9', '全部Edit9']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="2693138", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L26, T670, R247, B692)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Edit10', '全部Edit10']
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Button - '打开'    (L250, T667, R280, B695)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Button3', '打开Button3', '打开3']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="打开", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | ListBox - ''    (L22, T667, R280, B695)
+   |    |    |    |    |    |    |    |    |    |    |    | ['ListBox3', '全部ListBox2']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | ComboBox - '全部'    (L22, T803, R280, B831)
+   |    |    |    |    |    |    |    |    |    |    | ['ComboBox4', '全部ComboBox3', '全部', '全部0', '全部1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", auto_id="CbeExamOrganization", control_type="ComboBox")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Static - '全部'    (L26, T806, R247, B828)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Static2', '全部Static', '全部2', '全部Static0', '全部Static1']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Button - '打开'    (L250, T803, R280, B831)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Button4', '打开Button4', '打开4']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="打开", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | ListBox - '全部'    (L22, T803, R280, B831)
+   |    |    |    |    |    |    |    |    |    |    |    | ['ListBox4', '全部3', '全部ListBox3']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", control_type="List")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '全部'    (L22, T803, R280, B831)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['ListItem6', '全部ListItem', '全部4', '全部ListItem0', '全部ListItem1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '（院内一体化）玉溪市人民医院'    (L22, T803, R280, B831)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['ListItem7', '（院内一体化）玉溪市人民医院', '（院内一体化）玉溪市人民医院ListItem', '（院内一体化）玉溪市人民医院0', '（院内一体化）玉溪市人民医院1', '（院内一体化）玉溪市人民医院ListItem0', '（院内一体化）玉溪市人民医院ListItem1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="（院内一体化）玉溪市人民医院", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L22, T193, R280, B221)
+   |    |    |    |    |    |    |    |    |    |    | ['Edit11', '静息心电Edit', '静息心电Edit0', '静息心电Edit1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="BePatientName", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L26, T196, R276, B218)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Edit12', '静息心电Edit2']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="3937620", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L26, T196, R276, B218)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Edit13', '静息心电Edit3']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L22, T498, R280, B526)
+   |    |    |    |    |    |    |    |    |    |    | ['Edit14', '全部Edit11']
+   |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="BeSourceNo", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L26, T501, R276, B523)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Edit15', '全部Edit12']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="2168140", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L26, T501, R276, B523)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Edit16', '全部Edit13']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | ComboBox - '全部'    (L22, T429, R280, B457)
+   |    |    |    |    |    |    |    |    |    |    | ['ComboBox5', '全部ComboBox4', '全部5']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", auto_id="CbeGender", control_type="ComboBox")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Static - '全部'    (L26, T432, R247, B454)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Static3', '全部Static2', '全部6']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Button - '打开'    (L250, T429, R280, B457)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Button5', '打开Button5', '打开5']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="打开", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | ListBox - '全部'    (L22, T429, R280, B457)
+   |    |    |    |    |    |    |    |    |    |    |    | ['ListBox5', '全部7', '全部ListBox4']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", control_type="List")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '全部'    (L22, T429, R280, B457)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['ListItem8', '全部ListItem2', '全部8']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '未说明'    (L22, T429, R280, B457)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['未说明', 'ListItem9', '未说明ListItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="未说明", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '男'    (L22, T429, R280, B457)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['ListItem10', '男ListItem', '男']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="男", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '女'    (L22, T429, R280, B457)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['女', 'ListItem11', '女ListItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="女", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '未知'    (L22, T429, R280, B457)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['未知ListItem', '未知', 'ListItem12']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="未知", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L22, T261, R280, B289)
+   |    |    |    |    |    |    |    |    |    |    | ['全部Pane', 'Pane10', '全部Pane0', '全部Pane1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="DeRecordTimeBegin", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L26, T264, R247, B286)
+   |    |    |    |    |    |    |    |    |    |    |    | ['全部Pane2', 'Pane11']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="2168760", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Custom - ''    (L26, T264, R247, B286)
+   |    |    |    |    |    |    |    |    |    |    |    | ['全部Custom', 'Custom', '全部Custom0', '全部Custom1', 'Custom0', 'Custom1']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L22, T293, R280, B321)
+   |    |    |    |    |    |    |    |    |    |    | ['全部Pane3', 'Pane12']
+   |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="DeRecordTimeEnd", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L26, T296, R247, B318)
+   |    |    |    |    |    |    |    |    |    |    |    | ['全部Pane4', 'Pane13']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="1644598", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Custom - ''    (L26, T296, R247, B318)
+   |    |    |    |    |    |    |    |    |    |    |    | ['全部Custom2', 'Custom2']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | ComboBox - '全部'    (L22, T361, R280, B389)
+   |    |    |    |    |    |    |    |    |    |    | ['ComboBox6', '全部ComboBox5', '全部9']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", auto_id="CbeQueryRecordStatus", control_type="ComboBox")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Static - '全部'    (L26, T364, R247, B386)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Static4', '全部Static3', '全部10']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Button - '打开'    (L250, T361, R280, B389)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Button6', '打开Button6', '打开6']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="打开", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | ListBox - '全部'    (L22, T361, R280, B389)
+   |    |    |    |    |    |    |    |    |    |    |    | ['ListBox6', '全部11', '全部ListBox5']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", control_type="List")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '全部'    (L22, T361, R280, B389)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['ListItem13', '全部ListItem3', '全部12']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '待受理'    (L22, T361, R280, B389)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['待受理ListItem', 'ListItem14', '待受理', '待受理ListItem0', '待受理ListItem1', '待受理0', '待受理1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="待受理", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '已受理'    (L22, T361, R280, B389)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['ListItem15', '已受理ListItem', '已受理', '已受理ListItem0', '已受理ListItem1', '已受理0', '已受理1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="已受理", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | ComboBox - '岁'    (L180, T567, R280, B595)
+   |    |    |    |    |    |    |    |    |    |    | ['ComboBox7', '岁ComboBox2', '岁5']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="岁", auto_id="CbePatientStartAgeUnit", control_type="ComboBox")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Static - '岁'    (L184, T570, R247, B592)
+   |    |    |    |    |    |    |    |    |    |    |    | ['岁6', 'Static5', '岁Static2']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="岁", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Button - '打开'    (L250, T567, R280, B595)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Button7', '打开Button7', '打开7']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="打开", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | ListBox - '岁'    (L180, T567, R280, B595)
+   |    |    |    |    |    |    |    |    |    |    |    | ['岁7', '岁ListBox2', 'ListBox7']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="岁", control_type="List")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '岁'    (L180, T567, R280, B595)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['岁8', 'ListItem16', '岁ListItem2']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="岁", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '月'    (L180, T567, R280, B595)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['月2', 'ListItem17', '月ListItem2']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="月", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '天'    (L180, T567, R280, B595)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['天ListItem2', 'ListItem18', '天2']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="天", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '小时'    (L180, T567, R280, B595)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['小时ListItem2', '小时2', 'ListItem19']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="小时", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '分钟'    (L180, T567, R280, B595)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['分钟ListItem2', 'ListItem20', '分钟2']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="分钟", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | ComboBox - ''    (L22, T735, R280, B763)
+   |    |    |    |    |    |    |    |    |    |    | ['ComboBox8', '全部ComboBox6']
+   |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="CbeWardName", control_type="ComboBox")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L26, T738, R247, B760)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Edit17', '全部Edit14']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="1971512", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L26, T738, R247, B760)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Edit18', '全部Edit15']
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Button - '打开'    (L250, T735, R280, B763)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Button8', '打开Button8', '打开8']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="打开", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | ListBox - ''    (L22, T735, R280, B763)
+   |    |    |    |    |    |    |    |    |    |    |    | ['ListBox8', '全部ListBox6']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Table - 'Root'    (L21, T162, R281, B977)
+   |    |    |    |    |    |    |    |    |    |    | ['Table', 'RootTable', 'Root', 'Table0', 'Table1', 'RootTable0', 'RootTable1', 'Root0', 'Root1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="Root", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'emptySpaceItem1'    (L21, T909, R281, B977)
+   |    |    |    |    |    |    |    |    |    |    |    | ['emptySpaceItem1DataItem', 'emptySpaceItem1', 'DataItem', 'DataItem0', 'DataItem1', 'emptySpaceItem1DataItem0', 'emptySpaceItem1DataItem1', 'emptySpaceItem10', 'emptySpaceItem11']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="emptySpaceItem1", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '检查机构'    (L21, T772, R281, B840)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table2', '检查机构Table', '检查机构', '检查机构0', '检查机构1', '检查机构Table0', '检查机构Table1']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciExamOrganization'    (L22, T803, R280, B831)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciExamOrganization', 'LciExamOrganizationDataItem', 'DataItem2', 'LciExamOrganization0', 'LciExamOrganization1', 'LciExamOrganizationDataItem0', 'LciExamOrganizationDataItem1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciExamOrganization", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '申请医生'    (L21, T840, R281, B908)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table3', '申请医生Table', '申请医生']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="申请医生", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciRegisterDoctorName'    (L22, T871, R280, B899)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciRegisterDoctorName', 'DataItem3', 'LciRegisterDoctorNameDataItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciRegisterDoctorName", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '诊断结论'    (L21, T908, R264, B976)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table4', '诊断结论', '诊断结论Table']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="诊断结论", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciDiagnosisResult'    (L22, T939, R263, B967)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciDiagnosisResultDataItem', 'DataItem4', 'LciDiagnosisResult', 'LciDiagnosisResultDataItem0', 'LciDiagnosisResultDataItem1', 'LciDiagnosisResult0', 'LciDiagnosisResult1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciDiagnosisResult", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '患者姓名'    (L21, T162, R281, B230)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table5', '患者姓名', '患者姓名Table']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="患者姓名", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciPatientName'    (L22, T193, R280, B221)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciPatientNameDataItem', 'LciPatientName', 'DataItem5', 'LciPatientNameDataItem0', 'LciPatientNameDataItem1', 'LciPatientName0', 'LciPatientName1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciPatientName", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '挂盒时间'    (L21, T230, R281, B330)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table6', '挂盒时间Table', '挂盒时间']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="挂盒时间", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciExamStartTime'    (L22, T261, R280, B293)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciExamStartTime', 'DataItem6', 'LciExamStartTimeDataItem', 'LciExamStartTime0', 'LciExamStartTime1', 'LciExamStartTimeDataItem0', 'LciExamStartTimeDataItem1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciExamStartTime", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciExamEndTime'    (L22, T293, R280, B321)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciExamEndTimeDataItem', 'DataItem7', 'LciExamEndTime', 'LciExamEndTimeDataItem0', 'LciExamEndTimeDataItem1', 'LciExamEndTime0', 'LciExamEndTime1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciExamEndTime", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '记录状态'    (L21, T330, R281, B398)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table7', '记录状态', '记录状态Table']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="记录状态", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciReportStatus'    (L22, T361, R280, B389)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciReportStatus', 'DataItem8', 'LciReportStatusDataItem', 'LciReportStatus0', 'LciReportStatus1', 'LciReportStatusDataItem0', 'LciReportStatusDataItem1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciReportStatus", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '性别'    (L21, T398, R281, B466)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table8', '性别Table', '性别', '性别0', '性别1']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="性别", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciGender'    (L22, T429, R280, B457)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciGender', 'DataItem9', 'LciGenderDataItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciGender", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '报告时间'    (L21, T466, R264, B566)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table9', '报告时间', '报告时间Table']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="报告时间", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciAuditBeginTime'    (L22, T497, R263, B529)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciAuditBeginTime', 'DataItem10', 'LciAuditBeginTimeDataItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciAuditBeginTime", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciAuditEndTime'    (L22, T529, R263, B557)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciAuditEndTimeDataItem', 'LciAuditEndTime', 'DataItem11']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciAuditEndTime", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '标识'    (L21, T467, R281, B535)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table10', '标识', '标识Table', '标识0', '标识1']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="标识", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciSourceNo'    (L22, T498, R280, B526)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['DataItem12', 'LciSourceNo', 'LciSourceNoDataItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciSourceNo", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '诊断医生'    (L21, T535, R264, B603)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table11', '诊断医生Table', '诊断医生']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="诊断医生", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciAuditDoctor'    (L22, T566, R263, B594)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciAuditDoctor', 'DataItem13', 'LciAuditDoctorDataItem', 'LciAuditDoctor0', 'LciAuditDoctor1', 'LciAuditDoctorDataItem0', 'LciAuditDoctorDataItem1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciAuditDoctor", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '年龄'    (L21, T536, R281, B636)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table12', '年龄Table', '年龄', '年龄0', '年龄1']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="年龄", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciExamOrganization'    (L180, T567, R280, B599)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciExamOrganization2', 'LciExamOrganizationDataItem2', 'DataItem14']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciExamOrganization", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciPatientStartAge'    (L22, T567, R180, B599)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciPatientStartAgeDataItem', 'DataItem15', 'LciPatientStartAge']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciPatientStartAge", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciPatientEndAge'    (L22, T599, R180, B627)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciPatientEndAgeDataItem', 'DataItem16', 'LciPatientEndAge']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciPatientEndAge", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciPatientEndAgeUnit'    (L180, T599, R280, B627)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciPatientEndAgeUnit', 'LciPatientEndAgeUnitDataItem', 'DataItem17']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciPatientEndAgeUnit", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '所在科室'    (L21, T636, R281, B704)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table13', '所在科室', '所在科室Table']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="所在科室", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciDepartment'    (L22, T667, R280, B695)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciDepartment', 'LciDepartmentDataItem', 'DataItem18']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciDepartment", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '病区'    (L21, T704, R281, B772)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table14', '病区Table', '病区']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="病区", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciExamDepartment'    (L22, T735, R280, B763)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciExamDepartmentDataItem', 'DataItem19', 'LciExamDepartment', 'LciExamDepartmentDataItem0', 'LciExamDepartmentDataItem1', 'LciExamDepartment0', 'LciExamDepartment1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciExamDepartment", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | Pane - 'PnlButton'    (L21, T977, R281, B1029)
+   |    |    |    |    |    |    |    |    |    | ['PnlButton', 'PnlButtonPane', 'Pane14', 'PnlButton0', 'PnlButton1', 'PnlButtonPane0', 'PnlButtonPane1']
+   |    |    |    |    |    |    |    |    |    | child_window(title="PnlButton", auto_id="PnlButton", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Button - '查询(3s)'    (L161, T977, R261, B1011)
+   |    |    |    |    |    |    |    |    |    |    | ['Button9', '查询(12s)Button', '查询(12s)']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="查询(3s)", auto_id="BtnSearch", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Button - '重置'    (L41, T977, R141, B1011)
+   |    |    |    |    |    |    |    |    |    |    | ['Button10', '重置', '重置Button', '重置0', '重置1', '重置Button0', '重置Button1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="重置", auto_id="BtnReset", control_type="Button")
+   |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    | Pane - ''    (L303, T142, R1919, B1049)
+   |    |    |    |    |    |    |    | ['4Pane', 'Pane15', '4Pane0', '4Pane1']
+   |    |    |    |    |    |    |    | child_window(auto_id="4790180", control_type="Pane")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Pane - 'PnlMain'    (L303, T142, R1919, B1049)
+   |    |    |    |    |    |    |    |    | ['PnlMain', 'Pane16', 'PnlMainPane', 'PnlMain0', 'PnlMain1', 'PnlMainPane0', 'PnlMainPane1']
+   |    |    |    |    |    |    |    |    | child_window(title="PnlMain", auto_id="PnlMain", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | TabControl - ''    (L303, T152, R1909, B1039)
+   |    |    |    |    |    |    |    |    |    | ['4TabControl', 'TabControl2', 'TabControl已处理', 'TabControl待处理(4)', '4TabControl0', '4TabControl1', 'TabControl已处理0', 'TabControl已处理1']
+   |    |    |    |    |    |    |    |    |    | child_window(auto_id="XtcDiagnosis", control_type="Tab")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Pane - '待处理(4)'    (L304, T186, R1908, B1038)
+   |    |    |    |    |    |    |    |    |    |    | ['待处理(4)', 'Pane17', '待处理(4)Pane', '待处理(4)0', '待处理(4)1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="待处理(4)", auto_id="XtpTobeDiagnosis", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L304, T236, R1908, B1038)
+   |    |    |    |    |    |    |    |    |    |    |    | ['全部Pane5', 'Pane18']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="GridTobeDiagnosis", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | Table - ''    (L311, T236, R1901, B994)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['Table15', '全部Table', '全部Table0', '全部Table1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="GridControl", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | Custom - '表头面板'    (L311, T236, R1901, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | ['表头面板', '表头面板Custom', 'Custom3', '表头面板0', '表头面板1', '表头面板Custom0', '表头面板Custom1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="表头面板", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '序号'    (L311, T236, R394, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['序号Header', 'Header', '序号', 'Header0', 'Header1', '序号Header0', '序号Header1', '序号0', '序号1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '姓名'    (L394, T236, R560, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['姓名', '姓名Header', 'Header2', '姓名0', '姓名1', '姓名Header0', '姓名Header1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="姓名", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '性别'    (L560, T236, R643, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Header3', '性别Header', '性别2', '性别Header0', '性别Header1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="性别", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '年龄'    (L643, T236, R726, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Header4', '年龄2', '年龄Header', '年龄Header0', '年龄Header1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="年龄", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '检查机构'    (L726, T236, R948, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['检查机构Header', '检查机构2', 'Header5', '检查机构Header0', '检查机构Header1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '采集开始时间'    (L948, T236, R1170, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['采集开始时间', 'Header6', '采集开始时间Header', '采集开始时间0', '采集开始时间1', '采集开始时间Header0', '采集开始时间Header1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="采集开始时间", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '记录导入时间'    (L1170, T236, R1392, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['记录导入时间', 'Header7', '记录导入时间Header', '记录导入时间0', '记录导入时间1', '记录导入时间Header0', '记录导入时间Header1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="记录导入时间", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '采集时长'    (L1392, T236, R1572, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['采集时长', 'Header8', '采集时长Header']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="采集时长", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '状态'    (L1572, T236, R1828, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['状态', 'Header9', '状态Header', '状态0', '状态1', '状态Header0', '状态Header1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '报告'    (L1828, T236, R1902, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['报告', 'Header10', '报告Header']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="报告", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | Custom - '数据面板'    (L311, T274, R1901, B994)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Custom4', '数据面板Custom', '数据面板', '数据面板Custom0', '数据面板Custom1', '数据面板0', '数据面板1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="数据面板", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Custom - '行 1'    (L311, T274, R1901, B312)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['行 1', 'Custom5', '行 1Custom', '行 10', '行 11', '行 1Custom0', '行 1Custom1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="行 1", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '序号 row 0'    (L311, T274, R394, B311)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['DataItem20', '序号 row 0', '序号 row 0DataItem', '序号 row 00', '序号 row 01', '序号 row 0DataItem0', '序号 row 0DataItem1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '姓名 row 0'    (L394, T274, R560, B311)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['姓名 row 0', 'DataItem21', '姓名 row 0DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="姓名 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '性别 row 0'    (L560, T274, R643, B311)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['DataItem22', '性别 row 0', '性别 row 0DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="性别 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '年龄 row 0'    (L643, T274, R726, B311)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['DataItem23', '年龄 row 0', '年龄 row 0DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="年龄 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查机构 row 0'    (L726, T274, R948, B311)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['检查机构 row 0DataItem', 'DataItem24', '检查机构 row 0', '检查机构 row 0DataItem0', '检查机构 row 0DataItem1', '检查机构 row 00', '检查机构 row 01']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '采集开始时间 row 0'    (L948, T274, R1170, B311)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['采集开始时间 row 0DataItem', 'DataItem25', '采集开始时间 row 0']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="采集开始时间 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '记录导入时间 row 0'    (L1170, T274, R1392, B311)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['记录导入时间 row 0', 'DataItem26', '记录导入时间 row 0DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="记录导入时间 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '采集时长 row 0'    (L1392, T274, R1572, B311)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['采集时长 row 0', '采集时长 row 0DataItem', 'DataItem27']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="采集时长 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '状态 row 0'    (L1572, T274, R1828, B311)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['状态 row 0', '状态 row 0DataItem', 'DataItem28', '状态 row 00', '状态 row 01', '状态 row 0DataItem0', '状态 row 0DataItem1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '报告 row 0'    (L1828, T274, R1902, B311)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['报告 row 0', 'DataItem29', '报告 row 0DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="报告 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Custom - '行 2'    (L311, T312, R1901, B350)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['行 2', '行 2Custom', 'Custom6']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="行 2", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '序号 row 1'    (L311, T312, R394, B349)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['序号 row 1DataItem', 'DataItem30', '序号 row 1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号 row 1", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '姓名 row 1'    (L394, T312, R560, B349)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['DataItem31', '姓名 row 1DataItem', '姓名 row 1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="姓名 row 1", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '性别 row 1'    (L560, T312, R643, B349)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['性别 row 1DataItem', 'DataItem32', '性别 row 1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="性别 row 1", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '年龄 row 1'    (L643, T312, R726, B349)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['年龄 row 1DataItem', 'DataItem33', '年龄 row 1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="年龄 row 1", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查机构 row 1'    (L726, T312, R948, B349)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['检查机构 row 1', '检查机构 row 1DataItem', 'DataItem34']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构 row 1", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '采集开始时间 row 1'    (L948, T312, R1170, B349)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['采集开始时间 row 1DataItem', 'DataItem35', '采集开始时间 row 1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="采集开始时间 row 1", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '记录导入时间 row 1'    (L1170, T312, R1392, B349)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['记录导入时间 row 1', 'DataItem36', '记录导入时间 row 1DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="记录导入时间 row 1", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '采集时长 row 1'    (L1392, T312, R1572, B349)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['采集时长 row 1', 'DataItem37', '采集时长 row 1DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="采集时长 row 1", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '状态 row 1'    (L1572, T312, R1828, B349)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['状态 row 1', 'DataItem38', '状态 row 1DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态 row 1", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '报告 row 1'    (L1828, T312, R1902, B349)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['报告 row 1', 'DataItem39', '报告 row 1DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="报告 row 1", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Custom - '行 3'    (L311, T350, R1901, B388)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['行 3Custom', '行 3', 'Custom7']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="行 3", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '序号 row 2'    (L311, T350, R394, B387)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['序号 row 2DataItem', 'DataItem40', '序号 row 2']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号 row 2", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '姓名 row 2'    (L394, T350, R560, B387)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['姓名 row 2', 'DataItem41', '姓名 row 2DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="姓名 row 2", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '性别 row 2'    (L560, T350, R643, B387)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['性别 row 2DataItem', 'DataItem42', '性别 row 2']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="性别 row 2", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '年龄 row 2'    (L643, T350, R726, B387)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['年龄 row 2DataItem', '年龄 row 2', 'DataItem43']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="年龄 row 2", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查机构 row 2'    (L726, T350, R948, B387)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['DataItem44', '检查机构 row 2', '检查机构 row 2DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构 row 2", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '采集开始时间 row 2'    (L948, T350, R1170, B387)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['DataItem45', '采集开始时间 row 2', '采集开始时间 row 2DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="采集开始时间 row 2", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '记录导入时间 row 2'    (L1170, T350, R1392, B387)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['DataItem46', '记录导入时间 row 2', '记录导入时间 row 2DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="记录导入时间 row 2", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '采集时长 row 2'    (L1392, T350, R1572, B387)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['采集时长 row 2DataItem', '采集时长 row 2', 'DataItem47']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="采集时长 row 2", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '状态 row 2'    (L1572, T350, R1828, B387)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['状态 row 2DataItem', 'DataItem48', '状态 row 2']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态 row 2", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '报告 row 2'    (L1828, T350, R1902, B387)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['报告 row 2DataItem', '报告 row 2', 'DataItem49']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="报告 row 2", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Custom - '行 4'    (L311, T388, R1901, B426)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['行 4Custom', 'Custom8', '行 4']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="行 4", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '序号 row 3'    (L311, T388, R394, B425)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['DataItem50', '序号 row 3', '序号 row 3DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号 row 3", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '姓名 row 3'    (L394, T388, R560, B425)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['姓名 row 3DataItem', 'DataItem51', '姓名 row 3']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="姓名 row 3", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '性别 row 3'    (L560, T388, R643, B425)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['性别 row 3DataItem', '性别 row 3', 'DataItem52']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="性别 row 3", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '年龄 row 3'    (L643, T388, R726, B425)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['年龄 row 3DataItem', 'DataItem53', '年龄 row 3']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="年龄 row 3", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查机构 row 3'    (L726, T388, R948, B425)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['检查机构 row 3DataItem', 'DataItem54', '检查机构 row 3']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构 row 3", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '采集开始时间 row 3'    (L948, T388, R1170, B425)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['采集开始时间 row 3DataItem', '采集开始时间 row 3', 'DataItem55']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="采集开始时间 row 3", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '记录导入时间 row 3'    (L1170, T388, R1392, B425)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['记录导入时间 row 3', 'DataItem56', '记录导入时间 row 3DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="记录导入时间 row 3", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '采集时长 row 3'    (L1392, T388, R1572, B425)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['采集时长 row 3DataItem', 'DataItem57', '采集时长 row 3']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="采集时长 row 3", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '状态 row 3'    (L1572, T388, R1828, B425)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['状态 row 3DataItem', '状态 row 3', 'DataItem58']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态 row 3", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '报告 row 3'    (L1828, T388, R1902, B425)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['报告 row 3DataItem', 'DataItem59', '报告 row 3']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="报告 row 3", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L311, T994, R1901, B1038)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['全部Pane6', 'Pane19']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="tlpBottom", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L362, T996, R1898, B1036)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | ['全部Pane7', 'Pane20']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="PageControl", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L1151, T996, R1898, B1036)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Pane21', '共21条记录Pane', '共21条记录Pane0', '共21条记录Pane1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="tableLayoutPanel1", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L1690, T1003, R1720, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['1Pane', 'Pane22', '1Pane0', '1Pane1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="FlpPageNum", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Static - '1'    (L1692, T1003, R1718, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Static6', '1', '1Static', '1Static0', '1Static1', '10', '11']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="1", auto_id="Lbl1", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1723, T1003, R1749, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Static7', '1Static2']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="LblNextPage", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1661, T1003, R1687, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Static8', '共4条记录Static', '共4条记录Static0', '共4条记录Static1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="LblPrePage", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Static - '共4条记录'    (L1598, T1007, R1655, B1024)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Static9', '共4条记录', '共4条记录Static2']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="共4条记录", auto_id="LblTotal", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ComboBox - '20'    (L1755, T1003, R1815, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['ComboBox9', '20', '20ComboBox', '200', '201', '20ComboBox0', '20ComboBox1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="20", auto_id="CmbPageSize", control_type="ComboBox")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Static - '20'    (L1759, T1007, R1790, B1025)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Static10', '20Static', '202', '20Static0', '20Static1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="20", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Button - '打开'    (L1793, T1003, R1815, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Button11', '打开Button9', '打开9']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="打开", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ListBox - '20'    (L1755, T1003, R1815, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['203', 'ListBox9', '20ListBox', '20ListBox0', '20ListBox1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="20", control_type="List")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '20'    (L1755, T1003, R1815, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['204', 'ListItem21', '20ListItem', '20ListItem0', '20ListItem1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="20", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '50'    (L1755, T1003, R1815, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['50', 'ListItem22', '50ListItem', '500', '501', '50ListItem0', '50ListItem1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="50", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '100'    (L1755, T1003, R1815, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['100', 'ListItem23', '100ListItem', '1000', '1001', '100ListItem0', '100ListItem1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="100", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Static - '跳至'    (L1821, T1007, R1845, B1024)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['跳至Static', 'Static11', '跳至', '跳至Static0', '跳至Static1', '跳至0', '跳至1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="跳至", auto_id="labelControl1", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Edit - '1'    (L1851, T1003, R1877, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Edit19', '跳至Edit', '跳至Edit0', '跳至Edit1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="1", auto_id="TxtPageIndex", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Edit - '1'    (L1859, T1008, R1869, B1024)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Edit20', '跳至Edit2']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="1", auto_id="14879958", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Edit - '1'    (L1859, T1008, R1869, B1024)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Edit21', '跳至Edit3']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="1", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Static - '页'    (L1883, T1007, R1895, B1024)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Static12', '页Static', '页', '页Static0', '页Static1', '页0', '页1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="页", auto_id="labelControl2", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | Static - ''    (L311, T1001, R341, B1031)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Static13', '全部Static4']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="LblSetting", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L304, T186, R1908, B236)
+   |    |    |    |    |    |    |    |    |    |    |    | ['4Pane2', 'Pane23']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="PageActionBar_TobeDiagnosis", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | Button - '查看'    (L314, T194, R414, B228)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['Button12', '查看Button', '查看', '查看Button0', '查看Button1', '查看0', '查看1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="查看", auto_id="2431058", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | Button - '编辑'    (L434, T194, R534, B228)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['Button13', '编辑', '编辑Button', '编辑0', '编辑1', '编辑Button0', '编辑Button1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="编辑", auto_id="3542132", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | Button - '重新解析'    (L554, T194, R654, B228)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['Button14', '重新解析Button', '重新解析']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="重新解析", auto_id="5835828", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | Button - '导出'    (L674, T194, R774, B228)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['Button15', '导出Button', '导出']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="导出", auto_id="2165710", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | Button - '导入'    (L794, T194, R894, B228)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['Button16', '导入', '导入Button']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="导入", auto_id="2427784", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | Button - '报告退回'    (L914, T194, R1014, B228)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['Button17', '报告退回', '报告退回Button']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="报告退回", auto_id="4001690", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | TabItem - '待处理(4)'    (L303, T152, R429, B186)
+   |    |    |    |    |    |    |    |    |    |    | ['待处理(4)2', 'TabItem', '待处理(4)TabItem', 'TabItem0', 'TabItem1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="待处理(4)", control_type="TabItem")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | TabItem - '已处理'    (L428, T152, R552, B185)
+   |    |    |    |    |    |    |    |    |    |    | ['已处理', 'TabItem2', '已处理TabItem', '已处理0', '已处理1', '已处理TabItem0', '已处理TabItem1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="已处理", control_type="TabItem")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Dialog - '待处理(4)'    (L304, T186, R1908, B1038)
+   |    |    |    |    |    |    |    |    |    |    | ['待处理(4)Dialog', '待处理(4)3', 'Dialog2']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="待处理(4)", control_type="Window")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Custom - '待处理(4)'    (L304, T186, R1908, B1038)
+   |    |    |    |    |    |    |    |    |    |    |    | ['待处理(4)4', 'Custom9', '待处理(4)Custom']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="待处理(4)", control_type="Custom")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Pane - '静息心电'    (L1, T142, R1919, B1049)
+   |    |    |    |    |    | ['静息心电', 'Pane24', '静息心电Pane4', '静息心电0', '静息心电1']
+   |    |    |    |    |    | child_window(title="静息心电", auto_id="DiagRestingEcg", control_type="Pane")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Pane - 'SplitControl'    (L1, T142, R1919, B1049)
+   |    |    |    |    |    |    | ['SplitControl2', 'Pane25', 'SplitControlPane2']
+   |    |    |    |    |    |    | child_window(title="SplitControl", auto_id="SplitControl", control_type="Pane")
+   |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    | Pane - ''    (L1, T142, R291, B1049)
+   |    |    |    |    |    |    |    | ['Pane26', '静息心电Pane5']
+   |    |    |    |    |    |    |    | child_window(auto_id="2560674", control_type="Pane")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Pane - ''    (L11, T152, R291, B1039)
+   |    |    |    |    |    |    |    |    | ['Pane27', '静息心电Pane6']
+   |    |    |    |    |    |    |    |    | child_window(auto_id="PnlLeft", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | Pane - 'The XtraLayoutControl'    (L21, T162, R281, B977)
+   |    |    |    |    |    |    |    |    |    | ['The XtraLayoutControlPane2', 'The XtraLayoutControl2', 'Pane28']
+   |    |    |    |    |    |    |    |    |    | child_window(title="The XtraLayoutControl", auto_id="LcMenu", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | ComboBox - '全部'    (L22, T330, R280, B358)
+   |    |    |    |    |    |    |    |    |    |    | ['ComboBox10', '全部ComboBox7', '全部13']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", auto_id="CbeExamDepartment", control_type="ComboBox")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Static - '全部'    (L26, T333, R247, B355)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Static14', '全部Static5', '全部14']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Button - '打开'    (L250, T330, R280, B358)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Button18', '打开Button10', '打开10']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="打开", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | ListBox - '全部'    (L22, T330, R280, B358)
+   |    |    |    |    |    |    |    |    |    |    |    | ['ListBox10', '全部15', '全部ListBox7']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", control_type="List")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '全部'    (L22, T330, R280, B358)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['ListItem24', '全部ListItem4', '全部16']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | ComboBox - '全部'    (L22, T262, R280, B290)
+   |    |    |    |    |    |    |    |    |    |    | ['ComboBox11', '全部ComboBox8', '全部17']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", auto_id="CbeExamOrganization", control_type="ComboBox")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Static - '全部'    (L26, T265, R247, B287)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Static15', '全部Static6', '全部18']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Button - '打开'    (L250, T262, R280, B290)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Button19', '打开Button11', '打开11']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="打开", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | ListBox - '全部'    (L22, T262, R280, B290)
+   |    |    |    |    |    |    |    |    |    |    |    | ['ListBox11', '全部19', '全部ListBox8']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", control_type="List")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '全部'    (L22, T262, R280, B290)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['ListItem25', '全部ListItem5', '全部20']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '（院内一体化）玉溪市人民医院'    (L22, T262, R280, B290)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['ListItem26', '（院内一体化）玉溪市人民医院2', '（院内一体化）玉溪市人民医院ListItem2']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="（院内一体化）玉溪市人民医院", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '动态院内检查机构'    (L22, T262, R280, B290)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['ListItem27', '动态院内检查机构', '动态院内检查机构ListItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="动态院内检查机构", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '动态院内检查机构Ⅱ'    (L22, T262, R280, B290)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['动态院内检查机构Ⅱ', 'ListItem28', '动态院内检查机构ⅡListItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="动态院内检查机构Ⅱ", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '动态院内诊断机构'    (L22, T262, R280, B290)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['ListItem29', '动态院内诊断机构ListItem', '动态院内诊断机构']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="动态院内诊断机构", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '玉溪检查机构I'    (L22, T262, R280, B290)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['玉溪检查机构I', 'ListItem30', '玉溪检查机构IListItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="玉溪检查机构I", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '玉溪检查机构II'    (L22, T262, R280, B290)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['玉溪检查机构IIListItem', 'ListItem31', '玉溪检查机构II']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="玉溪检查机构II", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '玉溪诊断机构'    (L22, T262, R280, B290)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['玉溪诊断机构ListItem', 'ListItem32', '玉溪诊断机构']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="玉溪诊断机构", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Pane - '2021年10月21日'    (L22, T430, R280, B458)
+   |    |    |    |    |    |    |    |    |    |    | ['2021年10月21日', 'Pane29', '2021年10月21日Pane', '2021年10月21日0', '2021年10月21日1', '2021年10月21日Pane0', '2021年10月21日Pane1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="2021年10月21日", auto_id="DeExamEndTime", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Pane - '2021年10月21日'    (L26, T433, R247, B455)
+   |    |    |    |    |    |    |    |    |    |    |    | ['2021年10月21日2', 'Pane30', '2021年10月21日Pane2']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="2021年10月21日", auto_id="3085442", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Custom - '2021年10月21日'    (L26, T433, R247, B455)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Custom10', '2021年10月21日3', '2021年10月21日Custom']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="2021年10月21日", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Pane - '2021年10月7日'    (L22, T398, R280, B426)
+   |    |    |    |    |    |    |    |    |    |    | ['2021年10月7日', '2021年10月7日Pane', 'Pane31', '2021年10月7日0', '2021年10月7日1', '2021年10月7日Pane0', '2021年10月7日Pane1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="2021年10月7日", auto_id="DeExamStartTime", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Pane - '2021年10月7日'    (L26, T401, R247, B423)
+   |    |    |    |    |    |    |    |    |    |    |    | ['2021年10月7日2', '2021年10月7日Pane2', 'Pane32']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="2021年10月7日", auto_id="2562134", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Custom - '2021年10月7日'    (L26, T401, R247, B423)
+   |    |    |    |    |    |    |    |    |    |    |    | ['2021年10月7日Custom', '2021年10月7日3', 'Custom11']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="2021年10月7日", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L22, T567, R280, B595)
+   |    |    |    |    |    |    |    |    |    |    | ['Edit22', '全部Edit16']
+   |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="BePatientName", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L26, T570, R276, B592)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Edit23', '全部Edit17']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="3216430", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L26, T570, R276, B592)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Edit24', '全部Edit18']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L22, T499, R280, B527)
+   |    |    |    |    |    |    |    |    |    |    | ['Edit25', '全部Edit19']
+   |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="BePatientSourceIdentityNo", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L26, T502, R276, B524)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Edit26', '全部Edit20']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="2168956", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L26, T502, R276, B524)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Edit27', '全部Edit21']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L22, T193, R280, B221)
+   |    |    |    |    |    |    |    |    |    |    | ['Edit28', '静息心电Edit4']
+   |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="ChkcbePatientSources", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Static - ''    (L26, T196, R247, B218)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Static16', '静息心电Static', '静息心电Static0', '静息心电Static1']
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Button - '打开'    (L250, T193, R280, B221)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Button20', '打开Button12', '打开12']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="打开", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | ListBox - ''    (L22, T193, R280, B221)
+   |    |    |    |    |    |    |    |    |    |    |    | ['ListBox12', '静息心电ListBox']
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | CheckBox - ''    (L22, T193, R280, B221)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['静息心电CheckBox', 'CheckBox', '静息心电CheckBox0', '静息心电CheckBox1', 'CheckBox0', 'CheckBox1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | CheckBox - ''    (L22, T193, R280, B221)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['静息心电CheckBox', 'CheckBox', '静息心电CheckBox0', '静息心电CheckBox1', 'CheckBox0', 'CheckBox1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | CheckBox - ''    (L22, T193, R280, B221)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['静息心电CheckBox', 'CheckBox', '静息心电CheckBox0', '静息心电CheckBox1', 'CheckBox0', 'CheckBox1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | CheckBox - ''    (L22, T193, R280, B221)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['静息心电CheckBox', 'CheckBox', '静息心电CheckBox0', '静息心电CheckBox1', 'CheckBox0', 'CheckBox1']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | ComboBox - '全部'    (L22, T637, R280, B665)
+   |    |    |    |    |    |    |    |    |    |    | ['ComboBox12', '全部ComboBox9', '全部21']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", auto_id="CbeDiagnoResultTag", control_type="ComboBox")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Static - '全部'    (L26, T640, R247, B662)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Static17', '全部Static7', '全部22']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Button - '打开'    (L250, T637, R280, B665)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Button21', '打开Button13', '打开13']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="打开", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | ListBox - '全部'    (L22, T637, R280, B665)
+   |    |    |    |    |    |    |    |    |    |    |    | ['ListBox13', '全部23', '全部ListBox9']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", control_type="List")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '全部'    (L22, T637, R280, B665)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['ListItem33', '全部ListItem6', '全部24']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '隐私患者'    (L22, T637, R280, B665)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['隐私患者', 'ListItem34', '隐私患者ListItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="隐私患者", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '疑难报告'    (L22, T637, R280, B665)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['疑难报告', '疑难报告ListItem', 'ListItem35']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="疑难报告", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '报告追踪'    (L22, T637, R280, B665)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['报告追踪', '报告追踪ListItem', 'ListItem36']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="报告追踪", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Table - 'Root'    (L21, T162, R281, B977)
+   |    |    |    |    |    |    |    |    |    |    | ['Table', 'RootTable', 'Root', 'Table0', 'Table1', 'RootTable0', 'RootTable1', 'Root0', 'Root1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="Root", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'emptySpaceItem1'    (L21, T674, R281, B977)
+   |    |    |    |    |    |    |    |    |    |    |    | ['emptySpaceItem1DataItem2', 'emptySpaceItem12', 'DataItem60']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="emptySpaceItem1", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '诊断组'    (L21, T230, R281, B298)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table17', '诊断组Table', '诊断组', '诊断组Table0', '诊断组Table1', '诊断组0', '诊断组1']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="诊断组", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciDiagnosticGroups'    (L22, T261, R280, B289)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciDiagnosticGroups', 'DataItem61', 'LciDiagnosticGroupsDataItem', 'LciDiagnosticGroups0', 'LciDiagnosticGroups1', 'LciDiagnosticGroupsDataItem0', 'LciDiagnosticGroupsDataItem1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciDiagnosticGroups", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '检查机构'    (L21, T231, R281, B299)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table18', '检查机构Table2', '检查机构3']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciExamOrganization'    (L22, T262, R280, B290)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciExamOrganization3', 'LciExamOrganizationDataItem3', 'DataItem62']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciExamOrganization", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '检查科室'    (L21, T299, R281, B367)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table19', '检查科室Table', '检查科室', '检查科室0', '检查科室1', '检查科室Table0', '检查科室Table1']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查科室", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciExamDepartment'    (L22, T330, R280, B358)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciExamDepartmentDataItem2', 'DataItem63', 'LciExamDepartment2']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciExamDepartment", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '检查时间'    (L21, T367, R281, B467)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table20', '检查时间', '检查时间Table', '检查时间0', '检查时间1', '检查时间Table0', '检查时间Table1']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查时间", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciExamStartTime'    (L22, T398, R280, B430)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciExamStartTime2', 'DataItem64', 'LciExamStartTimeDataItem2']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciExamStartTime", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciExamEndTime'    (L22, T430, R280, B458)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciExamEndTimeDataItem2', 'DataItem65', 'LciExamEndTime2']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciExamEndTime", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '审核医生'    (L21, T467, R281, B535)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table21', '审核医生Table', '审核医生', '审核医生Table0', '审核医生Table1', '审核医生0', '审核医生1']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="审核医生", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciAuditDoctor'    (L22, T498, R280, B526)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciAuditDoctor2', 'DataItem66', 'LciAuditDoctorDataItem2']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciAuditDoctor", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '来源'    (L21, T162, R281, B230)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table22', '来源Table', '来源', '来源0', '来源1', '来源Table0', '来源Table1']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="来源", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciPatientSources'    (L22, T193, R280, B221)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['DataItem67', 'LciPatientSources', 'LciPatientSourcesDataItem', 'LciPatientSources0', 'LciPatientSources1', 'LciPatientSourcesDataItem0', 'LciPatientSourcesDataItem1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciPatientSources", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '受检者标识'    (L21, T468, R281, B536)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table23', '受检者标识Table', '受检者标识', '受检者标识0', '受检者标识1', '受检者标识Table0', '受检者标识Table1']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者标识", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciPatientSourceIdentityNo'    (L22, T499, R280, B527)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['DataItem68', 'LciPatientSourceIdentityNoDataItem', 'LciPatientSourceIdentityNo', 'LciPatientSourceIdentityNoDataItem0', 'LciPatientSourceIdentityNoDataItem1', 'LciPatientSourceIdentityNo0', 'LciPatientSourceIdentityNo1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciPatientSourceIdentityNo", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '受检者姓名'    (L21, T536, R281, B604)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table24', '受检者姓名Table', '受检者姓名', '受检者姓名Table0', '受检者姓名Table1', '受检者姓名0', '受检者姓名1']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者姓名", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciPatientName'    (L22, T567, R280, B595)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciPatientNameDataItem2', 'LciPatientName2', 'DataItem69']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciPatientName", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '诊断结论关键词'    (L21, T671, R281, B739)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table25', '诊断结论关键词', '诊断结论关键词Table', '诊断结论关键词0', '诊断结论关键词1', '诊断结论关键词Table0', '诊断结论关键词Table1']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="诊断结论关键词", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciDiagnosisResult'    (L22, T702, R280, B730)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciDiagnosisResultDataItem2', 'DataItem70', 'LciDiagnosisResult2']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciDiagnosisResult", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '报告状态'    (L21, T605, R281, B673)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table26', '报告状态Table', '报告状态', '报告状态Table0', '报告状态Table1', '报告状态0', '报告状态1']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="报告状态", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciReportStatus'    (L22, T636, R280, B664)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciReportStatus2', 'DataItem71', 'LciReportStatusDataItem2']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciReportStatus", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '报告标记'    (L21, T606, R281, B674)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table27', '报告标记Table', '报告标记', '报告标记0', '报告标记1']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="报告标记", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciReportStatus'    (L22, T637, R280, B665)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciReportStatus3', 'DataItem72', 'LciReportStatusDataItem3']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciReportStatus", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | Pane - 'PnlButton'    (L21, T977, R281, B1029)
+   |    |    |    |    |    |    |    |    |    | ['PnlButton2', 'PnlButtonPane2', 'Pane33']
+   |    |    |    |    |    |    |    |    |    | child_window(title="PnlButton", auto_id="PnlButton", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Button - '查询(7s)'    (L161, T977, R261, B1011)
+   |    |    |    |    |    |    |    |    |    |    | ['Button22', '查询(7s)', '查询(7s)Button']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="查询(7s)", auto_id="BtnSearch", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Button - '重置'    (L41, T977, R141, B1011)
+   |    |    |    |    |    |    |    |    |    |    | ['Button23', '重置2', '重置Button2']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="重置", auto_id="BtnReset", control_type="Button")
+   |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    | Pane - ''    (L303, T142, R1919, B1049)
+   |    |    |    |    |    |    |    | ['4Pane3', 'Pane34']
+   |    |    |    |    |    |    |    | child_window(auto_id="1447046", control_type="Pane")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Pane - 'PnlMain'    (L303, T142, R1919, B1049)
+   |    |    |    |    |    |    |    |    | ['PnlMain2', 'Pane35', 'PnlMainPane2']
+   |    |    |    |    |    |    |    |    | child_window(title="PnlMain", auto_id="PnlMain", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | TabControl - ''    (L303, T152, R1909, B1039)
+   |    |    |    |    |    |    |    |    |    | ['TabControl处理中(3)', 'TabControl待处理(1)', '4TabControl2', 'TabControl3', 'TabControl已处理2']
+   |    |    |    |    |    |    |    |    |    | child_window(auto_id="XtcDiagnosis", control_type="Tab")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Pane - '待处理(1)'    (L304, T186, R1908, B1038)
+   |    |    |    |    |    |    |    |    |    |    | ['待处理(1)Pane', '待处理(1)', 'Pane36', '待处理(1)0', '待处理(1)1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="待处理(1)", auto_id="XtpTobeDiagnosis", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L304, T236, R1908, B1038)
+   |    |    |    |    |    |    |    |    |    |    |    | ['全部Pane8', 'Pane37']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="GridTobeDiagnosis", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | Table - ''    (L311, T236, R1901, B994)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['Table28', '全部Table2']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="GridControl", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | Custom - '表头面板'    (L311, T236, R1901, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | ['表头面板', '表头面板Custom', 'Custom3', '表头面板0', '表头面板1', '表头面板Custom0', '表头面板Custom1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="表头面板", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '序号'    (L311, T236, R373, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['序号Header2', 'Header11', '序号2']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '报告标记'    (L373, T236, R530, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['报告标记2', 'Header12', '报告标记Header']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="报告标记", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '状态'    (L530, T236, R750, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['状态2', 'Header13', '状态Header2']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '来源'    (L750, T236, R818, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['来源2', '来源Header', 'Header14', '来源Header0', '来源Header1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="来源", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '受检者标识'    (L818, T236, R943, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['受检者标识2', 'Header15', '受检者标识Header']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者标识", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '受检者信息'    (L943, T236, R1131, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['受检者信息', '受检者信息Header', 'Header16']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者信息", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '检查项目'    (L1131, T236, R1319, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['检查项目Header', 'Header17', '检查项目']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查项目", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '检查机构'    (L1319, T236, R1476, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['检查机构Header2', '检查机构4', 'Header18']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '检查科室'    (L1476, T236, R1633, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Header19', '检查科室Header', '检查科室2']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查科室", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '检查医生'    (L1633, T236, R1737, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['检查医生', '检查医生Header', 'Header20']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查医生", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '检查时间'    (L1737, T236, R1902, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['检查时间Header', 'Header21', '检查时间2']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查时间", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | Custom - '数据面板'    (L311, T274, R1901, B994)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Custom4', '数据面板Custom', '数据面板', '数据面板Custom0', '数据面板Custom1', '数据面板0', '数据面板1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="数据面板", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Custom - '行 1'    (L311, T274, R1901, B312)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['行 12', 'Custom14', '行 1Custom2']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="行 1", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '序号 row 0'    (L311, T274, R373, B311)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['DataItem73', '序号 row 02', '序号 row 0DataItem2']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '报告标记 row 0'    (L373, T274, R530, B311)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['DataItem74', '报告标记 row 0DataItem', '报告标记 row 0']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="报告标记 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '状态 row 0'    (L530, T274, R750, B311)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['状态 row 02', '状态 row 0DataItem2', 'DataItem75']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '来源 row 0'    (L750, T274, R818, B311)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['DataItem76', '来源 row 0DataItem', '来源 row 0']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="来源 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者标识 row 0'    (L818, T274, R943, B311)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['受检者标识 row 0DataItem', '受检者标识 row 0', 'DataItem77']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者标识 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '受检者信息 row 0'    (L943, T274, R1131, B311)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['受检者信息 row 0DataItem', 'DataItem78', '受检者信息 row 0']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者信息 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查项目 row 0'    (L1131, T274, R1319, B311)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['检查项目 row 0DataItem', 'DataItem79', '检查项目 row 0']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查项目 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查机构 row 0'    (L1319, T274, R1476, B311)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['检查机构 row 0DataItem2', 'DataItem80', '检查机构 row 02']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查科室 row 0'    (L1476, T274, R1633, B311)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['检查科室 row 0DataItem', 'DataItem81', '检查科室 row 0']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查科室 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查医生 row 0'    (L1633, T274, R1737, B311)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['检查医生 row 0', 'DataItem82', '检查医生 row 0DataItem']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查医生 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - '检查时间 row 0'    (L1737, T274, R1902, B311)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['检查时间 row 0DataItem', 'DataItem83', '检查时间 row 0']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查时间 row 0", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | TabControl - ''    (L311, T236, R1901, B994)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['TabControl4', '全部TabControl']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | TabItem - 'Report Tags'    (L311, T236, R1901, B994)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Report TagsTabItem', 'Report Tags', 'TabItem3']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="Report Tags", control_type="TabItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L311, T994, R1901, B1038)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['全部Pane9', 'Pane38']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="tlpBottom", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L362, T996, R1898, B1036)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | ['全部Pane10', 'Pane39']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="PageControl", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L1151, T996, R1898, B1036)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Pane40', '共21条记录Pane2']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="tableLayoutPanel1", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L1690, T1003, R1720, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['1Pane2', 'Pane41']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="FlpPageNum", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Static - '1'    (L1692, T1003, R1718, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Static18', '12', '1Static3']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="1", auto_id="Lbl1", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1723, T1003, R1749, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Static19', '1Static4']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="LblNextPage", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1661, T1003, R1687, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Static20', '共4条记录Static3']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="LblPrePage", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Static - '共1条记录'    (L1598, T1007, R1655, B1024)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Static21', '共1条记录', '共1条记录Static']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="共1条记录", auto_id="LblTotal", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ComboBox - '20'    (L1755, T1003, R1815, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['ComboBox13', '205', '20ComboBox2']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="20", auto_id="CmbPageSize", control_type="ComboBox")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Static - '20'    (L1759, T1007, R1790, B1025)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Static10', '20Static', '202', '20Static0', '20Static1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="20", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Button - '打开'    (L1793, T1003, R1815, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Button11', '打开Button9', '打开9']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="打开", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ListBox - '20'    (L1755, T1003, R1815, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['203', 'ListBox9', '20ListBox', '20ListBox0', '20ListBox1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="20", control_type="List")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '20'    (L1755, T1003, R1815, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['204', 'ListItem21', '20ListItem', '20ListItem0', '20ListItem1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="20", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '50'    (L1755, T1003, R1815, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['50', 'ListItem22', '50ListItem', '500', '501', '50ListItem0', '50ListItem1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="50", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '100'    (L1755, T1003, R1815, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['100', 'ListItem23', '100ListItem', '1000', '1001', '100ListItem0', '100ListItem1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="100", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Static - '跳至'    (L1821, T1007, R1845, B1024)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['跳至Static2', 'Static23', '跳至2']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="跳至", auto_id="labelControl1", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Edit - '1'    (L1851, T1003, R1877, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Edit29', '跳至Edit4']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="1", auto_id="TxtPageIndex", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Edit - '1'    (L1859, T1008, R1869, B1024)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Edit30', '跳至Edit5']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="1", auto_id="1972276", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Edit - '1'    (L1859, T1008, R1869, B1024)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Edit21', '跳至Edit3']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="1", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Static - '页'    (L1883, T1007, R1895, B1024)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Static24', '页Static2', '页2']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="页", auto_id="labelControl2", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | Static - ''    (L311, T1001, R341, B1031)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Static25', '全部Static8']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="LblSetting", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L304, T186, R1908, B236)
+   |    |    |    |    |    |    |    |    |    |    |    | ['4Pane4', 'Pane42']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="PageActionBar_TobeDiagnosis", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | Button - '受理'    (L314, T194, R414, B228)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['Button25', '受理Button', '受理']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受理", auto_id="1644530", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | Button - '快速诊断'    (L434, T194, R534, B228)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['Button26', '快速诊断Button', '快速诊断']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="快速诊断", auto_id="2234770", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | Button - '编辑'    (L554, T194, R654, B228)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['Button27', '编辑2', '编辑Button2']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="编辑", auto_id="1513642", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | Button - '删除'    (L674, T194, R774, B228)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['Button28', '删除Button', '删除']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="删除", auto_id="1841424", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | TabItem - '待处理(1)'    (L303, T152, R429, B186)
+   |    |    |    |    |    |    |    |    |    |    | ['TabItem4', '待处理(1)2', '待处理(1)TabItem']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="待处理(1)", control_type="TabItem")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | TabItem - '处理中(3)'    (L428, T152, R552, B185)
+   |    |    |    |    |    |    |    |    |    |    | ['处理中(3)', '处理中(3)TabItem', 'TabItem5']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="处理中(3)", control_type="TabItem")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | TabItem - '已处理'    (L552, T152, R676, B185)
+   |    |    |    |    |    |    |    |    |    |    | ['已处理2', 'TabItem6', '已处理TabItem2']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="已处理", control_type="TabItem")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Dialog - '待处理(1)'    (L304, T186, R1908, B1038)
+   |    |    |    |    |    |    |    |    |    |    | ['待处理(1)3', 'Dialog3', '待处理(1)Dialog']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="待处理(1)", control_type="Window")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Custom - '待处理(1)'    (L304, T186, R1908, B1038)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Custom15', '待处理(1)4', '待处理(1)Custom']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="待处理(1)", control_type="Custom")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Pane - '动态血压'    (L1, T142, R1919, B1049)
+   |    |    |    |    |    | ['动态血压', 'Pane43', '动态血压Pane', '动态血压Pane0', '动态血压Pane1', '动态血压0', '动态血压1']
+   |    |    |    |    |    | child_window(title="动态血压", auto_id="DiagAbp", control_type="Pane")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Pane - 'SplitControl'    (L1, T142, R1919, B1049)
+   |    |    |    |    |    |    | ['SplitControl3', 'Pane44', 'SplitControlPane3']
+   |    |    |    |    |    |    | child_window(title="SplitControl", auto_id="SplitControl", control_type="Pane")
+   |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    | Pane - ''    (L1, T142, R291, B1049)
+   |    |    |    |    |    |    |    | ['Pane45', '静息心电Pane7']
+   |    |    |    |    |    |    |    | child_window(auto_id="2299760", control_type="Pane")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Pane - ''    (L11, T152, R291, B1039)
+   |    |    |    |    |    |    |    |    | ['Pane46', '静息心电Pane8']
+   |    |    |    |    |    |    |    |    | child_window(auto_id="PnlLeft", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | Pane - 'The XtraLayoutControl'    (L21, T162, R281, B977)
+   |    |    |    |    |    |    |    |    |    | ['The XtraLayoutControlPane3', 'The XtraLayoutControl3', 'Pane47']
+   |    |    |    |    |    |    |    |    |    | child_window(title="The XtraLayoutControl", auto_id="LcMenu", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L22, T229, R280, B257)
+   |    |    |    |    |    |    |    |    |    |    | ['Pane48', '静息心电Pane9']
+   |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="DeExamEndTime", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L26, T232, R247, B254)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Pane49', '静息心电Pane10']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="1447878", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Custom - ''    (L26, T232, R247, B254)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Custom16', '静息心电Custom', '静息心电Custom0', '静息心电Custom1']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L22, T197, R280, B225)
+   |    |    |    |    |    |    |    |    |    |    | ['Pane50', '静息心电Pane11']
+   |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="DeExamStartTime", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L26, T200, R247, B222)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Pane51', '静息心电Pane12']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="1906862", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Custom - ''    (L26, T200, R247, B222)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Custom17', '静息心电Custom2']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L22, T299, R280, B327)
+   |    |    |    |    |    |    |    |    |    |    | ['Edit32', '全部Edit22']
+   |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="BePatientName", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L26, T302, R276, B324)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Edit33', '全部Edit23']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="1644474", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Edit - ''    (L26, T302, R276, B324)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Edit34', '全部Edit24']
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | ComboBox - '全部'    (L22, T368, R280, B396)
+   |    |    |    |    |    |    |    |    |    |    | ['ComboBox14', '全部ComboBox10', '全部25']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", auto_id="CbeReportStatus", control_type="ComboBox")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Static - '全部'    (L26, T371, R247, B393)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Static26', '全部Static9', '全部26']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Button - '打开'    (L250, T368, R280, B396)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Button29', '打开Button15', '打开15']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="打开", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | ListBox - '全部'    (L22, T368, R280, B396)
+   |    |    |    |    |    |    |    |    |    |    |    | ['ListBox15', '全部27', '全部ListBox10']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", control_type="List")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '全部'    (L22, T368, R280, B396)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['ListItem40', '全部ListItem7', '全部28']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="全部", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '待受理'    (L22, T368, R280, B396)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['待受理ListItem2', 'ListItem41', '待受理2']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="待受理", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '已受理'    (L22, T368, R280, B396)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['ListItem42', '已受理ListItem2', '已受理2']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="已受理", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Table - 'Root'    (L21, T162, R281, B977)
+   |    |    |    |    |    |    |    |    |    |    | ['Table', 'RootTable', 'Root', 'Table0', 'Table1', 'RootTable0', 'RootTable1', 'Root0', 'Root1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="Root", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'emptySpaceItem1'    (L21, T405, R281, B977)
+   |    |    |    |    |    |    |    |    |    |    |    | ['emptySpaceItem1DataItem3', 'emptySpaceItem13', 'DataItem84']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="emptySpaceItem1", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '诊断组'    (L21, T230, R281, B298)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table17', '诊断组Table', '诊断组', '诊断组Table0', '诊断组Table1', '诊断组0', '诊断组1']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="诊断组", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciDiagnosticGroups'    (L22, T261, R280, B289)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciDiagnosticGroups', 'DataItem61', 'LciDiagnosticGroupsDataItem', 'LciDiagnosticGroups0', 'LciDiagnosticGroups1', 'LciDiagnosticGroupsDataItem0', 'LciDiagnosticGroupsDataItem1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciDiagnosticGroups", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '检查机构'    (L21, T164, R281, B232)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table31', '检查机构Table3', '检查机构5']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciExamOrganization'    (L22, T195, R280, B223)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciExamOrganization4', 'LciExamOrganizationDataItem4', 'DataItem86']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciExamOrganization", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '检查科室'    (L21, T165, R281, B233)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table32', '检查科室Table2', '检查科室3']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查科室", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciExamDepartment'    (L22, T196, R280, B224)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciExamDepartmentDataItem3', 'DataItem87', 'LciExamDepartment3']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciExamDepartment", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '检查时间'    (L21, T166, R281, B266)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table33', '检查时间3', '检查时间Table2']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查时间", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciExamStartTime'    (L22, T197, R280, B229)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciExamStartTime3', 'DataItem88', 'LciExamStartTimeDataItem3']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciExamStartTime", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciExamEndTime'    (L22, T229, R280, B257)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciExamEndTimeDataItem3', 'DataItem89', 'LciExamEndTime3']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciExamEndTime", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '审核医生'    (L21, T266, R281, B334)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table34', '审核医生Table2', '审核医生2']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="审核医生", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciAuditDoctor'    (L22, T297, R280, B325)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciAuditDoctor3', 'DataItem90', 'LciAuditDoctorDataItem3']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciAuditDoctor", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '来源'    (L21, T162, R281, B230)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table22', '来源Table', '来源', '来源0', '来源1', '来源Table0', '来源Table1']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="来源", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciPatientSources'    (L22, T193, R280, B221)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['DataItem67', 'LciPatientSources', 'LciPatientSourcesDataItem', 'LciPatientSources0', 'LciPatientSources1', 'LciPatientSourcesDataItem0', 'LciPatientSourcesDataItem1']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciPatientSources", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '受检者标识'    (L21, T267, R281, B335)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table36', '受检者标识Table2', '受检者标识3']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者标识", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciPatientSourceIdentityNo'    (L22, T298, R280, B326)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['DataItem92', 'LciPatientSourceIdentityNoDataItem2', 'LciPatientSourceIdentityNo2']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciPatientSourceIdentityNo", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '受检者姓名'    (L21, T268, R281, B336)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table37', '受检者姓名Table2', '受检者姓名2']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="受检者姓名", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciPatientName'    (L22, T299, R280, B327)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciPatientNameDataItem3', 'LciPatientName3', 'DataItem93']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciPatientName", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '诊断结论关键词'    (L21, T336, R281, B404)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table38', '诊断结论关键词2', '诊断结论关键词Table2']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="诊断结论关键词", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciDiagnosisResult'    (L22, T367, R280, B395)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciDiagnosisResultDataItem3', 'DataItem94', 'LciDiagnosisResult3']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciDiagnosisResult", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Table - '报告状态'    (L21, T337, R281, B405)
+   |    |    |    |    |    |    |    |    |    |    |    | ['Table39', '报告状态Table2', '报告状态2']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="报告状态", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | DataItem - 'LciReportStatus'    (L22, T368, R280, B396)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['LciReportStatus4', 'DataItem95', 'LciReportStatusDataItem4']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="LciReportStatus", control_type="DataItem")
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | Pane - 'PnlButton'    (L21, T977, R281, B1029)
+   |    |    |    |    |    |    |    |    |    | ['PnlButton3', 'PnlButtonPane3', 'Pane52']
+   |    |    |    |    |    |    |    |    |    | child_window(title="PnlButton", auto_id="PnlButton", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Button - '查询'    (L161, T977, R261, B1011)
+   |    |    |    |    |    |    |    |    |    |    | ['Button30', '查询', '查询Button']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="查询", auto_id="BtnSearch", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Button - '重置'    (L41, T977, R141, B1011)
+   |    |    |    |    |    |    |    |    |    |    | ['Button31', '重置3', '重置Button3']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="重置", auto_id="BtnReset", control_type="Button")
+   |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    | Pane - ''    (L303, T142, R1919, B1049)
+   |    |    |    |    |    |    |    | ['4Pane5', 'Pane53']
+   |    |    |    |    |    |    |    | child_window(auto_id="3741600", control_type="Pane")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Pane - 'PnlMain'    (L303, T142, R1919, B1049)
+   |    |    |    |    |    |    |    |    | ['PnlMain3', 'Pane54', 'PnlMainPane3']
+   |    |    |    |    |    |    |    |    | child_window(title="PnlMain", auto_id="PnlMain", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    | TabControl - ''    (L303, T152, R1909, B1039)
+   |    |    |    |    |    |    |    |    |    | ['TabControl待处理(21)', '4TabControl3', 'TabControl5', 'TabControl已处理3']
+   |    |    |    |    |    |    |    |    |    | child_window(auto_id="XtcDiagnosis", control_type="Tab")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Pane - '待处理(21)'    (L304, T186, R1908, B1038)
+   |    |    |    |    |    |    |    |    |    |    | ['待处理(21)Pane', '待处理(21)', 'Pane55', '待处理(21)0', '待处理(21)1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="待处理(21)", auto_id="XtpTobeDiagnosis", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L304, T236, R1908, B1038)
+   |    |    |    |    |    |    |    |    |    |    |    | ['全部Pane11', 'Pane56']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="GridTobeDiagnosis", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | Table - ''    (L311, T236, R1901, B994)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['Table40', '全部Table3']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="GridControl", control_type="Table")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | Custom - '表头面板'    (L311, T236, R1901, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | ['表头面板', '表头面板Custom', 'Custom3', '表头面板0', '表头面板1', '表头面板Custom0', '表头面板Custom1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="表头面板", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '序号'    (L311, T236, R383, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['序号Header3', 'Header22', '序号3']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="序号", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '姓名'    (L383, T236, R528, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['姓名2', '姓名Header2', 'Header23']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="姓名", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '性别'    (L528, T236, R600, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Header24', '性别Header2', '性别3']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="性别", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '年龄'    (L600, T236, R672, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Header25', '年龄3', '年龄Header2']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="年龄", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '来源'    (L672, T236, R817, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['来源4', '来源Header2', 'Header26']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="来源", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '标识'    (L817, T236, R962, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['标识Header', '标识2', 'Header27']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="标识", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '检查机构'    (L962, T236, R1156, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['检查机构Header3', '检查机构6', 'Header28']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="检查机构", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '采集开始时间'    (L1156, T236, R1350, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['采集开始时间2', 'Header29', '采集开始时间Header2']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="采集开始时间", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '记录导入时间'    (L1350, T236, R1544, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['记录导入时间2', 'Header30', '记录导入时间Header2']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="记录导入时间", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '采集次数'    (L1544, T236, R1701, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['采集次数Header', '采集次数', 'Header31']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="采集次数", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Header - '状态'    (L1701, T236, R1902, B274)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['状态3', 'Header32', '状态Header3']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="状态", control_type="Header")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | Custom - '数据面板'    (L311, T274, R1901, B994)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Custom4', '数据面板Custom', '数据面板', '数据面板Custom0', '数据面板Custom1', '数据面板0', '数据面板1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="数据面板", control_type="Custom")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L311, T994, R1901, B1038)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['全部Pane12', 'Pane57']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="tlpBottom", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L362, T996, R1898, B1036)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | ['全部Pane13', 'Pane58']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="PageControl", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L1151, T996, R1898, B1036)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Pane59', '共21条记录Pane3']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="tableLayoutPanel1", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L1660, T1003, R1720, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Pane60', '共4条记录Pane']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="FlpPageNum", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Static - '1'    (L1662, T1003, R1688, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Static27', '13', '1Static5']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="1", auto_id="Lbl1", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Static - '2'    (L1692, T1003, R1718, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['2Static', 'Static28', '2', '2Static0', '2Static1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="2", auto_id="Lbl2", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1723, T1003, R1749, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['2Static2', 'Static29', '1Static6']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="LblNextPage", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Static - ''    (L1631, T1003, R1657, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Static30', '共21条记录Static', '共21条记录Static0', '共21条记录Static1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="LblPrePage", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Static - '共21条记录'    (L1561, T1007, R1625, B1024)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Static31', '共21条记录', '共21条记录Static2']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="共21条记录", auto_id="LblTotal", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ComboBox - '20'    (L1755, T1003, R1815, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['ComboBox15', '209', '20ComboBox3']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="20", auto_id="CmbPageSize", control_type="ComboBox")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Static - '20'    (L1759, T1007, R1790, B1025)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Static10', '20Static', '202', '20Static0', '20Static1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="20", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Button - '打开'    (L1793, T1003, R1815, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Button11', '打开Button9', '打开9']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="打开", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ListBox - '20'    (L1755, T1003, R1815, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['203', 'ListBox9', '20ListBox', '20ListBox0', '20ListBox1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="20", control_type="List")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '20'    (L1755, T1003, R1815, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['204', 'ListItem21', '20ListItem', '20ListItem0', '20ListItem1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="20", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '50'    (L1755, T1003, R1815, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['50', 'ListItem22', '50ListItem', '500', '501', '50ListItem0', '50ListItem1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="50", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ListItem - '100'    (L1755, T1003, R1815, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['100', 'ListItem23', '100ListItem', '1000', '1001', '100ListItem0', '100ListItem1']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="100", control_type="ListItem")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Static - '跳至'    (L1821, T1007, R1845, B1024)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['跳至Static3', 'Static33', '跳至3']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="跳至", auto_id="labelControl1", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Edit - '1'    (L1851, T1003, R1877, B1029)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Edit35', '跳至Edit7']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="1", auto_id="TxtPageIndex", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Edit - '1'    (L1859, T1008, R1869, B1024)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Edit36', '跳至Edit8']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="1", auto_id="3807074", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Edit - '1'    (L1859, T1008, R1869, B1024)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Edit21', '跳至Edit3']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="1", control_type="Edit")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | Static - '页'    (L1883, T1007, R1895, B1024)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Static34', '页Static3', '页3']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="页", auto_id="labelControl2", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | Static - ''    (L311, T1001, R341, B1031)
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | ['Static35', '全部Static10']
+   |    |    |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="LblSetting", control_type="Text")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Pane - ''    (L304, T186, R1908, B236)
+   |    |    |    |    |    |    |    |    |    |    |    | ['4Pane6', 'Pane61']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(auto_id="PageActionBar_TobeDiagnosis", control_type="Pane")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | Button - '编辑'    (L314, T194, R414, B228)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['Button33', '编辑3', '编辑Button3']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="编辑", auto_id="1513542", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    |    | Button - '查看'    (L434, T194, R534, B228)
+   |    |    |    |    |    |    |    |    |    |    |    |    | ['Button34', '查看Button2', '查看2']
+   |    |    |    |    |    |    |    |    |    |    |    |    | child_window(title="查看", auto_id="1775658", control_type="Button")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | TabItem - '待处理(21)'    (L303, T152, R429, B186)
+   |    |    |    |    |    |    |    |    |    |    | ['待处理(21)TabItem', 'TabItem7', '待处理(21)2']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="待处理(21)", control_type="TabItem")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | TabItem - '已处理'    (L428, T152, R552, B185)
+   |    |    |    |    |    |    |    |    |    |    | ['已处理', 'TabItem2', '已处理TabItem', '已处理0', '已处理1', '已处理TabItem0', '已处理TabItem1']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="已处理", control_type="TabItem")
+   |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    | Dialog - '待处理(21)'    (L304, T186, R1908, B1038)
+   |    |    |    |    |    |    |    |    |    |    | ['Dialog4', '待处理(21)3', '待处理(21)Dialog']
+   |    |    |    |    |    |    |    |    |    |    | child_window(title="待处理(21)", control_type="Window")
+   |    |    |    |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    |    |    |    | Custom - '待处理(21)'    (L304, T186, R1908, B1038)
+   |    |    |    |    |    |    |    |    |    |    |    | ['待处理(21)Custom', 'Custom20', '待处理(21)4']
+   |    |    |    |    |    |    |    |    |    |    |    | child_window(title="待处理(21)", control_type="Custom")
+   |    |    |    |    |
+   |    |    |    |    | Pane - ''    (L1, T82, R1919, B142)
+   |    |    |    |    | ['bsiLogoPane2', 'Pane62']
+   |    |    |    |    | child_window(auto_id="GaTopPanel", control_type="Pane")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Pane - ''    (L11, T92, R1909, B140)
+   |    |    |    |    |    | ['bsiLogoPane3', 'Pane63']
+   |    |    |    |    |    | child_window(auto_id="DiagnoseSelectorControl", control_type="Pane")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | Pane - ''    (L11, T92, R1909, B140)
+   |    |    |    |    |    |    | ['bsiLogoPane4', 'Pane64']
+   |    |    |    |    |    |    | child_window(auto_id="Root", control_type="Pane")
+   |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    | Pane - ''    (L11, T93, R639, B141)
+   |    |    |    |    |    |    |    | ['bsiLogoPane5', 'Pane65']
+   |    |    |    |    |    |    |    | child_window(auto_id="DiagnoseSelectorItem", control_type="Pane")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Static - '5'    (L427, T104, R469, B129)
+   |    |    |    |    |    |    |    |    | ['Static36', '5Static', '5']
+   |    |    |    |    |    |    |    |    | child_window(title="5", auto_id="lblDoneNum", control_type="Text")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Static - '今日已处理'    (L349, T107, R419, B127)
+   |    |    |    |    |    |    |    |    | ['Static37', '今日已处理Static', '今日已处理', '今日已处理Static0', '今日已处理Static1', '今日已处理0', '今日已处理1']
+   |    |    |    |    |    |    |    |    | child_window(title="今日已处理", auto_id="lblDone", control_type="Text")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Static - '静息心电'    (L57, T105, R125, B128)
+   |    |    |    |    |    |    |    |    | ['Static38', '静息心电Static2', '静息心电2']
+   |    |    |    |    |    |    |    |    | child_window(title="静息心电", auto_id="lblItemName", control_type="Text")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Static - '待处理'    (L225, T107, R267, B127)
+   |    |    |    |    |    |    |    |    | ['待处理Static', 'Static39', '待处理', '待处理Static0', '待处理Static1', '待处理0', '待处理1']
+   |    |    |    |    |    |    |    |    | child_window(title="待处理", auto_id="lblTodo", control_type="Text")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Static - '4'    (L275, T104, R345, B129)
+   |    |    |    |    |    |    |    |    | ['Static40', '4', '4Static', '40', '41', '4Static0', '4Static1']
+   |    |    |    |    |    |    |    |    | child_window(title="4", auto_id="lblTodoNum", control_type="Text")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Pane - ''    (L31, T108, R49, B126)
+   |    |    |    |    |    |    |    |    | ['bsiLogoPane6', 'Pane66']
+   |    |    |    |    |    |    |    |    | child_window(auto_id="pictureBox1", control_type="Pane")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Pane - ''    (L12, T94, R172, B139)
+   |    |    |    |    |    |    |    |    | ['bsiLogoPane7', 'Pane67']
+   |    |    |    |    |    |    |    |    | child_window(auto_id="Header", control_type="Pane")
+   |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    | Pane - ''    (L645, T93, R1273, B141)
+   |    |    |    |    |    |    |    | ['动态心电Pane2', 'Pane68']
+   |    |    |    |    |    |    |    | child_window(auto_id="DiagnoseSelectorItem", control_type="Pane")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Static - '0'    (L1061, T104, R1103, B129)
+   |    |    |    |    |    |    |    |    | ['Static41', '0', '0Static', '00', '01', '0Static0', '0Static1']
+   |    |    |    |    |    |    |    |    | child_window(title="0", auto_id="lblDoneNum", control_type="Text")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Static - '今日已处理'    (L983, T107, R1053, B127)
+   |    |    |    |    |    |    |    |    | ['Static42', '今日已处理Static2', '今日已处理2']
+   |    |    |    |    |    |    |    |    | child_window(title="今日已处理", auto_id="lblDone", control_type="Text")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Static - '动态心电'    (L691, T105, R759, B128)
+   |    |    |    |    |    |    |    |    | ['Static43', '动态心电2', '动态心电Static']
+   |    |    |    |    |    |    |    |    | child_window(title="动态心电", auto_id="lblItemName", control_type="Text")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Static - '待处理'    (L859, T107, R901, B127)
+   |    |    |    |    |    |    |    |    | ['待处理Static2', 'Static44', '待处理2']
+   |    |    |    |    |    |    |    |    | child_window(title="待处理", auto_id="lblTodo", control_type="Text")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Static - '4'    (L909, T104, R979, B129)
+   |    |    |    |    |    |    |    |    | ['Static45', '42', '4Static2']
+   |    |    |    |    |    |    |    |    | child_window(title="4", auto_id="lblTodoNum", control_type="Text")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Pane - ''    (L665, T108, R683, B126)
+   |    |    |    |    |    |    |    |    | ['5Pane', 'Pane69']
+   |    |    |    |    |    |    |    |    | child_window(auto_id="pictureBox1", control_type="Pane")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Pane - ''    (L646, T94, R806, B139)
+   |    |    |    |    |    |    |    |    | ['动态心电Pane3', 'Pane70']
+   |    |    |    |    |    |    |    |    | child_window(auto_id="Header", control_type="Pane")
+   |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    | Pane - ''    (L1279, T93, R1907, B141)
+   |    |    |    |    |    |    |    | ['Pane71', '动态血压Pane2']
+   |    |    |    |    |    |    |    | child_window(auto_id="DiagnoseSelectorItem", control_type="Pane")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Static - '0'    (L1695, T104, R1737, B129)
+   |    |    |    |    |    |    |    |    | ['Static46', '02', '0Static2']
+   |    |    |    |    |    |    |    |    | child_window(title="0", auto_id="lblDoneNum", control_type="Text")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Static - '今日已处理'    (L1617, T107, R1687, B127)
+   |    |    |    |    |    |    |    |    | ['Static47', '今日已处理Static3', '今日已处理3']
+   |    |    |    |    |    |    |    |    | child_window(title="今日已处理", auto_id="lblDone", control_type="Text")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Static - '动态血压'    (L1325, T105, R1393, B128)
+   |    |    |    |    |    |    |    |    | ['Static48', '动态血压Static', '动态血压2']
+   |    |    |    |    |    |    |    |    | child_window(title="动态血压", auto_id="lblItemName", control_type="Text")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Static - '待处理'    (L1493, T107, R1535, B127)
+   |    |    |    |    |    |    |    |    | ['待处理Static3', 'Static49', '待处理3']
+   |    |    |    |    |    |    |    |    | child_window(title="待处理", auto_id="lblTodo", control_type="Text")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Static - '0'    (L1543, T104, R1613, B129)
+   |    |    |    |    |    |    |    |    | ['Static50', '03', '0Static3']
+   |    |    |    |    |    |    |    |    | child_window(title="0", auto_id="lblTodoNum", control_type="Text")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Pane - ''    (L1299, T108, R1317, B126)
+   |    |    |    |    |    |    |    |    | ['Pane72', '0Pane']
+   |    |    |    |    |    |    |    |    | child_window(auto_id="pictureBox1", control_type="Pane")
+   |    |    |    |    |    |    |    |    |
+   |    |    |    |    |    |    |    |    | Pane - ''    (L1280, T94, R1440, B139)
+   |    |    |    |    |    |    |    |    | ['Pane73', '动态血压Pane3']
+   |    |    |    |    |    |    |    |    | child_window(auto_id="Header", control_type="Pane")
+   |    |    |
+   |    |    | TabItem - '诊断工作台'    (L0, T48, R121, B82)
+   |    |    | ['诊断工作台TabItem', 'TabItem9', '诊断工作台3']
+   |    |    | child_window(title="诊断工作台", control_type="TabItem")
+   |    |    |
+   |    |    | Dialog - '诊断工作台'    (L1, T82, R1919, B1049)
+   |    |    | ['诊断工作台Dialog', '诊断工作台4', 'Dialog5']
+   |    |    | child_window(title="诊断工作台", control_type="Window")
+   |    |    |    |
+   |    |    |    | Custom - '诊断工作台'    (L1, T82, R1919, B1049)
+   |    |    |    | ['Custom21', '诊断工作台Custom', '诊断工作台5']
+   |    |    |    | child_window(title="诊断工作台", control_type="Custom")
+   |
+   | GroupBox - '靠顶部'    (L0, T0, R1920, B48)
+   | ['靠顶部', 'GroupBox', '靠顶部GroupBox']
+   | child_window(title="靠顶部", auto_id="5313796", control_type="Group")
+   |    |
+   |    | Toolbar - 'MenuBar'    (L0, T0, R1920, B48)
+   |    | ['Toolbar', 'MenuBar', 'MenuBarToolbar']
+   |    | child_window(title="MenuBar", auto_id="2495512", control_type="ToolBar")
+   |    |    |
+   |    |    | Static - 'bsiLogo'    (L2, T2, R107, B46)
+   |    |    | ['bsiLogo', 'Static51', 'bsiLogoStatic']
+   |    |    | child_window(title="bsiLogo", control_type="Text")
+   |    |    |
+   |    |    | Static - 'bsiPoint'    (L107, T2, R125, B46)
+   |    |    | ['Static52', 'bsiPointStatic', 'bsiPoint']
+   |    |    | child_window(title="bsiPoint", control_type="Text")
+   |    |    |
+   |    |    | Static - 'bsiTitle'    (L125, T2, R322, B46)
+   |    |    | ['Static53', 'bsiTitle', 'bsiTitleStatic']
+   |    |    | child_window(title="bsiTitle", control_type="Text")
+   |    |    |
+   |    |    | MenuItem - 'bsiMsgCenter'    (L1386, T2, R1430, B46)
+   |    |    | ['bsiMsgCenter', 'MenuItem', 'bsiMsgCenterMenuItem', 'MenuItem0', 'MenuItem1']
+   |    |    | child_window(title="bsiMsgCenter", control_type="MenuItem")
+   |    |    |
+   |    |    | MenuItem - 'bsiUser'    (L1430, T2, R1830, B46)
+   |    |    | ['bsiUserMenuItem', 'bsiUser', 'MenuItem2']
+   |    |    | child_window(title="bsiUser", control_type="MenuItem")
+   |    |    |
+   |    |    | Static - 'bsiMin'    (L1830, T2, R1874, B46)
+   |    |    | ['bsiMin', 'Static54', 'bsiMinStatic']
+   |    |    | child_window(title="bsiMin", control_type="Text")
+   |    |    |
+   |    |    | Static - 'bsiClose'    (L1874, T2, R1918, B46)
+   |    |    | ['Static55', 'bsiCloseStatic', 'bsiClose']
+   |    |    | child_window(title="bsiClose", control_type="Text")
+   |    |    |
+   |    |    | MenuItem - '预约'    (L322, T2, R448, B46)
+   |    |    | ['预约', 'MenuItem3', '预约MenuItem']
+   |    |    | child_window(title="预约", control_type="MenuItem")
+   |    |    |
+   |    |    | MenuItem - '诊断'    (L448, T2, R574, B46)
+   |    |    | ['MenuItem4', '诊断', '诊断MenuItem']
+   |    |    | child_window(title="诊断", control_type="MenuItem")
+   |    |    |
+   |    |    | MenuItem - '管理'    (L574, T2, R700, B46)
+   |    |    | ['管理', '管理MenuItem', 'MenuItem5']
+   |    |    | child_window(title="管理", control_type="MenuItem")
+
+Process finished with exit code 0

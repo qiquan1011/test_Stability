@@ -1,0 +1,1837 @@
+D:\pythonProject\pythonProject\test_Stability\venv\Scripts\python.exe D:/pythonProject/pythonProject/test_Stability/holters.py
+System Idle Process
+System
+Registry
+smss.exe
+RuntimeBroker.exe
+svchost.exe
+svchost.exe
+csrss.exe
+GameBarFTServer.exe
+wininit.exe
+services.exe
+lsass.exe
+svchost.exe
+fontdrvhost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+Taskmgr.exe
+svchost.exe
+FoxitCapture.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+explorer.exe
+IntelCpHDCPSvc.exe
+svchost.exe
+svchost.exe
+svchost.exe
+IntelCpHeciSvc.exe
+igfxCUIService.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+RuntimeBroker.exe
+dasHost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+WechatBrowser.exe
+PresentationFontCache.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+DesktopService64.exe
+python.exe
+md5_tool.exe
+svchost.exe
+svchost.exe
+conhost.exe
+MemCompression
+chrome.exe
+svchost.exe
+UserOOBEBroker.exe
+winlogon.exe
+svchost.exe
+svchost.exe
+svchost.exe
+RtkAudUService64.exe
+wsctrlsvc.exe
+Thunder.exe
+svchost.exe
+WmiPrvSE.exe
+Thunder.exe
+svchost.exe
+igfxEM.exe
+spoolsv.exe
+wlanext.exe
+conhost.exe
+svchost.exe
+svchost.exe
+EvtEng.exe
+OneApp.IGCC.WinService.exe
+svchost.exe
+svchost.exe
+svchost.exe
+OfficeClickToRun.exe
+svchost.exe
+lenovodrvsrv.exe
+IpOverUsbSvc.exe
+RegSrvc.exe
+svchost.exe
+svchost.exe
+RtkAudUService64.exe
+svchost.exe
+SunloginClient.exe
+svchost.exe
+svchost.exe
+ZeroConfigService.exe
+svchost.exe
+svchost.exe
+vmware-usbarbitrator64.exe
+svchost.exe
+svchost.exe
+SearchFilterHost.exe
+svchost.exe
+RuntimeBroker.exe
+md5_tool.exe
+jhi_service.exe
+Locator.exe
+chrome.exe
+DesktopMgr64.exe
+SettingSyncHost.exe
+chrome.exe
+fsnotifier.exe
+svchost.exe
+SunloginClient.exe
+unsecapp.exe
+Thunder.exe
+svchost.exe
+xlbrowsershell.exe
+svchost.exe
+ApplicationFrameHost.exe
+taskhostw.exe
+desktopcal.exe
+WmiApSrv.exe
+WmiPrvSE.exe
+TextInputHost.exe
+WXDrive.exe
+Thunder.exe
+WXWorkWeb.exe
+RuntimeBroker.exe
+dkdockhost.exe
+chrome.exe
+Postman.exe
+dllhost.exe
+python.exe
+chrome.exe
+svchost.exe
+DownloadSDKServer.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+jusched.exe
+svchost.exe
+WXDrive.exe
+chrome.exe
+Thunder.exe
+GoogleCrashHandler.exe
+GoogleCrashHandler64.exe
+Cortana.exe
+svchost.exe
+Postman.exe
+WeChatApp.exe
+svchost.exe
+SgrmBroker.exe
+SecurityHealthSystray.exe
+Thunder.exe
+TSVNCache.exe
+svchost.exe
+SearchIndexer.exe
+WXWorkWeb.exe
+Postman.exe
+EvernoteClipper.exe
+SogouCloud.exe
+svchost.exe
+WXWorkWeb.exe
+chrome.exe
+fontdrvhost.exe
+SunloginClient.exe
+SecurityHealthService.exe
+HxOutlook.exe
+YourPhone.exe
+SearchProtocolHost.exe
+Postman.exe
+svchost.exe
+NLC.ABPCare.Client.exe
+Control Identifiers:
+
+Dialog - '心电及电生理网络系统软件'    (L-8, T-8, R1928, B1058)
+['心电及电生理网络系统软件Dialog', '心电及电生理网络系统软件', 'Dialog', 'Dialog0', 'Dialog1']
+child_window(title="心电及电生理网络系统软件", control_type="Window")
+   |
+   | Dialog - '诊断结论'    (L1881, T414, R2626, B785)
+   | ['诊断结论', 'Dialog2', '诊断结论Dialog', '诊断结论0', '诊断结论1']
+   | child_window(title="诊断结论", control_type="Window")
+   |    |
+   |    | Button - ''    (L1898, T568, R1920, B642)
+   |    | ['Button', '测试数据Button', 'Button0', 'Button1', '测试数据Button0', '测试数据Button1']
+   |    | child_window(auto_id="btnShow", control_type="Button")
+   |    |
+   |    | Button - ''    (L0, T0, R0, B0)
+   |    | ['Button2']
+   |    | child_window(auto_id="btnHide", control_type="Button")
+   |    |
+   |    | Static - '诊断结论'    (L1964, T426, R2036, B450)
+   |    | ['诊断结论2', '诊断结论Static', 'Static', 'Static0', 'Static1']
+   |    | child_window(title="诊断结论", control_type="Text")
+   |    |
+   |    | Custom - ''    (L1929, T470, R2617, B774)
+   |    | ['Custom', '诊断结论Custom', 'Custom0', 'Custom1']
+   |    |    |
+   |    |    | ComboBox - ''    (L1929, T470, R2079, B506)
+   |    |    | ['ComboBoxNLC.ABPCare.Core.Models.DModels.SysConclusionsTemplate', '诊断结论ComboBox', 'ComboBox']
+   |    |    | child_window(auto_id="CboTemplate", control_type="ComboBox")
+   |    |    |
+   |    |    | Document - '动态血压监测期间，显示：\n1. 24小时平均血压值：137/89 mmHg(正常参考值130/80 mmHg)；\n2. 白昼血压负荷值：\n  收缩压：58.06% (>140 mmHg，<25% )， 舒张压:58.06% (>90 mmHg，<25% )；\n  夜间血压负荷值:\n  收缩压：44.44% (>120 mmHg，<25% ) ，舒张压:66.67% (>70 mmHg，<25% )；\n3. 杓型血压 ，晨峰血压正常 ：16 （参考值：<35 ）\n4. 清晨血压升高最快时间：2016-02-23 08:03:55 ，血压最大升高值：5.54 mmHg，持续时间：04:55:00 ；\n5. 动态动脉硬化指数：0.27 （参考值：<0.55 ）。\n'    (L1929, T512, R2617, B774)
+   |    |    | ['动态血压监测期间，显示：\n1. 24小时平均血压值：137/89 mmHg(正常参考值130/80 mmHg)；\n2. 白昼血压负荷值：\n  收缩压：58.06% (>140 mmHg，<25% )， 舒张压:58.06% (>90 mmHg，<25% )；\n  夜间血压负荷值:\n  收缩压：44.44% (>120 mmHg，<25% ) ，舒张压:66.67% (>70 mmHg，<25% )；\n3. 杓型血压 ，晨峰血压正常 ：16 （参考值：<35 ）\n4. 清晨血压升高最快时间：2016-02-23 08:03:55 ，血压最大升高值：5.54 mmHg，持续时间：04:55:00 ；\n5. 动态动脉硬化指数：0.27 （参考值：<0.55 ）。\nDocument', 'Document', '动态血压监测期间，显示：\n1. 24小时平均血压值：137/89 mmHg(正常参考值130/80 mmHg)；\n2. 白昼血压负荷值：\n  收缩压：58.06% (>140 mmHg，<25% )， 舒张压:58.06% (>90 mmHg，<25% )；\n  夜间血压负荷值:\n  收缩压：44.44% (>120 mmHg，<25% ) ，舒张压:66.67% (>70 mmHg，<25% )；\n3. 杓型血压 ，晨峰血压正常 ：16 （参考值：<35 ）\n4. 清晨血压升高最快时间：2016-02-23 08:03:55 ，血压最大升高值：5.54 mmHg，持续时间：04:55:00 ；\n5. 动态动脉硬化指数：0.27 （参考值：<0.55 ）。\n']
+   |    |    | child_window(title="动态血压监测期间，显示：\n1. 24小时平均血压值：137/89 mmHg(正常参考值130/80 mmHg)；\n2. 白昼血压负荷值：\n  收缩压：58.06% (>140 mmHg，<25% )， 舒张压:58.06% (>90 mmHg，<25% )；\n  夜间血压负荷值:\n  收缩压：44.44% (>120 mmHg，<25% ) ，舒张压:66.67% (>70 mmHg，<25% )；\n3. 杓型血压 ，晨峰血压正常 ：16 （参考值：<35 ）\n4. 清晨血压升高最快时间：2016-02-23 08:03:55 ，血压最大升高值：5.54 mmHg，持续时间：04:55:00 ；\n5. 动态动脉硬化指数：0.27 （参考值：<0.55 ）。\n", auto_id="RtbConclusion", control_type="Document")
+   |
+   | Image - ''    (L29, T26, R205, B41)
+   | ['Image', 'Image0', 'Image1']
+   |
+   | RadioButton - '挂盒'    (L256, T9, R396, B58)
+   | ['RadioButton', '挂盒RadioButton', '挂盒', '挂盒0', '挂盒1', 'RadioButton0', 'RadioButton1']
+   | child_window(title="挂盒", auto_id="rdo1", control_type="RadioButton")
+   |    |
+   |    | Image - ''    (L302, T24, R322, B44)
+   |    | ['Image2']
+   |    | child_window(auto_id="img_Static", control_type="Image")
+   |    |
+   |    | Image - ''    (L0, T0, R0, B0)
+   |    | ['Image3']
+   |    | child_window(auto_id="img_Hover", control_type="Image")
+   |    |
+   |    | Image - ''    (L0, T0, R0, B0)
+   |    | ['Image4']
+   |    | child_window(auto_id="img_Checked", control_type="Image")
+   |    |
+   |    | Static - '挂盒'    (L336, T24, R364, B44)
+   |    | ['Static2', '挂盒2', '挂盒Static']
+   |    | child_window(title="挂盒", control_type="Text")
+   |
+   | RadioButton - '下盒'    (L396, T9, R536, B58)
+   | ['RadioButton2', '下盒', '下盒RadioButton', '下盒0', '下盒1']
+   | child_window(title="下盒", auto_id="rdo2", control_type="RadioButton")
+   |    |
+   |    | Image - ''    (L442, T24, R462, B44)
+   |    | ['Image5']
+   |    | child_window(auto_id="img_Static", control_type="Image")
+   |    |
+   |    | Image - ''    (L0, T0, R0, B0)
+   |    | ['Image6']
+   |    | child_window(auto_id="img_Hover", control_type="Image")
+   |    |
+   |    | Image - ''    (L0, T0, R0, B0)
+   |    | ['Image7']
+   |    | child_window(auto_id="img_Checked", control_type="Image")
+   |    |
+   |    | Static - '下盒'    (L476, T24, R504, B44)
+   |    | ['Static3', '下盒2', '下盒Static']
+   |    | child_window(title="下盒", control_type="Text")
+   |
+   | RadioButton - '数据管理'    (L536, T9, R676, B58)
+   | ['RadioButton3', '数据管理RadioButton', '数据管理', '数据管理0', '数据管理1']
+   | child_window(title="数据管理", auto_id="rdo3", control_type="RadioButton")
+   |    |
+   |    | Image - ''    (L0, T0, R0, B0)
+   |    | ['Image8']
+   |    | child_window(auto_id="img_Static", control_type="Image")
+   |    |
+   |    | Image - ''    (L0, T0, R0, B0)
+   |    | ['Image9']
+   |    | child_window(auto_id="img_Hover", control_type="Image")
+   |    |
+   |    | Image - ''    (L568, T24, R588, B44)
+   |    | ['Image10']
+   |    | child_window(auto_id="img_Checked", control_type="Image")
+   |    |
+   |    | Static - '数据管理'    (L602, T24, R658, B44)
+   |    | ['Static4', '数据管理2', '数据管理Static']
+   |    | child_window(title="数据管理", control_type="Text")
+   |
+   | RadioButton - '系统设置'    (L676, T9, R816, B58)
+   | ['系统设置', 'RadioButton4', '系统设置RadioButton', '系统设置0', '系统设置1']
+   | child_window(title="系统设置", auto_id="rdo4", control_type="RadioButton")
+   |    |
+   |    | Image - ''    (L708, T24, R728, B44)
+   |    | ['Image11']
+   |    | child_window(auto_id="img_Static", control_type="Image")
+   |    |
+   |    | Image - ''    (L0, T0, R0, B0)
+   |    | ['Image12']
+   |    | child_window(auto_id="img_Hover", control_type="Image")
+   |    |
+   |    | Image - ''    (L0, T0, R0, B0)
+   |    | ['Image13']
+   |    | child_window(auto_id="img_Checked", control_type="Image")
+   |    |
+   |    | Static - '系统设置'    (L742, T24, R798, B44)
+   |    | ['系统设置Static', 'Static5', '系统设置2']
+   |    | child_window(title="系统设置", control_type="Text")
+   |
+   | Button - 'holter'    (L1674, T-2, R1782, B58)
+   | ['Button3', 'holterButton', 'holter']
+   | child_window(title="holter", auto_id="BtnUser", control_type="Button")
+   |    |
+   |    | Image - ''    (L1777, T26, R1782, B29)
+   |    | ['Image14']
+   |
+   | Button - ''    (L1801, T-2, R1892, B58)
+   | ['Button4']
+   | child_window(auto_id="BtnHelp", control_type="Button")
+   |    |
+   |    | Image - ''    (L1887, T26, R1892, B29)
+   |    | ['Image15']
+   |
+   | Pane - 'Views/Pages/MenuTreePage.xaml'    (L-2, T58, R1922, B1052)
+   | ['Views/Pages/MenuTreePage.xaml', 'Views/Pages/MenuTreePage.xamlPane', 'Pane', 'Pane0', 'Pane1']
+   | child_window(title="Views/Pages/MenuTreePage.xaml", auto_id="HolterTestFrame", control_type="Pane")
+   |    |
+   |    | Custom - ''    (L-2, T58, R78, B126)
+   |    | ['演示数据Custom', 'Custom2', '演示数据Custom0', '演示数据Custom1']
+   |    | child_window(auto_id="btnPatientInfo", control_type="Custom")
+   |    |    |
+   |    |    | Image - ''    (L32, T73, R44, B87)
+   |    |    | ['Image16']
+   |    |    | child_window(auto_id="imgIcon", control_type="Image")
+   |    |    |
+   |    |    | Static - '演示数据'    (L14, T95, R62, B112)
+   |    |    | ['Static6', '演示数据', '演示数据Static']
+   |    |    | child_window(title="演示数据", auto_id="tbText", control_type="Text")
+   |    |
+   |    | Custom - ''    (L-2, T126, R78, B194)
+   |    | ['演示数据Custom2', 'Custom3']
+   |    | child_window(auto_id="btnStatisticsInfo", control_type="Custom")
+   |    |    |
+   |    |    | Image - ''    (L31, T141, R45, B155)
+   |    |    | ['Image17', '演示数据Image']
+   |    |    | child_window(auto_id="imgIcon", control_type="Image")
+   |    |    |
+   |    |    | Static - '统计信息'    (L14, T163, R62, B180)
+   |    |    | ['Static7', '统计信息', '统计信息Static']
+   |    |    | child_window(title="统计信息", auto_id="tbText", control_type="Text")
+   |    |
+   |    | Custom - ''    (L-2, T194, R78, B262)
+   |    | ['统计信息Custom', 'Custom4']
+   |    | child_window(auto_id="btnBpTable", control_type="Custom")
+   |    |    |
+   |    |    | Image - ''    (L31, T209, R45, B223)
+   |    |    | ['Image18', '统计信息Image']
+   |    |    | child_window(auto_id="imgIcon", control_type="Image")
+   |    |    |
+   |    |    | Static - '血压清单'    (L14, T231, R62, B248)
+   |    |    | ['Static8', '血压清单Static', '血压清单']
+   |    |    | child_window(title="血压清单", auto_id="tbText", control_type="Text")
+   |    |
+   |    | Custom - ''    (L-2, T262, R78, B330)
+   |    | ['血压清单Custom', 'Custom5']
+   |    | child_window(auto_id="btnTrendChart", control_type="Custom")
+   |    |    |
+   |    |    | Image - ''    (L31, T277, R45, B291)
+   |    |    | ['Image19', '血压清单Image']
+   |    |    | child_window(auto_id="imgIcon", control_type="Image")
+   |    |    |
+   |    |    | Static - '趋势图'    (L20, T299, R56, B316)
+   |    |    | ['Static9', '趋势图Static', '趋势图']
+   |    |    | child_window(title="趋势图", auto_id="tbText", control_type="Text")
+   |    |
+   |    | Custom - ''    (L-2, T330, R78, B398)
+   |    | ['趋势图Custom', 'Custom6']
+   |    | child_window(auto_id="btnAssociationGraph", control_type="Custom")
+   |    |    |
+   |    |    | Image - ''    (L31, T345, R45, B359)
+   |    |    | ['Image20', '趋势图Image']
+   |    |    | child_window(auto_id="imgIcon", control_type="Image")
+   |    |    |
+   |    |    | Static - '关联图'    (L20, T367, R56, B384)
+   |    |    | ['Static10', '关联图', '关联图Static']
+   |    |    | child_window(title="关联图", auto_id="tbText", control_type="Text")
+   |    |
+   |    | Custom - ''    (L-2, T398, R78, B466)
+   |    | ['关联图Custom', 'Custom7']
+   |    | child_window(auto_id="btnHistogram", control_type="Custom")
+   |    |    |
+   |    |    | Image - ''    (L31, T413, R45, B427)
+   |    |    | ['关联图Image', 'Image21']
+   |    |    | child_window(auto_id="imgIcon", control_type="Image")
+   |    |    |
+   |    |    | Static - '直方图'    (L20, T435, R56, B452)
+   |    |    | ['直方图Static', 'Static11', '直方图']
+   |    |    | child_window(title="直方图", auto_id="tbText", control_type="Text")
+   |    |
+   |    | Custom - ''    (L-2, T466, R78, B534)
+   |    | ['直方图Custom', 'Custom8']
+   |    | child_window(auto_id="btnPieChart", control_type="Custom")
+   |    |    |
+   |    |    | Image - ''    (L31, T481, R45, B495)
+   |    |    | ['直方图Image', 'Image22']
+   |    |    | child_window(auto_id="imgIcon", control_type="Image")
+   |    |    |
+   |    |    | Static - '饼图'    (L26, T503, R50, B520)
+   |    |    | ['Static12', '饼图Static', '饼图']
+   |    |    | child_window(title="饼图", auto_id="tbText", control_type="Text")
+   |    |
+   |    | Custom - ''    (L-2, T534, R78, B602)
+   |    | ['饼图Custom', 'Custom9']
+   |    | child_window(auto_id="btnKLineGraph", control_type="Custom")
+   |    |    |
+   |    |    | Image - ''    (L31, T549, R45, B563)
+   |    |    | ['饼图Image', 'Image23']
+   |    |    | child_window(auto_id="imgIcon", control_type="Image")
+   |    |    |
+   |    |    | Static - 'K线图'    (L22, T571, R54, B588)
+   |    |    | ['Static13', 'K线图Static', 'K线图']
+   |    |    | child_window(title="K线图", auto_id="tbText", control_type="Text")
+   |    |
+   |    | Custom - ''    (L-2, T602, R78, B670)
+   |    | ['K线图Custom', 'Custom10']
+   |    | child_window(auto_id="btnReport", control_type="Custom")
+   |    |    |
+   |    |    | Image - ''    (L32, T617, R44, B631)
+   |    |    | ['Image24', 'K线图Image']
+   |    |    | child_window(auto_id="imgIcon", control_type="Image")
+   |    |    |
+   |    |    | Static - '报告'    (L26, T639, R50, B656)
+   |    |    | ['报告', 'Static14', '报告Static']
+   |    |    | child_window(title="报告", auto_id="tbText", control_type="Text")
+   |    |
+   |    | Custom - ''    (L-2, T670, R78, B738)
+   |    | ['Custom11', '报告Custom']
+   |    | child_window(auto_id="btnBack", control_type="Custom")
+   |    |    |
+   |    |    | Image - ''    (L31, T686, R45, B698)
+   |    |    | ['报告Image', 'Image25']
+   |    |    | child_window(auto_id="imgIcon", control_type="Image")
+   |    |    |
+   |    |    | Static - '返回'    (L26, T707, R50, B724)
+   |    |    | ['返回Static', 'Static15', '返回']
+   |    |    | child_window(title="返回", auto_id="tbText", control_type="Text")
+   |    |
+   |    | Pane - 'Views/Pages/BPTableNavigationPage.xaml'    (L78, T58, R1922, B1052)
+   |    | ['Views/Pages/BPTableNavigationPage.xaml', 'Views/Pages/BPTableNavigationPage.xamlPane', 'Pane2']
+   |    | child_window(title="Views/Pages/BPTableNavigationPage.xaml", auto_id="HolterTestFrame", control_type="Pane")
+   |    |    |
+   |    |    | Custom - ''    (L1842, T79, R1922, B147)
+   |    |    | ['单次测量Custom', 'Custom12', '单次测量Custom0', '单次测量Custom1']
+   |    |    | child_window(auto_id="SingleTimeBpHeartRate", control_type="Custom")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1875, T94, R1889, B108)
+   |    |    |    | ['备注Image', 'Image26']
+   |    |    |    | child_window(auto_id="imgIcon", control_type="Image")
+   |    |    |    |
+   |    |    |    | Static - '单次测量'    (L1858, T117, R1906, B134)
+   |    |    |    | ['Static16', '单次测量Static', '单次测量']
+   |    |    |    | child_window(title="单次测量", auto_id="tbText", control_type="Text")
+   |    |    |
+   |    |    | Custom - ''    (L1842, T147, R1922, B215)
+   |    |    | ['单次测量Custom2', 'Custom13']
+   |    |    | child_window(auto_id="AverageHourBp", control_type="Custom")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1875, T162, R1889, B176)
+   |    |    |    | ['单次测量Image', 'Image27']
+   |    |    |    | child_window(auto_id="imgIcon", control_type="Image")
+   |    |    |    |
+   |    |    |    | Static - '小时平均'    (L1858, T185, R1906, B202)
+   |    |    |    | ['小时平均', 'Static17', '小时平均Static']
+   |    |    |    | child_window(title="小时平均", auto_id="tbText", control_type="Text")
+   |    |    |
+   |    |    | Pane - 'Views/Pages/SingleTimeBPHeartRatePage.xaml'    (L78, T58, R1837, B1052)
+   |    |    | ['Pane3', 'Views/Pages/SingleTimeBPHeartRatePage.xamlPane', 'Views/Pages/SingleTimeBPHeartRatePage.xaml']
+   |    |    | child_window(title="Views/Pages/SingleTimeBPHeartRatePage.xaml", auto_id="EventFrame", control_type="Pane")
+   |    |    |    |
+   |    |    |    | Button - ''    (L105, T85, R276, B129)
+   |    |    |    | ['Button5', '演示数据Button', '演示数据Button0', '演示数据Button1']
+   |    |    |    |    |
+   |    |    |    |    | Static - '日期'    (L175, T97, R203, B117)
+   |    |    |    |    | ['日期Static', 'Static18', '日期']
+   |    |    |    |    | child_window(title="日期", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Thumb - ''    (L274, T85, R276, B129)
+   |    |    |    |    | ['Thumb', '日期Thumb', 'Thumb0', 'Thumb1']
+   |    |    |    |    | child_window(auto_id="thumbResizeColumn", control_type="Thumb")
+   |    |    |    |
+   |    |    |    | Button - ''    (L276, T85, R447, B129)
+   |    |    |    | ['Button6', '日期Button', '日期Button0', '日期Button1']
+   |    |    |    |    |
+   |    |    |    |    | Static - '时间'    (L346, T97, R374, B117)
+   |    |    |    |    | ['时间Static', 'Static19', '时间']
+   |    |    |    |    | child_window(title="时间", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Thumb - ''    (L445, T85, R447, B129)
+   |    |    |    |    | ['Thumb2', '时间Thumb']
+   |    |    |    |    | child_window(auto_id="thumbResizeColumn", control_type="Thumb")
+   |    |    |    |
+   |    |    |    | Button - ''    (L446, T85, R617, B129)
+   |    |    |    | ['Button7', '收缩压(mmHg)Button', '收缩压(mmHg)Button0', '收缩压(mmHg)Button1']
+   |    |    |    |    |
+   |    |    |    |    | Static - '收缩压(mmHg)'    (L480, T97, R581, B117)
+   |    |    |    |    | ['Static20', '收缩压(mmHg)Static', '收缩压(mmHg)']
+   |    |    |    |    | child_window(title="收缩压(mmHg)", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Thumb - ''    (L615, T85, R617, B129)
+   |    |    |    |    | ['Thumb3', '收缩压(mmHg)Thumb']
+   |    |    |    |    | child_window(auto_id="thumbResizeColumn", control_type="Thumb")
+   |    |    |    |
+   |    |    |    | Button - ''    (L617, T85, R788, B129)
+   |    |    |    | ['Button8', '收缩压(mmHg)Button2']
+   |    |    |    |    |
+   |    |    |    |    | Static - '舒张压(mmHg)'    (L651, T97, R752, B117)
+   |    |    |    |    | ['Static21', '舒张压(mmHg)Static', '舒张压(mmHg)']
+   |    |    |    |    | child_window(title="舒张压(mmHg)", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Thumb - ''    (L786, T85, R788, B129)
+   |    |    |    |    | ['Thumb4', '舒张压(mmHg)Thumb']
+   |    |    |    |    | child_window(auto_id="thumbResizeColumn", control_type="Thumb")
+   |    |    |    |
+   |    |    |    | Button - ''    (L788, T85, R959, B129)
+   |    |    |    | ['Button9', '舒张压(mmHg)Button', '舒张压(mmHg)Button0', '舒张压(mmHg)Button1']
+   |    |    |    |    |
+   |    |    |    |    | Static - '平均压(mmHg)'    (L822, T97, R923, B117)
+   |    |    |    |    | ['平均压(mmHg)', 'Static22', '平均压(mmHg)Static']
+   |    |    |    |    | child_window(title="平均压(mmHg)", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Thumb - ''    (L957, T85, R959, B129)
+   |    |    |    |    | ['Thumb5', '平均压(mmHg)Thumb']
+   |    |    |    |    | child_window(auto_id="thumbResizeColumn", control_type="Thumb")
+   |    |    |    |
+   |    |    |    | Button - ''    (L959, T85, R1130, B129)
+   |    |    |    | ['Button10', '平均压(mmHg)Button', '平均压(mmHg)Button0', '平均压(mmHg)Button1']
+   |    |    |    |    |
+   |    |    |    |    | Static - '心率(BPM)'    (L1008, T97, R1079, B117)
+   |    |    |    |    | ['Static23', '心率(BPM)', '心率(BPM)Static']
+   |    |    |    |    | child_window(title="心率(BPM)", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Thumb - ''    (L1128, T85, R1130, B129)
+   |    |    |    |    | ['Thumb6', '心率(BPM)Thumb']
+   |    |    |    |    | child_window(auto_id="thumbResizeColumn", control_type="Thumb")
+   |    |    |    |
+   |    |    |    | Button - ''    (L1129, T85, R1300, B129)
+   |    |    |    | ['Button11', '心率(BPM)Button', '心率(BPM)Button0', '心率(BPM)Button1']
+   |    |    |    |    |
+   |    |    |    |    | Static - '状态'    (L1199, T97, R1227, B117)
+   |    |    |    |    | ['Static24', '状态', '状态Static']
+   |    |    |    |    | child_window(title="状态", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Thumb - ''    (L1298, T85, R1300, B129)
+   |    |    |    |    | ['Thumb7', '状态Thumb']
+   |    |    |    |    | child_window(auto_id="thumbResizeColumn", control_type="Thumb")
+   |    |    |    |
+   |    |    |    | Button - ''    (L1300, T85, R1385, B129)
+   |    |    |    | ['Button12', '是否采用Button', '是否采用Button0', '是否采用Button1']
+   |    |    |    |    |
+   |    |    |    |    | Static - '是否采用'    (L1314, T97, R1370, B117)
+   |    |    |    |    | ['Static25', '是否采用', '是否采用Static']
+   |    |    |    |    | child_window(title="是否采用", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Thumb - ''    (L1383, T85, R1385, B129)
+   |    |    |    |    | ['Thumb8', '是否采用Thumb']
+   |    |    |    |    | child_window(auto_id="thumbResizeColumn", control_type="Thumb")
+   |    |    |    |
+   |    |    |    | Button - ''    (L1385, T85, R1556, B129)
+   |    |    |    | ['Button13', '是否采用Button2']
+   |    |    |    |    |
+   |    |    |    |    | Static - '测量方式'    (L1441, T97, R1497, B117)
+   |    |    |    |    | ['测量方式', 'Static26', '测量方式Static']
+   |    |    |    |    | child_window(title="测量方式", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Thumb - ''    (L1554, T85, R1556, B129)
+   |    |    |    |    | ['Thumb9', '测量方式Thumb']
+   |    |    |    |    | child_window(auto_id="thumbResizeColumn", control_type="Thumb")
+   |    |    |    |
+   |    |    |    | Button - ''    (L1556, T85, R1812, B129)
+   |    |    |    | ['Button14', '测量方式Button', '测量方式Button0', '测量方式Button1']
+   |    |    |    |    |
+   |    |    |    |    | Static - '备注'    (L1669, T97, R1697, B117)
+   |    |    |    |    | ['Static27', '备注', '备注Static']
+   |    |    |    |    | child_window(title="备注", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Thumb - ''    (L1810, T85, R1812, B129)
+   |    |    |    |    | ['Thumb10', '备注Thumb']
+   |    |    |    |    | child_window(auto_id="thumbResizeColumn", control_type="Thumb")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar', 'ScrollBar0', 'ScrollBar1']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar2']
+   |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    |
+   |    |    |    | Button - ''    (L105, T85, R276, B129)
+   |    |    |    | ['Button15', '演示数据Button2']
+   |    |    |    |
+   |    |    |    | Button - ''    (L276, T85, R446, B129)
+   |    |    |    | ['Button16', '日期Button2']
+   |    |    |    |
+   |    |    |    | Button - ''    (L446, T85, R617, B129)
+   |    |    |    | ['Button17', '收缩压(mmHg)Button3']
+   |    |    |    |
+   |    |    |    | Button - ''    (L617, T85, R788, B129)
+   |    |    |    | ['Button18', '收缩压(mmHg)Button4']
+   |    |    |    |
+   |    |    |    | Button - ''    (L788, T85, R959, B129)
+   |    |    |    | ['Button19', '舒张压(mmHg)Button2']
+   |    |    |    |
+   |    |    |    | Button - ''    (L959, T85, R1129, B129)
+   |    |    |    | ['Button20', '平均压(mmHg)Button2']
+   |    |    |    |
+   |    |    |    | Button - ''    (L1129, T85, R1300, B129)
+   |    |    |    | ['Button21', '心率(BPM)Button2']
+   |    |    |    |
+   |    |    |    | Button - ''    (L1300, T85, R1385, B129)
+   |    |    |    | ['Button22', '是否采用Button3']
+   |    |    |    |
+   |    |    |    | Button - ''    (L1385, T85, R1556, B129)
+   |    |    |    | ['Button23', '是否采用Button4']
+   |    |    |    |
+   |    |    |    | Button - ''    (L1556, T85, R1812, B129)
+   |    |    |    | ['Button24', '测量方式Button2']
+   |    |    |    |
+   |    |    |    | Static - '2016-02-22'    (L152, T141, R228, B161)
+   |    |    |    | ['2016-02-22Static', '2016-02-22', 'Static28', '2016-02-22Static0', '2016-02-22Static1', '2016-02-220', '2016-02-221']
+   |    |    |    | child_window(title="2016-02-22", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '13:47:00'    (L334, T141, R388, B161)
+   |    |    |    | ['Static29', '13:47:00', '13:47:00Static']
+   |    |    |    | child_window(title="13:47:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '136 ↑'    (L513, T142, R549, B160)
+   |    |    |    | ['Static30', '136 ↑', '136 ↑Static']
+   |    |    |    | child_window(title="136 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '85 ↑'    (L688, T142, R716, B160)
+   |    |    |    | ['85 ↑Static', 'Static31', '85 ↑']
+   |    |    |    | child_window(title="85 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '100'    (L861, T141, R885, B161)
+   |    |    |    | ['100', 'Static32', '100Static']
+   |    |    |    | child_window(title="100", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '102'    (L1031, T141, R1055, B161)
+   |    |    |    | ['102Static', 'Static33', '102']
+   |    |    |    | child_window(title="102", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T141, R1242, B161)
+   |    |    |    | ['Static34', '静止状态', '静止状态Static', '静止状态0', '静止状态1', '静止状态Static0', '静止状态Static1']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T141, R1352, B161)
+   |    |    |    | ['静止状态Image', '是否采用Image', 'Image28', '静止状态Image0', '静止状态Image1', '是否采用Image0', '是否采用Image1']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T141, R1498, B161)
+   |    |    |    | ['Static35', '自动测量Static', '自动测量', '自动测量Static0', '自动测量Static1', '自动测量0', '自动测量1']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit', 'Edit0', 'Edit1']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T141, R1711, B161)
+   |    |    |    | ['测试数据', 'Static36', '测试数据Static', '测试数据0', '测试数据1', '测试数据Static0', '测试数据Static1']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-22'    (L152, T186, R228, B206)
+   |    |    |    | ['2016-02-22Static2', '2016-02-222', 'Static37']
+   |    |    |    | child_window(title="2016-02-22", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '14:00:00'    (L334, T186, R388, B206)
+   |    |    |    | ['Static38', '14:00:00', '14:00:00Static']
+   |    |    |    | child_window(title="14:00:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '141 ↑'    (L513, T187, R549, B205)
+   |    |    |    | ['141 ↑', 'Static39', '141 ↑Static', '141 ↑0', '141 ↑1', '141 ↑Static0', '141 ↑Static1']
+   |    |    |    | child_window(title="141 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '96 ↑'    (L688, T187, R716, B205)
+   |    |    |    | ['Static40', '96 ↑', '96 ↑Static', '96 ↑0', '96 ↑1', '96 ↑Static0', '96 ↑Static1']
+   |    |    |    | child_window(title="96 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '121'    (L861, T186, R885, B206)
+   |    |    |    | ['Static41', '121', '121Static', '1210', '1211', '121Static0', '121Static1']
+   |    |    |    | child_window(title="121", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '105'    (L1031, T186, R1055, B206)
+   |    |    |    | ['Static42', '105Static', '105', '105Static0', '105Static1', '1050', '1051']
+   |    |    |    | child_window(title="105", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T186, R1242, B206)
+   |    |    |    | ['Static43', '静止状态2', '静止状态Static2']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T186, R1352, B206)
+   |    |    |    | ['静止状态Image2', '是否采用Image2', 'Image29']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T186, R1498, B206)
+   |    |    |    | ['Static44', '自动测量Static2', '自动测量2']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit2']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T186, R1711, B206)
+   |    |    |    | ['测试数据2', 'Static45', '测试数据Static2']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-22'    (L152, T231, R228, B251)
+   |    |    |    | ['2016-02-22Static3', '2016-02-223', 'Static46']
+   |    |    |    | child_window(title="2016-02-22", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '14:30:00'    (L334, T231, R388, B251)
+   |    |    |    | ['14:30:00', 'Static47', '14:30:00Static']
+   |    |    |    | child_window(title="14:30:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '141 ↑'    (L513, T232, R549, B250)
+   |    |    |    | ['141 ↑2', 'Static48', '141 ↑Static2']
+   |    |    |    | child_window(title="141 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '96 ↑'    (L688, T232, R716, B250)
+   |    |    |    | ['Static49', '96 ↑2', '96 ↑Static2']
+   |    |    |    | child_window(title="96 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '121'    (L861, T231, R885, B251)
+   |    |    |    | ['Static50', '1212', '121Static2']
+   |    |    |    | child_window(title="121", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '95'    (L1035, T231, R1051, B251)
+   |    |    |    | ['95Static', '95', 'Static51', '95Static0', '95Static1', '950', '951']
+   |    |    |    | child_window(title="95", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T231, R1242, B251)
+   |    |    |    | ['Static52', '静止状态3', '静止状态Static3']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T231, R1352, B251)
+   |    |    |    | ['静止状态Image3', 'Image30']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T231, R1498, B251)
+   |    |    |    | ['Static53', '自动测量Static3', '自动测量3']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit3']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T231, R1711, B251)
+   |    |    |    | ['测试数据3', 'Static54', '测试数据Static3']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-22'    (L152, T276, R228, B296)
+   |    |    |    | ['2016-02-22Static4', '2016-02-224', 'Static55']
+   |    |    |    | child_window(title="2016-02-22", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '15:00:00'    (L334, T276, R388, B296)
+   |    |    |    | ['Static56', '15:00:00', '15:00:00Static']
+   |    |    |    | child_window(title="15:00:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '147 ↑'    (L513, T277, R549, B295)
+   |    |    |    | ['Static57', '147 ↑', '147 ↑Static']
+   |    |    |    | child_window(title="147 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '90 ↑'    (L688, T277, R716, B295)
+   |    |    |    | ['Static58', '90 ↑', '90 ↑Static']
+   |    |    |    | child_window(title="90 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '104'    (L861, T276, R885, B296)
+   |    |    |    | ['104', 'Static59', '104Static']
+   |    |    |    | child_window(title="104", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '90'    (L1035, T276, R1051, B296)
+   |    |    |    | ['Static60', '90Static', '90', '90Static0', '90Static1', '900', '901']
+   |    |    |    | child_window(title="90", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T276, R1242, B296)
+   |    |    |    | ['Static61', '静止状态4', '静止状态Static4']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T276, R1352, B296)
+   |    |    |    | ['静止状态Image4', 'Image31']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T276, R1498, B296)
+   |    |    |    | ['Static62', '自动测量Static4', '自动测量4']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit4']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T276, R1711, B296)
+   |    |    |    | ['测试数据4', 'Static63', '测试数据Static4']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-22'    (L152, T321, R228, B341)
+   |    |    |    | ['2016-02-22Static5', '2016-02-225', 'Static64']
+   |    |    |    | child_window(title="2016-02-22", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '15:30:00'    (L334, T321, R388, B341)
+   |    |    |    | ['15:30:00', 'Static65', '15:30:00Static']
+   |    |    |    | child_window(title="15:30:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '144 ↑'    (L513, T322, R549, B340)
+   |    |    |    | ['Static66', '144 ↑', '144 ↑Static']
+   |    |    |    | child_window(title="144 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '95 ↑'    (L688, T322, R716, B340)
+   |    |    |    | ['Static67', '95 ↑', '95 ↑Static', '95 ↑0', '95 ↑1', '95 ↑Static0', '95 ↑Static1']
+   |    |    |    | child_window(title="95 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '113'    (L861, T321, R885, B341)
+   |    |    |    | ['113Static', 'Static68', '113', '113Static0', '113Static1', '1130', '1131']
+   |    |    |    | child_window(title="113", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '84'    (L1035, T321, R1051, B341)
+   |    |    |    | ['Static69', '84', '84Static', '840', '841', '84Static0', '84Static1']
+   |    |    |    | child_window(title="84", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T321, R1242, B341)
+   |    |    |    | ['Static70', '静止状态5', '静止状态Static5']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T321, R1352, B341)
+   |    |    |    | ['静止状态Image5', 'Image32']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T321, R1498, B341)
+   |    |    |    | ['Static71', '自动测量Static5', '自动测量5']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit5']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T321, R1711, B341)
+   |    |    |    | ['测试数据5', 'Static72', '测试数据Static5']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-22'    (L152, T366, R228, B386)
+   |    |    |    | ['2016-02-22Static6', '2016-02-226', 'Static73']
+   |    |    |    | child_window(title="2016-02-22", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '16:00:00'    (L334, T366, R388, B386)
+   |    |    |    | ['16:00:00', 'Static74', '16:00:00Static']
+   |    |    |    | child_window(title="16:00:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '137 ↑'    (L513, T367, R549, B385)
+   |    |    |    | ['Static75', '137 ↑', '137 ↑Static']
+   |    |    |    | child_window(title="137 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '97 ↑'    (L688, T367, R716, B385)
+   |    |    |    | ['Static76', '97 ↑', '97 ↑Static']
+   |    |    |    | child_window(title="97 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '108'    (L861, T366, R885, B386)
+   |    |    |    | ['Static77', '108Static', '108']
+   |    |    |    | child_window(title="108", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '88'    (L1035, T366, R1051, B386)
+   |    |    |    | ['88', 'Static78', '88Static', '880', '881', '88Static0', '88Static1']
+   |    |    |    | child_window(title="88", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T366, R1242, B386)
+   |    |    |    | ['Static79', '静止状态6', '静止状态Static6']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T366, R1352, B386)
+   |    |    |    | ['静止状态Image6', 'Image33']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T366, R1498, B386)
+   |    |    |    | ['Static80', '自动测量Static6', '自动测量6']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit6']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T366, R1711, B386)
+   |    |    |    | ['测试数据6', 'Static81', '测试数据Static6']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-22'    (L152, T411, R228, B431)
+   |    |    |    | ['2016-02-22Static7', '2016-02-227', 'Static82']
+   |    |    |    | child_window(title="2016-02-22", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '16:30:00'    (L334, T411, R388, B431)
+   |    |    |    | ['Static83', '16:30:00', '16:30:00Static']
+   |    |    |    | child_window(title="16:30:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '157 ↑'    (L513, T412, R549, B430)
+   |    |    |    | ['157 ↑', 'Static84', '157 ↑Static']
+   |    |    |    | child_window(title="157 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '96 ↑'    (L688, T412, R716, B430)
+   |    |    |    | ['Static85', '96 ↑3', '96 ↑Static3']
+   |    |    |    | child_window(title="96 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '120'    (L861, T411, R885, B431)
+   |    |    |    | ['120Static', 'Static86', '120', '120Static0', '120Static1', '1200', '1201']
+   |    |    |    | child_window(title="120", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '85'    (L1035, T411, R1051, B431)
+   |    |    |    | ['Static87', '85', '85Static']
+   |    |    |    | child_window(title="85", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T411, R1242, B431)
+   |    |    |    | ['Static88', '静止状态7', '静止状态Static7']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T411, R1352, B431)
+   |    |    |    | ['静止状态Image7', 'Image34']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T411, R1498, B431)
+   |    |    |    | ['Static89', '自动测量Static7', '自动测量7']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit7']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T411, R1711, B431)
+   |    |    |    | ['测试数据7', 'Static90', '测试数据Static7']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-22'    (L152, T456, R228, B476)
+   |    |    |    | ['2016-02-22Static8', '2016-02-228', 'Static91']
+   |    |    |    | child_window(title="2016-02-22", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '17:00:00'    (L334, T456, R388, B476)
+   |    |    |    | ['Static92', '17:00:00Static', '17:00:00']
+   |    |    |    | child_window(title="17:00:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '153 ↑'    (L513, T457, R549, B475)
+   |    |    |    | ['153 ↑Static', 'Static93', '153 ↑']
+   |    |    |    | child_window(title="153 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '105 ↑'    (L684, T457, R720, B475)
+   |    |    |    | ['105 ↑', 'Static94', '105 ↑Static']
+   |    |    |    | child_window(title="105 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '121'    (L861, T456, R885, B476)
+   |    |    |    | ['Static95', '1213', '121Static3']
+   |    |    |    | child_window(title="121", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '88'    (L1035, T456, R1051, B476)
+   |    |    |    | ['882', 'Static96', '88Static2']
+   |    |    |    | child_window(title="88", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T456, R1242, B476)
+   |    |    |    | ['Static97', '静止状态8', '静止状态Static8']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T456, R1352, B476)
+   |    |    |    | ['静止状态Image8', 'Image35']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T456, R1498, B476)
+   |    |    |    | ['Static98', '自动测量Static8', '自动测量8']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit8']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T456, R1711, B476)
+   |    |    |    | ['测试数据8', 'Static99', '测试数据Static8']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-22'    (L152, T501, R228, B521)
+   |    |    |    | ['2016-02-22Static9', '2016-02-229', 'Static100']
+   |    |    |    | child_window(title="2016-02-22", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '17:30:00'    (L334, T501, R388, B521)
+   |    |    |    | ['Static101', '17:30:00Static', '17:30:00']
+   |    |    |    | child_window(title="17:30:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '148 ↑'    (L513, T502, R549, B520)
+   |    |    |    | ['Static102', '148 ↑', '148 ↑Static', '148 ↑0', '148 ↑1', '148 ↑Static0', '148 ↑Static1']
+   |    |    |    | child_window(title="148 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '113 ↑'    (L684, T502, R720, B520)
+   |    |    |    | ['113 ↑', 'Static103', '113 ↑Static']
+   |    |    |    | child_window(title="113 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '135'    (L861, T501, R885, B521)
+   |    |    |    | ['135', 'Static104', '135Static']
+   |    |    |    | child_window(title="135", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '97'    (L1035, T501, R1051, B521)
+   |    |    |    | ['97', 'Static105', '97Static']
+   |    |    |    | child_window(title="97", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T501, R1242, B521)
+   |    |    |    | ['Static106', '静止状态9', '静止状态Static9']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T501, R1352, B521)
+   |    |    |    | ['静止状态Image9', 'Image36']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T501, R1498, B521)
+   |    |    |    | ['Static107', '自动测量Static9', '自动测量9']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit9']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T501, R1711, B521)
+   |    |    |    | ['测试数据9', 'Static108', '测试数据Static9']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-22'    (L152, T546, R228, B566)
+   |    |    |    | ['2016-02-22Static10', '2016-02-2210', 'Static109']
+   |    |    |    | child_window(title="2016-02-22", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '18:00:00'    (L334, T546, R388, B566)
+   |    |    |    | ['18:00:00', 'Static110', '18:00:00Static']
+   |    |    |    | child_window(title="18:00:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '140 ↑'    (L513, T547, R549, B565)
+   |    |    |    | ['Static111', '140 ↑', '140 ↑Static']
+   |    |    |    | child_window(title="140 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '93 ↑'    (L688, T547, R716, B565)
+   |    |    |    | ['Static112', '93 ↑', '93 ↑Static', '93 ↑0', '93 ↑1', '93 ↑Static0', '93 ↑Static1']
+   |    |    |    | child_window(title="93 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '105'    (L861, T546, R885, B566)
+   |    |    |    | ['Static113', '105Static2', '1052']
+   |    |    |    | child_window(title="105", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '99'    (L1035, T546, R1051, B566)
+   |    |    |    | ['Static114', '99', '99Static', '990', '991', '99Static0', '99Static1']
+   |    |    |    | child_window(title="99", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T546, R1242, B566)
+   |    |    |    | ['Static115', '静止状态10', '静止状态Static10']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T546, R1352, B566)
+   |    |    |    | ['静止状态Image10', 'Image37']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T546, R1498, B566)
+   |    |    |    | ['Static116', '自动测量Static10', '自动测量10']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit10']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T546, R1711, B566)
+   |    |    |    | ['测试数据10', 'Static117', '测试数据Static10']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-22'    (L152, T591, R228, B611)
+   |    |    |    | ['2016-02-22Static11', '2016-02-2211', 'Static118']
+   |    |    |    | child_window(title="2016-02-22", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '18:30:00'    (L334, T591, R388, B611)
+   |    |    |    | ['18:30:00', 'Static119', '18:30:00Static']
+   |    |    |    | child_window(title="18:30:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '135 ↑'    (L513, T592, R549, B610)
+   |    |    |    | ['Static120', '135 ↑', '135 ↑Static']
+   |    |    |    | child_window(title="135 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '95 ↑'    (L688, T592, R716, B610)
+   |    |    |    | ['Static121', '95 ↑2', '95 ↑Static2']
+   |    |    |    | child_window(title="95 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '112'    (L861, T591, R885, B611)
+   |    |    |    | ['Static122', '112Static', '112', '112Static0', '112Static1', '1120', '1121']
+   |    |    |    | child_window(title="112", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '90'    (L1035, T591, R1051, B611)
+   |    |    |    | ['Static123', '90Static2', '902']
+   |    |    |    | child_window(title="90", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T591, R1242, B611)
+   |    |    |    | ['Static124', '静止状态11', '静止状态Static11']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T591, R1352, B611)
+   |    |    |    | ['静止状态Image11', 'Image38']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T591, R1498, B611)
+   |    |    |    | ['Static125', '自动测量Static11', '自动测量11']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit11']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T591, R1711, B611)
+   |    |    |    | ['测试数据11', 'Static126', '测试数据Static11']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-22'    (L152, T636, R228, B656)
+   |    |    |    | ['2016-02-22Static12', '2016-02-2212', 'Static127']
+   |    |    |    | child_window(title="2016-02-22", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '19:00:00'    (L334, T636, R388, B656)
+   |    |    |    | ['19:00:00Static', 'Static128', '19:00:00']
+   |    |    |    | child_window(title="19:00:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '148 ↑'    (L513, T637, R549, B655)
+   |    |    |    | ['Static129', '148 ↑2', '148 ↑Static2']
+   |    |    |    | child_window(title="148 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '98 ↑'    (L688, T637, R716, B655)
+   |    |    |    | ['Static130', '98 ↑Static', '98 ↑']
+   |    |    |    | child_window(title="98 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '116'    (L861, T636, R885, B656)
+   |    |    |    | ['116Static', 'Static131', '116']
+   |    |    |    | child_window(title="116", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '87'    (L1035, T636, R1051, B656)
+   |    |    |    | ['Static132', '87', '87Static', '870', '871', '87Static0', '87Static1']
+   |    |    |    | child_window(title="87", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T636, R1242, B656)
+   |    |    |    | ['Static133', '静止状态12', '静止状态Static12']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T636, R1352, B656)
+   |    |    |    | ['静止状态Image12', 'Image39']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T636, R1498, B656)
+   |    |    |    | ['Static134', '自动测量Static12', '自动测量12']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit12']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T636, R1711, B656)
+   |    |    |    | ['测试数据12', 'Static135', '测试数据Static12']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-22'    (L152, T681, R228, B701)
+   |    |    |    | ['2016-02-22Static13', '2016-02-2213', 'Static136']
+   |    |    |    | child_window(title="2016-02-22", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '19:30:00'    (L334, T681, R388, B701)
+   |    |    |    | ['19:30:00Static', 'Static137', '19:30:00']
+   |    |    |    | child_window(title="19:30:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '143 ↑'    (L513, T682, R549, B700)
+   |    |    |    | ['Static138', '143 ↑Static', '143 ↑']
+   |    |    |    | child_window(title="143 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '93 ↑'    (L688, T682, R716, B700)
+   |    |    |    | ['Static139', '93 ↑2', '93 ↑Static2']
+   |    |    |    | child_window(title="93 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '111'    (L861, T681, R885, B701)
+   |    |    |    | ['111Static', 'Static140', '111', '111Static0', '111Static1', '1110', '1111']
+   |    |    |    | child_window(title="111", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '84'    (L1035, T681, R1051, B701)
+   |    |    |    | ['Static141', '842', '84Static2']
+   |    |    |    | child_window(title="84", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T681, R1242, B701)
+   |    |    |    | ['Static142', '静止状态13', '静止状态Static13']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T681, R1352, B701)
+   |    |    |    | ['静止状态Image13', 'Image40']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T681, R1498, B701)
+   |    |    |    | ['Static143', '自动测量Static13', '自动测量13']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit13']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T681, R1711, B701)
+   |    |    |    | ['测试数据13', 'Static144', '测试数据Static13']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-22'    (L152, T726, R228, B746)
+   |    |    |    | ['2016-02-22Static14', '2016-02-2214', 'Static145']
+   |    |    |    | child_window(title="2016-02-22", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '20:00:00'    (L334, T726, R388, B746)
+   |    |    |    | ['Static146', '20:00:00Static', '20:00:00']
+   |    |    |    | child_window(title="20:00:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '155 ↑'    (L513, T727, R549, B745)
+   |    |    |    | ['155 ↑', 'Static147', '155 ↑Static']
+   |    |    |    | child_window(title="155 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '103 ↑'    (L684, T727, R720, B745)
+   |    |    |    | ['Static148', '103 ↑Static', '103 ↑']
+   |    |    |    | child_window(title="103 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '121'    (L861, T726, R885, B746)
+   |    |    |    | ['Static149', '1214', '121Static4']
+   |    |    |    | child_window(title="121", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '87'    (L1035, T726, R1051, B746)
+   |    |    |    | ['Static150', '872', '87Static2']
+   |    |    |    | child_window(title="87", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T726, R1242, B746)
+   |    |    |    | ['Static151', '静止状态14', '静止状态Static14']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T726, R1352, B746)
+   |    |    |    | ['静止状态Image14', 'Image41']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T726, R1498, B746)
+   |    |    |    | ['Static152', '自动测量Static14', '自动测量14']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit14']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T726, R1711, B746)
+   |    |    |    | ['测试数据14', 'Static153', '测试数据Static14']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-22'    (L152, T771, R228, B791)
+   |    |    |    | ['2016-02-22Static15', '2016-02-2215', 'Static154']
+   |    |    |    | child_window(title="2016-02-22", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '20:30:00'    (L334, T771, R388, B791)
+   |    |    |    | ['Static155', '20:30:00', '20:30:00Static']
+   |    |    |    | child_window(title="20:30:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '141 ↑'    (L513, T772, R549, B790)
+   |    |    |    | ['141 ↑3', 'Static156', '141 ↑Static3']
+   |    |    |    | child_window(title="141 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '94 ↑'    (L688, T772, R716, B790)
+   |    |    |    | ['Static157', '94 ↑Static', '94 ↑', '94 ↑Static0', '94 ↑Static1', '94 ↑0', '94 ↑1']
+   |    |    |    | child_window(title="94 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '110'    (L861, T771, R885, B791)
+   |    |    |    | ['Static158', '110Static', '110']
+   |    |    |    | child_window(title="110", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '89'    (L1035, T771, R1051, B791)
+   |    |    |    | ['Static159', '89Static', '89']
+   |    |    |    | child_window(title="89", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T771, R1242, B791)
+   |    |    |    | ['Static160', '静止状态15', '静止状态Static15']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T771, R1352, B791)
+   |    |    |    | ['静止状态Image15', 'Image42']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T771, R1498, B791)
+   |    |    |    | ['Static161', '自动测量Static15', '自动测量15']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit15']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T771, R1711, B791)
+   |    |    |    | ['测试数据15', 'Static162', '测试数据Static15']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-22'    (L152, T816, R228, B836)
+   |    |    |    | ['2016-02-22Static16', '2016-02-2216', 'Static163']
+   |    |    |    | child_window(title="2016-02-22", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '21:00:00'    (L334, T816, R388, B836)
+   |    |    |    | ['Static164', '21:00:00', '21:00:00Static']
+   |    |    |    | child_window(title="21:00:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '163 ↑'    (L513, T817, R550, B835)
+   |    |    |    | ['Static165', '163 ↑Static', '163 ↑']
+   |    |    |    | child_window(title="163 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '106 ↑'    (L684, T817, R720, B835)
+   |    |    |    | ['Static166', '106 ↑Static', '106 ↑']
+   |    |    |    | child_window(title="106 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '134'    (L861, T816, R885, B836)
+   |    |    |    | ['Static167', '134Static', '134']
+   |    |    |    | child_window(title="134", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '90'    (L1035, T816, R1051, B836)
+   |    |    |    | ['Static168', '90Static3', '903']
+   |    |    |    | child_window(title="90", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T816, R1242, B836)
+   |    |    |    | ['Static169', '静止状态16', '静止状态Static16']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T816, R1352, B836)
+   |    |    |    | ['静止状态Image16', 'Image43']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T816, R1498, B836)
+   |    |    |    | ['Static170', '自动测量Static16', '自动测量16']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit16']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T816, R1711, B836)
+   |    |    |    | ['测试数据16', 'Static171', '测试数据Static16']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-22'    (L152, T861, R228, B881)
+   |    |    |    | ['2016-02-22Static17', '2016-02-2217', 'Static172']
+   |    |    |    | child_window(title="2016-02-22", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '21:30:00'    (L334, T861, R388, B881)
+   |    |    |    | ['Static173', '21:30:00Static', '21:30:00']
+   |    |    |    | child_window(title="21:30:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '149 ↑'    (L513, T862, R549, B880)
+   |    |    |    | ['Static174', '149 ↑Static', '149 ↑']
+   |    |    |    | child_window(title="149 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '92 ↑'    (L688, T862, R716, B880)
+   |    |    |    | ['Static175', '92 ↑', '92 ↑Static']
+   |    |    |    | child_window(title="92 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '111'    (L861, T861, R885, B881)
+   |    |    |    | ['111Static2', 'Static176', '1112']
+   |    |    |    | child_window(title="111", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '92'    (L1035, T861, R1051, B881)
+   |    |    |    | ['92Static', 'Static177', '92', '92Static0', '92Static1', '920', '921']
+   |    |    |    | child_window(title="92", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T861, R1242, B881)
+   |    |    |    | ['Static178', '静止状态17', '静止状态Static17']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T861, R1352, B881)
+   |    |    |    | ['静止状态Image17', 'Image44']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T861, R1498, B881)
+   |    |    |    | ['Static179', '自动测量Static17', '自动测量17']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit17']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T861, R1711, B881)
+   |    |    |    | ['测试数据17', 'Static180', '测试数据Static17']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-22'    (L152, T906, R228, B926)
+   |    |    |    | ['2016-02-22Static18', '2016-02-2218', 'Static181']
+   |    |    |    | child_window(title="2016-02-22", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '22:00:00'    (L334, T906, R388, B926)
+   |    |    |    | ['Static182', '22:00:00', '22:00:00Static']
+   |    |    |    | child_window(title="22:00:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '154 ↑'    (L513, T907, R549, B925)
+   |    |    |    | ['Static183', '154 ↑Static', '154 ↑', '154 ↑Static0', '154 ↑Static1', '154 ↑0', '154 ↑1']
+   |    |    |    | child_window(title="154 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '91 ↑'    (L688, T907, R716, B925)
+   |    |    |    | ['Static184', '91 ↑', '91 ↑Static']
+   |    |    |    | child_window(title="91 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '119'    (L861, T906, R885, B926)
+   |    |    |    | ['Static185', '119', '119Static']
+   |    |    |    | child_window(title="119", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '91'    (L1035, T906, R1051, B926)
+   |    |    |    | ['91Static', 'Static186', '91', '91Static0', '91Static1', '910', '911']
+   |    |    |    | child_window(title="91", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T906, R1242, B926)
+   |    |    |    | ['Static187', '静止状态18', '静止状态Static18']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T906, R1352, B926)
+   |    |    |    | ['静止状态Image18', 'Image45']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T906, R1498, B926)
+   |    |    |    | ['Static188', '自动测量Static18', '自动测量18']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit18']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T906, R1711, B926)
+   |    |    |    | ['测试数据18', 'Static189', '测试数据Static18']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-22'    (L152, T951, R228, B971)
+   |    |    |    | ['2016-02-22Static19', '2016-02-2219', 'Static190']
+   |    |    |    | child_window(title="2016-02-22", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '23:00:00'    (L334, T951, R388, B971)
+   |    |    |    | ['23:00:00', 'Static191', '23:00:00Static']
+   |    |    |    | child_window(title="23:00:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '154 ↑'    (L513, T952, R549, B970)
+   |    |    |    | ['Static192', '154 ↑Static2', '154 ↑2']
+   |    |    |    | child_window(title="154 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '94 ↑'    (L688, T952, R716, B970)
+   |    |    |    | ['Static193', '94 ↑Static2', '94 ↑2']
+   |    |    |    | child_window(title="94 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '120'    (L861, T951, R885, B971)
+   |    |    |    | ['120Static2', 'Static194', '1202']
+   |    |    |    | child_window(title="120", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '91'    (L1035, T951, R1051, B971)
+   |    |    |    | ['91Static2', 'Static195', '912']
+   |    |    |    | child_window(title="91", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T951, R1242, B971)
+   |    |    |    | ['Static196', '静止状态19', '静止状态Static19']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T951, R1352, B971)
+   |    |    |    | ['静止状态Image19', 'Image46']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T951, R1498, B971)
+   |    |    |    | ['Static197', '自动测量Static19', '自动测量19']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit19']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T951, R1711, B971)
+   |    |    |    | ['测试数据19', 'Static198', '测试数据Static19']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-23'    (L152, T996, R228, B1016)
+   |    |    |    | ['Static199', '2016-02-23', '2016-02-23Static', '2016-02-230', '2016-02-231', '2016-02-23Static0', '2016-02-23Static1']
+   |    |    |    | child_window(title="2016-02-23", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '00:00:00'    (L334, T996, R388, B1016)
+   |    |    |    | ['Static200', '00:00:00', '00:00:00Static']
+   |    |    |    | child_window(title="00:00:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '126'    (L519, T997, R544, B1015)
+   |    |    |    | ['126Static', 'Static201', '126']
+   |    |    |    | child_window(title="126", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '88 ↑'    (L688, T997, R716, B1015)
+   |    |    |    | ['88 ↑Static', 'Static202', '88 ↑']
+   |    |    |    | child_window(title="88 ↑", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '99'    (L865, T996, R881, B1016)
+   |    |    |    | ['Static203', '992', '99Static2']
+   |    |    |    | child_window(title="99", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '84'    (L1035, T996, R1051, B1016)
+   |    |    |    | ['Static204', '843', '84Static3']
+   |    |    |    | child_window(title="84", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T996, R1242, B1016)
+   |    |    |    | ['Static205', '静止状态20', '静止状态Static20']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T996, R1352, B1016)
+   |    |    |    | ['静止状态Image20', 'Image47']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T996, R1498, B1016)
+   |    |    |    | ['Static206', '自动测量Static20', '自动测量20']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit20']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T996, R1711, B1016)
+   |    |    |    | ['测试数据20', 'Static207', '测试数据Static20']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-23'    (L152, T1041, R228, B1061)
+   |    |    |    | ['Static208', '2016-02-232', '2016-02-23Static2']
+   |    |    |    | child_window(title="2016-02-23", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '01:00:00'    (L334, T1041, R388, B1061)
+   |    |    |    | ['Static209', '01:00:00', '01:00:00Static']
+   |    |    |    | child_window(title="01:00:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '121'    (L519, T1042, R544, B1060)
+   |    |    |    | ['Static210', '1215', '121Static5']
+   |    |    |    | child_window(title="121", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '77'    (L694, T1042, R710, B1060)
+   |    |    |    | ['Static211', '77Static', '77']
+   |    |    |    | child_window(title="77", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '92'    (L865, T1041, R881, B1061)
+   |    |    |    | ['92Static2', 'Static212', '922']
+   |    |    |    | child_window(title="92", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '75'    (L1035, T1041, R1051, B1061)
+   |    |    |    | ['Static213', '75', '75Static', '750', '751', '75Static0', '75Static1']
+   |    |    |    | child_window(title="75", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T1041, R1242, B1061)
+   |    |    |    | ['Static214', '静止状态21', '静止状态Static21']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T1041, R1352, B1061)
+   |    |    |    | ['静止状态Image21', 'Image48']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T1041, R1498, B1061)
+   |    |    |    | ['Static215', '自动测量Static21', '自动测量21']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit21']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T1041, R1711, B1061)
+   |    |    |    | ['测试数据21', 'Static216', '测试数据Static21']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-23'    (L152, T1086, R228, B1106)
+   |    |    |    | ['Static217', '2016-02-233', '2016-02-23Static3']
+   |    |    |    | child_window(title="2016-02-23", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '02:00:00'    (L334, T1086, R388, B1106)
+   |    |    |    | ['02:00:00', 'Static218', '02:00:00Static']
+   |    |    |    | child_window(title="02:00:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '113'    (L519, T1087, R544, B1105)
+   |    |    |    | ['113Static2', 'Static219', '1132']
+   |    |    |    | child_window(title="113", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '74'    (L694, T1087, R710, B1105)
+   |    |    |    | ['Static220', '74', '74Static', '740', '741', '74Static0', '74Static1']
+   |    |    |    | child_window(title="74", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '87'    (L865, T1086, R881, B1106)
+   |    |    |    | ['Static221', '873', '87Static3']
+   |    |    |    | child_window(title="87", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '75'    (L1035, T1086, R1051, B1106)
+   |    |    |    | ['Static222', '752', '75Static2']
+   |    |    |    | child_window(title="75", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T1086, R1242, B1106)
+   |    |    |    | ['Static223', '静止状态22', '静止状态Static22']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T1086, R1352, B1106)
+   |    |    |    | ['静止状态Image22', 'Image49']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T1086, R1498, B1106)
+   |    |    |    | ['Static224', '自动测量Static22', '自动测量22']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit22']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T1086, R1711, B1106)
+   |    |    |    | ['测试数据22', 'Static225', '测试数据Static22']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-23'    (L152, T1131, R228, B1151)
+   |    |    |    | ['Static226', '2016-02-234', '2016-02-23Static4']
+   |    |    |    | child_window(title="2016-02-23", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '03:00:00'    (L334, T1131, R388, B1151)
+   |    |    |    | ['Static227', '03:00:00', '03:00:00Static']
+   |    |    |    | child_window(title="03:00:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '118'    (L519, T1132, R544, B1150)
+   |    |    |    | ['Static228', '118', '118Static']
+   |    |    |    | child_window(title="118", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '74'    (L694, T1132, R710, B1150)
+   |    |    |    | ['Static229', '742', '74Static2']
+   |    |    |    | child_window(title="74", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '95'    (L865, T1131, R881, B1151)
+   |    |    |    | ['95Static2', '952', 'Static230']
+   |    |    |    | child_window(title="95", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '71'    (L1035, T1131, R1051, B1151)
+   |    |    |    | ['71', 'Static231', '71Static', '710', '711', '71Static0', '71Static1']
+   |    |    |    | child_window(title="71", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T1131, R1242, B1151)
+   |    |    |    | ['Static232', '静止状态23', '静止状态Static23']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T1131, R1352, B1151)
+   |    |    |    | ['静止状态Image23', 'Image50']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T1131, R1498, B1151)
+   |    |    |    | ['Static233', '自动测量Static23', '自动测量23']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit23']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T1131, R1711, B1151)
+   |    |    |    | ['测试数据23', 'Static234', '测试数据Static23']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-23'    (L152, T1176, R228, B1196)
+   |    |    |    | ['Static235', '2016-02-235', '2016-02-23Static5']
+   |    |    |    | child_window(title="2016-02-23", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '04:00:00'    (L334, T1176, R388, B1196)
+   |    |    |    | ['Static236', '04:00:00Static', '04:00:00']
+   |    |    |    | child_window(title="04:00:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '98'    (L523, T1177, R539, B1195)
+   |    |    |    | ['Static237', '98Static', '98']
+   |    |    |    | child_window(title="98", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '58'    (L693, T1177, R711, B1195)
+   |    |    |    | ['Static238', '58Static', '58']
+   |    |    |    | child_window(title="58", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '71'    (L865, T1176, R881, B1196)
+   |    |    |    | ['712', 'Static239', '71Static2']
+   |    |    |    | child_window(title="71", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '76'    (L1035, T1176, R1051, B1196)
+   |    |    |    | ['Static240', '76Static', '76']
+   |    |    |    | child_window(title="76", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T1176, R1242, B1196)
+   |    |    |    | ['Static241', '静止状态24', '静止状态Static24']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T1176, R1352, B1196)
+   |    |    |    | ['静止状态Image24', 'Image51']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T1176, R1498, B1196)
+   |    |    |    | ['Static242', '自动测量Static24', '自动测量24']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit24']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T1176, R1711, B1196)
+   |    |    |    | ['测试数据24', 'Static243', '测试数据Static24']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-23'    (L152, T1221, R228, B1241)
+   |    |    |    | ['Static244', '2016-02-236', '2016-02-23Static6']
+   |    |    |    | child_window(title="2016-02-23", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '05:00:00'    (L334, T1221, R388, B1241)
+   |    |    |    | ['Static245', '05:00:00Static', '05:00:00']
+   |    |    |    | child_window(title="05:00:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '120'    (L519, T1222, R544, B1240)
+   |    |    |    | ['120Static3', 'Static246', '1203']
+   |    |    |    | child_window(title="120", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '65'    (L694, T1222, R710, B1240)
+   |    |    |    | ['65Static', 'Static247', '65']
+   |    |    |    | child_window(title="65", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '90'    (L865, T1221, R881, B1241)
+   |    |    |    | ['Static248', '90Static4', '904']
+   |    |    |    | child_window(title="90", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '74'    (L1035, T1221, R1051, B1241)
+   |    |    |    | ['Static249', '743', '74Static3']
+   |    |    |    | child_window(title="74", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T1221, R1242, B1241)
+   |    |    |    | ['Static250', '静止状态25', '静止状态Static25']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T1221, R1352, B1241)
+   |    |    |    | ['静止状态Image25', 'Image52']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T1221, R1498, B1241)
+   |    |    |    | ['Static251', '自动测量Static25', '自动测量25']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit25']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T1221, R1711, B1241)
+   |    |    |    | ['测试数据25', 'Static252', '测试数据Static25']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-23'    (L152, T1266, R228, B1286)
+   |    |    |    | ['Static253', '2016-02-237', '2016-02-23Static7']
+   |    |    |    | child_window(title="2016-02-23", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '06:00:00'    (L334, T1266, R388, B1286)
+   |    |    |    | ['06:00:00Static', '06:00:00', 'Static254']
+   |    |    |    | child_window(title="06:00:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '112'    (L519, T1267, R544, B1285)
+   |    |    |    | ['Static255', '112Static2', '1122']
+   |    |    |    | child_window(title="112", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '63'    (L694, T1267, R710, B1285)
+   |    |    |    | ['63', 'Static256', '63Static']
+   |    |    |    | child_window(title="63", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '74'    (L865, T1266, R881, B1286)
+   |    |    |    | ['Static257', '744', '74Static4']
+   |    |    |    | child_window(title="74", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '61'    (L1035, T1266, R1051, B1286)
+   |    |    |    | ['61Static', 'Static258', '61']
+   |    |    |    | child_window(title="61", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T1266, R1242, B1286)
+   |    |    |    | ['Static259', '静止状态26', '静止状态Static26']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T1266, R1352, B1286)
+   |    |    |    | ['静止状态Image26', 'Image53']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T1266, R1498, B1286)
+   |    |    |    | ['Static260', '自动测量Static26', '自动测量26']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit26']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T1266, R1711, B1286)
+   |    |    |    | ['测试数据26', 'Static261', '测试数据Static26']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '2016-02-23'    (L152, T1311, R228, B1331)
+   |    |    |    | ['Static262', '2016-02-238', '2016-02-23Static8']
+   |    |    |    | child_window(title="2016-02-23", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '07:00:00'    (L334, T1311, R388, B1331)
+   |    |    |    | ['07:00:00Static', 'Static263', '07:00:00']
+   |    |    |    | child_window(title="07:00:00", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '107'    (L519, T1312, R544, B1330)
+   |    |    |    | ['Static264', '107', '107Static']
+   |    |    |    | child_window(title="107", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '73'    (L694, T1312, R710, B1330)
+   |    |    |    | ['73', 'Static265', '73Static', '730', '731', '73Static0', '73Static1']
+   |    |    |    | child_window(title="73", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '81'    (L865, T1311, R881, B1331)
+   |    |    |    | ['Static266', '81', '81Static']
+   |    |    |    | child_window(title="81", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '73'    (L1035, T1311, R1051, B1331)
+   |    |    |    | ['732', 'Static267', '73Static2']
+   |    |    |    | child_window(title="73", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '静止状态'    (L1186, T1311, R1242, B1331)
+   |    |    |    | ['Static268', '静止状态27', '静止状态Static27']
+   |    |    |    | child_window(title="静止状态", control_type="Text")
+   |    |    |    |
+   |    |    |    | Image - ''    (L1332, T1311, R1352, B1331)
+   |    |    |    | ['静止状态Image27', 'Image54']
+   |    |    |    |
+   |    |    |    | Static - '自动测量'    (L1442, T1311, R1498, B1331)
+   |    |    |    | ['Static269', '自动测量Static27', '自动测量27']
+   |    |    |    | child_window(title="自动测量", control_type="Text")
+   |    |    |    |
+   |    |    |    | Edit - '测试数据'    (L0, T0, R0, B0)
+   |    |    |    | ['Edit27']
+   |    |    |    | child_window(title="测试数据", control_type="Edit")
+   |    |    |    |
+   |    |    |    | Static - '测试数据'    (L1655, T1311, R1711, B1331)
+   |    |    |    | ['测试数据27', 'Static270', '测试数据Static27']
+   |    |    |    | child_window(title="测试数据", control_type="Text")
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L1798, T129, R1810, B995)
+   |    |    |    | ['测试数据ScrollBar', 'ScrollBar3']
+   |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    |
+   |    |    |    |    | Button - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['Button25']
+   |    |    |    |    | child_window(auto_id="PageUp", control_type="Button")
+   |    |    |    |    |
+   |    |    |    |    | Button - ''    (L1800, T540, R1808, B990)
+   |    |    |    |    | ['Button26', '测试数据Button2']
+   |    |    |    |    | child_window(auto_id="PageDown", control_type="Button")
+   |    |    |    |    |
+   |    |    |    |    | Thumb - ''    (L1800, T134, R1808, B540)
+   |    |    |    |    | ['Thumb11', '测试数据Thumb']
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    | ['ScrollBar4']
+   |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    |
+   |    |    |    | Static - '当前一共'    (L104, T1001, R160, B1042)
+   |    |    |    | ['当前一共Static', 'Static271', '当前一共']
+   |    |    |    | child_window(title="当前一共", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '40'    (L170, T1001, R186, B1042)
+   |    |    |    | ['40Static', '40', 'Static272']
+   |    |    |    | child_window(title="40", control_type="Text")
+   |    |    |    |
+   |    |    |    | Static - '条数据'    (L196, T1001, R1811, B1042)
+   |    |    |    | ['Static273', '条数据Static', '条数据']
+   |    |    |    | child_window(title="条数据", control_type="Text")
+   |
+   | Custom - ''    (L-2, T-2, R1922, B1052)
+   | ['演示数据Custom3', 'Custom14']
+   |    |
+   |    | Static - ''    (L0, T0, R0, B0)
+   |    | ['Static274']
+   |
+   | Button - ''    (L0, T0, R0, B0)
+   | ['Button27']
+   | child_window(auto_id="menuWindow", control_type="Button")
+   |
+   | Button - ''    (L0, T0, R0, B0)
+   | ['Button28']
+   | child_window(auto_id="SkinBtn", control_type="Button")
+   |
+   | Button - ''    (L0, T0, R0, B0)
+   | ['Button29']
+   | child_window(auto_id="MinBtn", control_type="Button")
+   |
+   | Button - ''    (L0, T0, R0, B0)
+   | ['Button30']
+   | child_window(auto_id="maxWindow", control_type="Button")
+   |
+   | Button - ''    (L0, T0, R0, B0)
+   | ['Button31']
+   | child_window(auto_id="restoreWindow", control_type="Button")
+   |
+   | Button - ''    (L0, T0, R0, B0)
+   | ['Button32']
+   | child_window(auto_id="CloseBtn", control_type="Button")
+   |
+   | Image - ''    (L0, T0, R0, B0)
+   | ['Image55']

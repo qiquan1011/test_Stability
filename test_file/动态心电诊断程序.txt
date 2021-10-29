@@ -1,0 +1,285 @@
+Control Identifiers:
+
+Dialog - '诊断程序'    (L0, T0, R1920, B1050)
+['诊断程序', '诊断程序Dialog', 'Dialog']
+child_window(title="诊断程序", control_type="Window")
+   |
+   | Custom - ''    (L0, T0, R1920, B1050)
+   | ['2020-05-08 11:49:08Custom', 'Custom', 'Custom0', 'Custom1', '2020-05-08 11:49:08Custom0', '2020-05-08 11:49:08Custom1']
+   |    |
+   |    | Image - ''    (L21, T8, R166, B23)
+   |    | ['Image']
+   |    |
+   |    | Static - '© 纳龙科技'    (L170, T8, R233, B23)
+   |    | ['© 纳龙科技', '© 纳龙科技Static', 'Static', 'Static0', 'Static1']
+   |    | child_window(title="© 纳龙科技", control_type="Text")
+   |    |
+   |    | Static - '导入test模拟数据'    (L875, T7, R984, B24)
+   |    | ['导入test模拟数据', '导入test模拟数据Static', 'Static2']
+   |    | child_window(title="导入test模拟数据", auto_id="PART_Name", control_type="Text")
+   |    |
+   |    | Static - '男'    (L996, T7, R1010, B24)
+   |    | ['男Static', '男', 'Static3']
+   |    | child_window(title="男", auto_id="PART_Sex", control_type="Text")
+   |    |
+   |    | Static - '0岁'    (L1022, T7, R1045, B24)
+   |    | ['0岁Static', 'Static4', '0岁']
+   |    | child_window(title="0岁", auto_id="PART_AgeAndUnit", control_type="Text")
+   |    |
+   |    | Button - ''    (L1889, T1, R1919, B31)
+   |    | ['Button', '0岁Button', 'Button0', 'Button1']
+   |    | child_window(auto_id="PART_CloseBtn", control_type="Button")
+   |    |
+   |    | Custom - ''    (L1, T31, R61, B1049)
+   |    | ['Custom2']
+   |    |    |
+   |    |    | RadioButton - ''    (L2, T31, R60, B97)
+   |    |    | ['RadioButton', 'RadioButton0', 'RadioButton1']
+   |    |    | child_window(auto_id="PART_PatientInfo", control_type="RadioButton")
+   |    |    |
+   |    |    | RadioButton - ''    (L2, T97, R60, B163)
+   |    |    | ['RadioButton2']
+   |    |    | child_window(auto_id="PART_DiagECG", control_type="RadioButton")
+   |    |    |
+   |    |    | RadioButton - ''    (L2, T163, R60, B229)
+   |    |    | ['RadioButton3']
+   |    |    |
+   |    |    | RadioButton - ''    (L2, T229, R60, B295)
+   |    |    | ['RadioButton4']
+   |    |    |
+   |    |    | RadioButton - ''    (L2, T295, R60, B361)
+   |    |    | ['RadioButton5']
+   |    |    | child_window(auto_id="PART_Histogram", control_type="RadioButton")
+   |    |    |
+   |    |    | RadioButton - ''    (L2, T361, R60, B427)
+   |    |    | ['RadioButton6']
+   |    |    |
+   |    |    | RadioButton - ''    (L2, T427, R60, B493)
+   |    |    | ['RadioButton7']
+   |    |    |
+   |    |    | RadioButton - ''    (L2, T493, R60, B559)
+   |    |    | ['RadioButton8']
+   |    |    |
+   |    |    | RadioButton - ''    (L2, T559, R60, B625)
+   |    |    | ['RadioButton9']
+   |    |    |
+   |    |    | RadioButton - ''    (L2, T625, R60, B691)
+   |    |    | ['RadioButton10']
+   |    |    |
+   |    |    | RadioButton - ''    (L2, T691, R60, B757)
+   |    |    | ['RadioButton11']
+   |    |    | child_window(auto_id="PART_TypicalECG", control_type="RadioButton")
+   |    |    |
+   |    |    | RadioButton - ''    (L2, T757, R60, B823)
+   |    |    | ['RadioButton12']
+   |    |    |
+   |    |    | RadioButton - ''    (L2, T823, R60, B889)
+   |    |    | ['RadioButton13']
+   |    |
+   |    | Custom - ''    (L59, T31, R1919, B1049)
+   |    | ['2020-05-08 11:49:08Custom2', 'Custom3']
+   |    |    |
+   |    |    | Custom - ''    (L63, T35, R1915, B755)
+   |    |    | ['2020-05-08 11:49:08Custom3', 'Custom4']
+   |    |    |    |
+   |    |    |    | Custom - ''    (L63, T35, R1915, B742)
+   |    |    |    | ['2020-05-08 11:49:08Custom4', 'Custom5']
+   |    |    |    | child_window(auto_id="PART_Root", control_type="Custom")
+   |    |    |    |    |
+   |    |    |    |    | Static - '1004'    (L998, T53, R1022, B65)
+   |    |    |    |    | ['1004', '1004Static', 'Static5', '10040', '10041', '1004Static0', '1004Static1']
+   |    |    |    |    | child_window(title="1004", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Static - '59'    (L1004, T65, R1016, B77)
+   |    |    |    |    | ['59', '59Static', 'Static6', '590', '591', '59Static0', '59Static1']
+   |    |    |    |    | child_window(title="59", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Static - '1004'    (L1099, T53, R1122, B65)
+   |    |    |    |    | ['10042', '1004Static2', 'Static7']
+   |    |    |    |    | child_window(title="1004", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Static - '59'    (L1105, T65, R1116, B77)
+   |    |    |    |    | ['592', '59Static2', 'Static8']
+   |    |    |    |    | child_window(title="59", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Static - '1008'    (L1199, T53, R1223, B65)
+   |    |    |    |    | ['1008Static', '1008', 'Static9', '1008Static0', '1008Static1', '10080', '10081']
+   |    |    |    |    | child_window(title="1008", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Static - '59'    (L1205, T65, R1217, B77)
+   |    |    |    |    | ['593', '59Static3', 'Static10']
+   |    |    |    |    | child_window(title="59", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Static - '1008'    (L1300, T53, R1323, B65)
+   |    |    |    |    | ['1008Static2', '10082', 'Static11']
+   |    |    |    |    | child_window(title="1008", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Static - '59'    (L1306, T65, R1317, B77)
+   |    |    |    |    | ['594', '59Static4', 'Static12']
+   |    |    |    |    | child_window(title="59", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Static - '1004'    (L1401, T53, R1424, B65)
+   |    |    |    |    | ['10043', '1004Static3', 'Static13']
+   |    |    |    |    | child_window(title="1004", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Static - '59'    (L1407, T65, R1418, B77)
+   |    |    |    |    | ['595', '59Static5', 'Static14']
+   |    |    |    |    | child_window(title="59", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Static - '1008'    (L1501, T53, R1525, B65)
+   |    |    |    |    | ['1008Static3', '10083', 'Static15']
+   |    |    |    |    | child_window(title="1008", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Static - '59'    (L1507, T65, R1519, B77)
+   |    |    |    |    | ['596', '59Static6', 'Static16']
+   |    |    |    |    | child_window(title="59", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Static - '1004'    (L1602, T53, R1625, B65)
+   |    |    |    |    | ['10044', '1004Static4', 'Static17']
+   |    |    |    |    | child_window(title="1004", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Static - '59'    (L1608, T65, R1619, B77)
+   |    |    |    |    | ['597', '59Static7', 'Static18']
+   |    |    |    |    | child_window(title="59", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Static - '1004'    (L1702, T53, R1726, B65)
+   |    |    |    |    | ['10045', '1004Static5', 'Static19']
+   |    |    |    |    | child_window(title="1004", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Static - '59'    (L1708, T65, R1720, B77)
+   |    |    |    |    | ['598', '59Static8', 'Static20']
+   |    |    |    |    | child_window(title="59", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Static - '1008'    (L1803, T53, R1826, B65)
+   |    |    |    |    | ['1008Static4', '10084', 'Static21']
+   |    |    |    |    | child_window(title="1008", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Static - '59'    (L1809, T65, R1820, B77)
+   |    |    |    |    | ['599', '59Static9', 'Static22']
+   |    |    |    |    | child_window(title="59", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Static - '2020-05-08 11:49:08'    (L78, T87, R196, B103)
+   |    |    |    |    | ['2020-05-08 11:49:08Static', '2020-05-08 11:49:08', 'Static23']
+   |    |    |    |    | child_window(title="2020-05-08 11:49:08", auto_id="PART_CurrentTime", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Static - '   '    (L1788, T87, R1900, B103)
+   |    |    |    |    | ['   ', 'Static24', '   Static']
+   |    |    |    |    | child_window(title="   ", control_type="Text")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Static - '25mm/s'    (L1788, T87, R1835, B103)
+   |    |    |    |    |    | ['25mm/s', '25mm/sStatic', 'Static25']
+   |    |    |    |    |    | child_window(title="25mm/s", auto_id="PART_Speed", control_type="Text")
+   |    |    |    |    |    |
+   |    |    |    |    |    | Static - '10mm/mV'    (L1839, T87, R1900, B103)
+   |    |    |    |    |    | ['Static26', '10mm/mV', '10mm/mVStatic']
+   |    |    |    |    |    | child_window(title="10mm/mV", auto_id="PART_Gain", control_type="Text")
+   |    |    |    |    |
+   |    |    |    |    | Custom - ''    (L1873, T123, R1905, B435)
+   |    |    |    |    | ['10mm/mVCustom', 'Custom6', '10mm/mVCustom0', '10mm/mVCustom1']
+   |    |    |    |    | child_window(auto_id="PART_OperateControlPanel", control_type="Custom")
+   |    |    |    |    |    |
+   |    |    |    |    |    | CheckBox - ''    (L1876, T130, R1902, B156)
+   |    |    |    |    |    | ['CheckBox', '10mm/mVCheckBox', 'CheckBox0', 'CheckBox1', '10mm/mVCheckBox0', '10mm/mVCheckBox1']
+   |    |    |    |    |    |
+   |    |    |    |    |    | CheckBox - ''    (L1876, T164, R1902, B190)
+   |    |    |    |    |    | ['CheckBox2', '10mm/mVCheckBox2']
+   |    |    |    |    |    |
+   |    |    |    |    |    | Custom - ''    (L1876, T198, R1902, B224)
+   |    |    |    |    |    | ['10mm/mVCustom2', 'Custom7']
+   |    |    |    |    |    | child_window(auto_id="PART_Root", control_type="Custom")
+   |    |    |    |    |    |    |
+   |    |    |    |    |    |    | CheckBox - ''    (L1876, T198, R1902, B224)
+   |    |    |    |    |    |    | ['CheckBox3', '10mm/mVCheckBox3']
+   |    |    |    |    |    |    | child_window(auto_id="PART_Button", control_type="CheckBox")
+   |    |    |    |    |    |
+   |    |    |    |    |    | CheckBox - ''    (L1876, T232, R1902, B258)
+   |    |    |    |    |    | ['CheckBox4', '10mm/mVCheckBox4']
+   |    |    |    |    |    |
+   |    |    |    |    |    | CheckBox - ''    (L1876, T266, R1902, B292)
+   |    |    |    |    |    | ['CheckBox5', '10mm/mVCheckBox5']
+   |    |    |    |    |    |
+   |    |    |    |    |    | CheckBox - ''    (L1876, T300, R1902, B326)
+   |    |    |    |    |    | ['CheckBox6', '10mm/mVCheckBox6']
+   |    |    |    |    |    |
+   |    |    |    |    |    | CheckBox - ''    (L1876, T334, R1902, B360)
+   |    |    |    |    |    | ['CheckBox7', '10mm/mVCheckBox7']
+   |    |    |    |    |    |
+   |    |    |    |    |    | CheckBox - ''    (L1876, T368, R1902, B394)
+   |    |    |    |    |    | ['CheckBox8', '10mm/mVCheckBox8']
+   |    |    |    |    |    |
+   |    |    |    |    |    | CheckBox - ''    (L1876, T402, R1902, B428)
+   |    |    |    |    |    | ['CheckBox9', '10mm/mVCheckBox9']
+   |    |    |    |
+   |    |    |    | ScrollBar - ''    (L64, T742, R1914, B754)
+   |    |    |    | ['ScrollBar', '2020-05-08 11:49:08ScrollBar']
+   |    |    |    |    |
+   |    |    |    |    | Button - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['Button2']
+   |    |    |    |    | child_window(auto_id="HorizontalLargeDecrease", control_type="Button")
+   |    |    |    |    |
+   |    |    |    |    | Thumb - ''    (L64, T742, R153, B754)
+   |    |    |    |    | ['Thumb', '2020-05-08 11:49:08Thumb']
+   |    |    |    |    |
+   |    |    |    |    | Button - ''    (L153, T742, R1914, B754)
+   |    |    |    |    | ['2020-05-08 11:49:08Button', 'Button3']
+   |    |    |    |    | child_window(auto_id="HorizontalLargeIncrease", control_type="Button")
+   |    |    |
+   |    |    | RadioButton - '心率图'    (L1483, T817, R1539, B833)
+   |    |    | ['心率图RadioButton', 'RadioButton14', '心率图', '心率图0', '心率图1']
+   |    |    | child_window(title="心率图", auto_id="PART_BeatRate", control_type="RadioButton")
+   |    |    |    |
+   |    |    |    | Static - '心率图'    (L1503, T817, R1539, B833)
+   |    |    |    | ['心率图Static', 'Static27', '心率图2']
+   |    |    |    | child_window(title="心率图", control_type="Text")
+   |    |    |
+   |    |    | RadioButton - 'RR间期图'    (L1565, T817, R1636, B833)
+   |    |    | ['RadioButton15', 'RR间期图RadioButton', 'RR间期图', 'RR间期图0', 'RR间期图1']
+   |    |    | child_window(title="RR间期图", auto_id="PART_BeatInterval", control_type="RadioButton")
+   |    |    |    |
+   |    |    |    | Static - 'RR间期图'    (L1585, T817, R1636, B833)
+   |    |    |    | ['RR间期图Static', 'RR间期图2', 'Static28']
+   |    |    |    | child_window(title="RR间期图", control_type="Text")
+   |    |    |
+   |    |    | RadioButton - 'PR间期图'    (L1662, T817, R1733, B833)
+   |    |    | ['RadioButton16', 'PR间期图', 'PR间期图RadioButton', 'PR间期图0', 'PR间期图1']
+   |    |    | child_window(title="PR间期图", auto_id="PART_PRInterval", control_type="RadioButton")
+   |    |    |    |
+   |    |    |    | Static - 'PR间期图'    (L1682, T817, R1733, B833)
+   |    |    |    | ['PR间期图2', 'PR间期图Static', 'Static29']
+   |    |    |    | child_window(title="PR间期图", control_type="Text")
+   |    |    |
+   |    |    | RadioButton - 'K线图'    (L1759, T817, R1811, B833)
+   |    |    | ['RadioButton17', 'K线图RadioButton', 'K线图', 'K线图0', 'K线图1']
+   |    |    | child_window(title="K线图", auto_id="PART_KLine", control_type="RadioButton")
+   |    |    |    |
+   |    |    |    | Static - 'K线图'    (L1779, T817, R1811, B833)
+   |    |    |    | ['K线图Static', 'K线图2', 'Static30']
+   |    |    |    | child_window(title="K线图", control_type="Text")
+   |    |    |
+   |    |    | RadioButton - '栅栏图'    (L1837, T817, R1893, B833)
+   |    |    | ['RadioButton18', '栅栏图', '栅栏图RadioButton', '栅栏图0', '栅栏图1']
+   |    |    | child_window(title="栅栏图", auto_id="PART_Fence", control_type="RadioButton")
+   |    |    |    |
+   |    |    |    | Static - '栅栏图'    (L1857, T817, R1893, B833)
+   |    |    |    | ['Static31', '栅栏图2', '栅栏图Static']
+   |    |    |    | child_window(title="栅栏图", control_type="Text")
+   |    |    |
+   |    |    | Custom - ''    (L63, T837, R1915, B1049)
+   |    |    | ['2020-05-08 11:49:08Custom5', '栅栏图Custom', 'Custom8']
+   |    |    |    |
+   |    |    |    | Custom - ''    (L63, T942, R1915, B1037)
+   |    |    |    | ['2020-05-08 11:49:08Custom6', 'Custom9']
+   |    |    |    |
+   |    |    |    | Custom - ''    (L63, T837, R1915, B932)
+   |    |    |    | ['2020-05-08 11:49:08Custom7', 'Custom10']
+   |    |
+   |    | Static - '加载中'    (L942, T603, R978, B618)
+   |    | ['加载中Static', '加载中', 'Static32']
+   |    | child_window(title="加载中", control_type="Text")
+   |    |
+   |    | Static - ''    (L0, T0, R0, B0)
+   |    | ['Static33']
+   |    | child_window(auto_id="PART_Tip", control_type="Text")
+chrome.exe
+
+Process finished with exit code 0
