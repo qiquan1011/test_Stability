@@ -34,12 +34,15 @@ def openAndclose_holters_and_Abp():
                     print(e)
                 if str(proc.name())=="NL.CardioCareDoctor.Container.WPF4.exe":
                     you_diag_name_app = Application(backend="uia").connect(path=r"D:/NLEMR/aECG-One/NL.CardioCareDoctor.Container.WPF4.exe")
-                    handel=you_diag_name_app.window(title="诊断程序", control_type="Window")
-                    handel.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
+                    try:
+                        handel=you_diag_name_app.window(title="诊断程序", control_type="Window")
+                        handel.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
+                    except:
+                        handel.capture_as_image().save("123.png")
             #handel.print_control_identifiers()
-                    c=handel.child_window(auto_id="PART_CloseBtn", control_type="Button")
-                    c.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
-                    c.click()
+                        c=handel.child_window(auto_id="PART_CloseBtn", control_type="Button")
+                        c.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
+                        c.click()
             mouse.move(coords=(1774,114))
             mouse.click(button="left",coords=(1774,114))
             b=ggh_handle.child_window(title="动态血压", auto_id="DiagAbp", control_type="Pane").child_window(title="行 1", control_type="Custom")
