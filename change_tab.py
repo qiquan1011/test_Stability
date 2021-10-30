@@ -13,25 +13,39 @@ def tab_change():
     根据坐标位置，点击tab页，并同时获取cpu使用率和内存使用率
     :return: 内存使用率和CPU使用率
     '''
+    num_cls = []
     try:
         ggh_handle=handle().Process_exists()
         ggh_handle.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
-        cls=[(1774,114),(1146,110),(593,103)]
-        b=20
-        num_cls=[]
-        while b>=10:
-            b=b-1
-            for i in cls:
-                mouse.move(coords=i)
-                mouse.click(button="left",coords=i)
-                num=get_cpu_merry.getProcess("Galaxy.Gemini.Shell.exe")
-                num_cls.append(num)
+        for i in range(10):
+            DiagHolterEcg=ggh_handle.child_window(title="动态心电", auto_id="DiagHolterEcg", control_type="Pane")
+            DiagHolterEcg.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
+            DiagHolterEcg.click_input()
+
+            DiagnoseSelectorControl=ggh_handle.child_window(title="动态血压", auto_id="DiagAbp", control_type="Pane")
+            DiagnoseSelectorControl.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
+            DiagnoseSelectorControl.click_input()
+
+            GaContentPanel=ggh_handle.child_window(title="静息心电", auto_id="DiagRestingEcg", control_type="Pane")
+            GaContentPanel.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
+            GaContentPanel.click_input()
+
+            num = get_cpu_merry.getProcess("Galaxy.Gemini.Shell.exe")
+            num_cls.append(num)
+        #cls=[(1774,114),(1146,110),(593,103)]
+        #b=20
+
+        #while b>=10:
+            #b=b-1
+            #for i in cls:
+                #mouse.move(coords=i)
+                #mouse.click(button="left",coords=i)
+
+        return num_cls
     except:
         print(traceback.format_exc())
-    finally:
-        print("请求超时，请稍后再试！")
 
-    return num_cls
+
 
 def get_cpu_and_memory():
     '''
