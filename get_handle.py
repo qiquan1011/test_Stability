@@ -30,7 +30,7 @@ class handle():
                 ggh_app_handle=self.get_window_authority()
                 #you_name_app = Application(backend="uia").connect(path=r"D:/NLEMR/aECG-One/Galaxy.Gemini.Shell.exe")
                 ggh_main_handle=ggh_app_handle.window(title="心电医生工作站", auto_id="ShellView", control_type="Window")
-                ggh_main_handle.wait(wait_for="exists enabled ",timeout=5,retry_interval=3)
+                ggh_main_handle.wait(wait_for="exists enabled ",timeout=10,retry_interval=3)
                 #ggh_main_handle.print_control_identifiers()#遍历打印控件，平常不使用
                 return ggh_main_handle
 
@@ -39,7 +39,7 @@ class handle():
 
             Ggh_handle=self.get_window_authority()
             time.sleep(2)
-            ggh_main_handle=Ggh_handle.top_window(name="心电医生工作站", auto_id="ShellView", control_type="Window")
+            ggh_main_handle=Ggh_handle.window(title="心电医生工作站", auto_id="ShellView", control_type="Window")
             #ggh_main_handle.print_control_identifiers()
 
             return ggh_main_handle

@@ -18,20 +18,27 @@ def tab_change():
         ggh_handle=handle().Process_exists()
         ggh_handle.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
         for i in range(10):
-            DiagHolterEcg=ggh_handle.child_window(title="动态心电", auto_id="DiagHolterEcg", control_type="Pane")
-            DiagHolterEcg.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
+            #DiagHolterEcg=ggh_handle.child_window(best_match="动态心电Pane2")
+            DiagHolterEcg=ggh_handle.child_window(title="动态心电", auto_id="lblItemName", control_type="Text")
+            #DiagHolterEcg.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
             DiagHolterEcg.click_input()
+            num_1 = get_cpu_merry.getProcess("Galaxy.Gemini.Shell.exe")
+            num_cls.append(num_1)
 
-            DiagnoseSelectorControl=ggh_handle.child_window(title="动态血压", auto_id="DiagAbp", control_type="Pane")
-            DiagnoseSelectorControl.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
+            DiagnoseSelectorControl=ggh_handle.child_window(title="动态血压", auto_id="lblItemName", control_type="Text")
+            #DiagnoseSelectorControl.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
             DiagnoseSelectorControl.click_input()
+            num_2 = get_cpu_merry.getProcess("Galaxy.Gemini.Shell.exe")
+            num_cls.append(num_2)
 
-            GaContentPanel=ggh_handle.child_window(title="静息心电", auto_id="DiagRestingEcg", control_type="Pane")
-            GaContentPanel.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
+            GaContentPanel=ggh_handle.child_window(title="静息心电", auto_id="lblItemName", control_type="Text")
+            #GaContentPanel.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
             GaContentPanel.click_input()
+            num_3 = get_cpu_merry.getProcess("Galaxy.Gemini.Shell.exe")
+            num_cls.append(num_3)
 
-            num = get_cpu_merry.getProcess("Galaxy.Gemini.Shell.exe")
-            num_cls.append(num)
+            #num = get_cpu_merry.getProcess("Galaxy.Gemini.Shell.exe")
+            #num_cls.append(num)
         #cls=[(1774,114),(1146,110),(593,103)]
         #b=20
 
