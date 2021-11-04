@@ -23,7 +23,10 @@ class handle():
 
         pids=psutil.pids()
         for pid in pids:
-            proc=psutil.Process(pid)
+            try:
+                proc=psutil.Process(pid)
+            except Exception as e:
+                print(e)
             if str(proc.name())==self.name:
                 os.system(self.close_cmd)
                 os.system(self.start_cmd)
