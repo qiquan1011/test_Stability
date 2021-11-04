@@ -10,6 +10,7 @@ def openAndclose_holters_and_Abp():
     实现主程序不断启用/关闭动态心态以及动态血压子程序
     :return:
     '''
+    global handel_1, hotel_handel, proc
     you_diag_name_app=None
     you_abp_name_app=None
     ggh_handle=handle().Process_exists()
@@ -44,22 +45,22 @@ def openAndclose_holters_and_Abp():
                 proc = psutil.Process(pid)
             except Exception as e:
                 print(e)
-            if str(proc.name())=="NL.CardioCareDoctor.Container.WPF4.exe":
+            if str(proc.name()) == "NL.CardioCareDoctor.Container.WPF4.exe" :
                 try:
                     you_diag_name_app = Application(backend="uia").connect(path=r"D:/NLEMR/aECG-One/NL.CardioCareDoctor.Container.WPF4.exe")
-                    handel = you_diag_name_app.window(title="诊断程序", control_type="Window")
-                    handel.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
+                    hotel_handel = you_diag_name_app.window(title="诊断程序", control_type="Window")
+                    hotel_handel.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
                 except:
-                    holtel_path=screen_path+"第"+ str(num)+"次连接不上动态心电程序.png"
-                    handel.capture_as_image().save(holtel_path)
+                    holtel_path = screen_path+"第"+ str(num)+"次连接不上动态心电程序.png"
+                    hotel_handel.capture_as_image().save(holtel_path)
             #handel.print_control_identifiers()
                 try:
-                    c=handel.child_window(auto_id="PART_CloseBtn", control_type="Button")
+                    c = hotel_handel.child_window(auto_id="PART_CloseBtn", control_type="Button")
                     c.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
                     c.click()
                 except:
                     holtel_close_path=screen_path+"第"+ str(num)+"次关闭动态心电失败.png"
-                    handel.capture_as_image().save(holtel_close_path)
+                    hotel_handel.capture_as_image().save(holtel_close_path)
         if you_diag_name_app is None:
             fail_path=screen_path+"第"+ str(num)+"次打开报告失败.png"
             ggh_handle.capture_as_image().save(fail_path)
@@ -90,7 +91,7 @@ def openAndclose_holters_and_Abp():
                     you_abp_name_app = Application(backend="uia").connect(path=r"D:/NLEMR/aECG-One/NLC.ABPCare.Client.exe")
                     handel_1 = you_abp_name_app.window(title="心电及电生理网络系统软件", control_type="Window")
                     handel_1.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
-                except:
+                except Exception as e:
                     abp_path=screen_path+"第"+ str(num)+"次连接不上血压程序.png"
                     handel_1.capture_as_image().save(abp_path)
             #handel_1.print_control_identifiers()
@@ -101,15 +102,13 @@ def openAndclose_holters_and_Abp():
                 except:
                     return_path=screen_path+"第"+ str(num)+"次关闭血压程序失败.png"
                     handel_1.capture_as_image().save(return_path)
+            else:
+                pass
         if you_abp_name_app is None:
                 abp_file_path=screen_path+"第"+ str(num)+"次血压报告打开失败.png"
                 ggh_handle.capture_as_image().save(abp_file_path)
 
 
-        endtime=datetime.datetime.now()
-        times=endtime-starttime
-        if times.seconds > 5:
-            break
 
 if __name__=="__main__":
     openAndclose_holters_and_Abp()
