@@ -10,7 +10,7 @@ def openAndclose_holters_and_Abp():
     实现主程序不断启用/关闭动态心态以及动态血压子程序
     :return:
     '''
-    global handel_1, hotel_handel, proc
+    global  hotel_handel, proc, abp_handel
     you_diag_name_app=None
     you_abp_name_app=None
     ggh_handle=handle().Process_exists()
@@ -56,7 +56,7 @@ def openAndclose_holters_and_Abp():
             #handel.print_control_identifiers()
                 try:
                     c = hotel_handel.child_window(auto_id="PART_CloseBtn", control_type="Button")
-                    c.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
+
                     c.click()
                 except:
                     holtel_close_path=screen_path+"第"+ str(num)+"次关闭动态心电失败.png"
@@ -86,22 +86,21 @@ def openAndclose_holters_and_Abp():
                 proc=psutil.Process(pid)
             except Exception as e:
                 print(e)
-            if str(proc.name())=="NLC.ABPCare.Client.exe":
+            if str(proc.name()) == "NLC.ABPCare.Client.exe":
                 try:
-                    you_abp_name_app = Application(backend="uia").connect(path=r"D:/NLEMR/aECG-One/NLC.ABPCare.Client.exe")
-                    handel_1 = you_abp_name_app.window(title="心电及电生理网络系统软件", control_type="Window")
-                    handel_1.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
-                except Exception as e:
+                    you_abp_name_app = Application(backend="uia").connect(path=r"D:/NLEMR/aECG-One/Diagnosis/AbpCare/NLC.ABPCare.Client.exe")
+                    abp_handel = you_abp_name_app.window(title="心电及电生理网络系统软件", control_type="Window")
+                    abp_handel.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
+                except :
                     abp_path=screen_path+"第"+ str(num)+"次连接不上血压程序.png"
-                    handel_1.capture_as_image().save(abp_path)
+                    abp_handel.capture_as_image().save(abp_path)
             #handel_1.print_control_identifiers()
                 try:
-                    d=handel_1.child_window(auto_id="btnBack")
-                    d.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
+                    d=abp_handel.child_window(auto_id="btnBack")
                     d.click_input(button="left")
                 except:
                     return_path=screen_path+"第"+ str(num)+"次关闭血压程序失败.png"
-                    handel_1.capture_as_image().save(return_path)
+                    abp_handel.capture_as_image().save(return_path)
             else:
                 pass
         if you_abp_name_app is None:
