@@ -14,8 +14,7 @@ def openAndclose_holters_and_Abp():
     you_diag_name_app=None
     you_abp_name_app=None
     ggh_handle=handle().Process_exists()
-    ggh_handle.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
-    starttime = datetime.datetime.now()
+    #ggh_handle.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
     num=0
     screen_path="D:\\pythonProject\\pythonProject\\test_Stability\\testScreen\\"
     if os.path.exists(screen_path) is False:
@@ -52,15 +51,14 @@ def openAndclose_holters_and_Abp():
                     hotel_handel.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
                 except:
                     holtel_path = screen_path+"第"+ str(num)+"次连接不上动态心电程序.png"
-                    hotel_handel.capture_as_image().save(holtel_path)
+                    ggh_handle.capture_as_image().save(holtel_path)
             #handel.print_control_identifiers()
                 try:
                     c = hotel_handel.child_window(auto_id="PART_CloseBtn", control_type="Button")
-
                     c.click()
                 except:
                     holtel_close_path=screen_path+"第"+ str(num)+"次关闭动态心电失败.png"
-                    hotel_handel.capture_as_image().save(holtel_close_path)
+                    ggh_handle.capture_as_image().save(holtel_close_path)
         if you_diag_name_app is None:
             fail_path=screen_path+"第"+ str(num)+"次打开报告失败.png"
             ggh_handle.capture_as_image().save(fail_path)
@@ -93,14 +91,14 @@ def openAndclose_holters_and_Abp():
                     abp_handel.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
                 except :
                     abp_path=screen_path+"第"+ str(num)+"次连接不上血压程序.png"
-                    abp_handel.capture_as_image().save(abp_path)
+                    ggh_handle.capture_as_image().save(abp_path)
             #handel_1.print_control_identifiers()
                 try:
                     d=abp_handel.child_window(auto_id="btnBack")
                     d.click_input(button="left")
                 except:
                     return_path=screen_path+"第"+ str(num)+"次关闭血压程序失败.png"
-                    abp_handel.capture_as_image().save(return_path)
+                    ggh_handle.capture_as_image().save(return_path)
             else:
                 pass
         if you_abp_name_app is None:
