@@ -14,6 +14,7 @@ class handle():
         self.close_cmd='d: & cd ' + self.name_path + ' & taskkill /f /t /im '+self.name
         self.you_path_id=None
         self.process_lst = []
+        self.screen_path = "D:\\pythonProject\\pythonProject\\test_Stability\\testScreen\\"
         os.environ.update({"__COMPAT_LAYER": "RUnAsInvoker"})
     def Process_exists(self):
         '''
@@ -32,8 +33,11 @@ class handle():
                 os.system(self.start_cmd)
                 ggh_app_handle=self.get_window_authority()
                 #you_name_app = Application(backend="uia").connect(path=r"D:/NLEMR/aECG-One/Galaxy.Gemini.Shell.exe")
-                ggh_main_handle=ggh_app_handle.window(title="心电医生工作站", auto_id="ShellView", control_type="Window")
-                ggh_main_handle.wait(wait_for="exists enabled ",timeout=10,retry_interval=3)
+                try:
+                    ggh_main_handle=ggh_app_handle.window(title="心电医生工作站", auto_id="ShellView", control_type="Window")
+                    ggh_main_handle.wait(wait_for="exists enabled ",timeout=10,retry_interval=3)
+                except:
+                    print("无法获取句柄，可能是登录失败，请检查！！！！")
                 #ggh_main_handle.print_control_identifiers()#遍历打印控件，平常不使用
                 return ggh_main_handle
 
@@ -42,7 +46,11 @@ class handle():
 
             Ggh_handle=self.get_window_authority()
             time.sleep(2)
-            ggh_main_handle=Ggh_handle.window(title="心电医生工作站", auto_id="ShellView", control_type="Window")
+            try:
+                ggh_main_handle=Ggh_handle.window(title="心电医生工作站", auto_id="ShellView", control_type="Window")
+                ggh_main_handle.wait(wait_for="exists enabled ",timeout=10,retry_interval=3)
+            except:
+                print("无法获取句柄，可能是登录失败，请检查！！！！")
             #ggh_main_handle.print_control_identifiers()
 
             return ggh_main_handle
@@ -53,22 +61,32 @@ class handle():
         根据pid，连接登录窗口，进行登录，获取主程序窗口
         :return: 主程序窗口
         '''
-        you_name_app = Application(backend="uia").connect(path=r"D:/NLEMR/aECG-One/Galaxy.Gemini.Shell.exe")
+        try:
+            you_name_app = Application(backend="uia").connect(path=r"D:/NLEMR/aECG-One/Galaxy.Gemini.Shell.exe")
+            ggh_handle=you_name_app.window(auto_id="Login")
+            ggh_handle.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
+        except:
+            print("无法获取句柄，可能应用启动失败，请前往查看！！！")
 
-        ggh_handle=you_name_app.window(auto_id="Login")
-        ggh_handle.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
+        try:
+            username = ggh_handle.child_window(auto_id="CboUserName")
+            username.type_keys("qdrsh")
+        except:
+            username_path=self.screen_path+"输入用户名失败.png"
+            ggh_handle.capture_as_image().save(username_path)
+        try:
+            password = ggh_handle.child_window(auto_id="TxtPwd")
+            password.type_keys("123456")
+        except:
+            password_path=self.screen_path+"密码输入失败.png"
+            ggh_handle.capture_as_image().save(password_path)
+        try:
+            BtnLogin = ggh_handle.child_window(auto_id="BtnLogin")
+            BtnLogin.click()
+        except:
+            BtnLogin_path=self.screen_path+"登录失败.png"
+            ggh_handle.capture_as_image().save(BtnLogin_path)
 
-        username = ggh_handle.child_window(auto_id="CboUserName")
-        username.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
-        username.type_keys("qdrsh")
-
-        password = ggh_handle.child_window(auto_id="TxtPwd")
-        password.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
-        password.type_keys("123456")
-
-        BtnLogin = ggh_handle.child_window(auto_id="BtnLogin")
-        BtnLogin.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
-        BtnLogin.click()
         return you_name_app
 
 
