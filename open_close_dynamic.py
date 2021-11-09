@@ -17,7 +17,7 @@ def openAndclose_holters_and_Abp():
     ggh_handle = handle().Process_exists()
     #ggh_handle.wait(wait_for="exists enabled ",timeout=3,retry_interval=3)
     num = 0
-    screen_path = "D:\\pythonProject\\pythonProject\\test_Stability\\testScreen\\"
+    screen_path = r"D:/pythonProject/pythonProject/test_Stability/testScreen/"
     if os.path.exists(screen_path) is False:
         os.mkdir(screen_path)
     while True:
