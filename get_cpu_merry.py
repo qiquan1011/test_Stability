@@ -21,12 +21,12 @@ def getProcess(name):
                 t = time.localtime()
                 cm_time = '%d:%d:%d' % (t.tm_hour, t.tm_min, t.tm_sec)
                 memory=p.memory_percent()
+                MEn=float('%.2f' % memory)
                 cpu_1=p.cpu_percent(None)
                 time.sleep(5)
                 cpu=p.cpu_percent(None)
-                a=cm_time,memory,cpu
-                num_cls.append(a)
-                return cm_time,memory,cpu
+                Cpu_flo=float('%.2f' % cpu)
+                return cm_time,MEn,Cpu_flo
 
 def cpu_men_main():
     now = time.strftime("%Y-%m-%d-%H_%M_%S",time.localtime(time.time()))
@@ -39,7 +39,7 @@ def cpu_men_main():
         f.write(title_str + "\n")
         while True:
             info=getProcess("Galaxy.Gemini.Shell.exe")
-            tmp_str= "%4s,%5s,%4s" % (info[0],info[1],info[2])
+            tmp_str= "%s,%s,%s" % (info[0],info[1],info[2])
             f.write(tmp_str + "\n")
 
 

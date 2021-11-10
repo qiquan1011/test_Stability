@@ -4,13 +4,16 @@ import time
 
 from get_cpu_merry import cpu_men_main
 from open_close_dynamic import openAndclose_holters_and_Abp
-def main():
 
-    t1= multiprocessing.Process(target=openAndclose_holters_and_Abp)
-    t1.start()
+def main():
+    # 使用进程分别进行业务操作和CPU内存的获取
+    openAndclose= multiprocessing.Process(target=openAndclose_holters_and_Abp)
+    openAndclose.start()
+
     time.sleep(2)
-    t2=multiprocessing.Process(target=cpu_men_main)
-    t2.start()
+
+    cpuAndmen=multiprocessing.Process(target=cpu_men_main)
+    cpuAndmen.start()
 
 if __name__=="__main__":
     main()
