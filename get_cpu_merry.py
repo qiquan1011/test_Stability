@@ -22,16 +22,19 @@ def getProcess(name):
                 cm_time = '%d:%d:%d' % (t.tm_hour, t.tm_min, t.tm_sec)
                 memory=p.memory_percent()
                 cpu_1=p.cpu_percent(None)
-                time.sleep(1)
+                time.sleep(5)
                 cpu=p.cpu_percent(None)
                 a=cm_time,memory,cpu
                 num_cls.append(a)
                 return cm_time,memory,cpu
 
-def main():
+def cpu_men_main():
     now = time.strftime("%Y-%m-%d-%H_%M_%S",time.localtime(time.time()))
     fname=now + r"-report.csv"
-    with open("%s" % fname,"w") as f:
+    file_path="D:\\pythonProject\\pythonProject\\test_Stability\\Cpu_Men\\"
+    cpu_men_parh=file_path +fname
+    print(cpu_men_parh)
+    with open("%s" % cpu_men_parh,"w") as f:
         title_str= "Time,Men,Cpu"
         f.write(title_str + "\n")
         while True:
@@ -44,5 +47,5 @@ def main():
 
 
 if __name__=="__main__":
-        main()
+        cpu_men_main()
 

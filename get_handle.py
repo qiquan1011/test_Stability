@@ -22,6 +22,7 @@ class handle():
         :return: pid
         '''
 
+        global ggh_main_handle, ggh_main_handle, proc
         pids=psutil.pids()
         for pid in pids:
             try:
@@ -29,12 +30,14 @@ class handle():
             except Exception as e:
                 print(e)
             if str(proc.name())==self.name:
-                os.system(self.close_cmd)
-                os.system(self.start_cmd)
-                ggh_app_handle=self.get_window_authority()
-                #you_name_app = Application(backend="uia").connect(path=r"D:/NLEMR/aECG-One/Galaxy.Gemini.Shell.exe")
+                self.you_path_id=pid
+                #os.system(self.close_cmd)
+                #os.system(self.start_cmd)
+                #ggh_app_handle=self.get_window_authority()
+                you_name_app = Application(backend="uia").connect(path=r"D:/NLEMR/aECG-One/Galaxy.Gemini.Shell.exe")
+
                 try:
-                    ggh_main_handle=ggh_app_handle.window(title="心电医生工作站", auto_id="ShellView", control_type="Window")
+                    ggh_main_handle=you_name_app.window(title="心电医生工作站", auto_id="ShellView", control_type="Window")
                     ggh_main_handle.wait(wait_for="exists enabled ",timeout=10,retry_interval=3)
                 except:
                     print("无法获取句柄，可能是登录失败，请检查！！！！")
@@ -61,6 +64,7 @@ class handle():
         根据pid，连接登录窗口，进行登录，获取主程序窗口
         :return: 主程序窗口
         '''
+        global you_name_app, ggh_handle
         try:
             you_name_app = Application(backend="uia").connect(path=r"D:/NLEMR/aECG-One/Galaxy.Gemini.Shell.exe")
             ggh_handle=you_name_app.window(auto_id="Login")
